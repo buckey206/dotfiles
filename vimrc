@@ -7,6 +7,7 @@
 " don't make vim compatible with vi 
 set nocompatible
 
+
 " turn on syntax highlighting
 syntax on
 " and show line numbers
