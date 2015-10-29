@@ -17,9 +17,6 @@ echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
 echo "...done"
 
-mkdir -p ~/.vim/bundle/
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
 # change to the dotfiles directory
 echo "Changing to the $dir directory"
 cd $dir
@@ -31,4 +28,8 @@ for file in $files; do
     mv ~/.$file ~/dotfiles_old/
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
+    echo "To install vim plugins you need vundle"
+    echo "Install Vundle with:"
+    echo "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
+
 done
