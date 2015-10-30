@@ -1,6 +1,8 @@
 #Instructions
 
-Vundle is needed for vim plugins
+Vundle is needed for vim plugins.
+
+Install it with: 
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
