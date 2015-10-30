@@ -1,5 +1,9 @@
 #Instructions
 
+Vundle is needed for vim plugins
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
 
 
 
