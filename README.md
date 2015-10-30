@@ -6,7 +6,7 @@ Vundle is needed for vim plugins.
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
-###Download /dotfiles/ to your home directory by entering:
+###Download dotfiles/ to your home directory by entering:
 ```
 cd ~/
 ```
