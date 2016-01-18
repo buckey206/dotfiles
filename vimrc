@@ -65,6 +65,9 @@ Plugin 'freitass/todo.txt-vim'
 Bundle 'klen/python-mode' 
 Bundle 'davidhalter/jedi-vim'
 
+" install vim-surround
+Bundle 'tpope/vim-surround'
+
 "install colors
 Plugin 'flazz/vim-colorschemes'
 " end plugin definition
