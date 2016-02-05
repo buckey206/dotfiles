@@ -1,6 +1,6 @@
 #Instructions
 
-curl is needed for vim plugins.
+curl is needed for vim-plug.
 
 ###Install it with: 
 ```
