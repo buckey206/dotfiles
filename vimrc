@@ -18,7 +18,7 @@ map <F7> :setlocal spell spelllang=en_us<CR>
 "set tabs at 4 spaces
 set tabstop=4
 set shiftwidth=4
-
+set expandtab
 "---------- PLUGIN CONFIGURATION --------
 if empty(glob('~/.vim/autoload/plug.vim'))
 	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
