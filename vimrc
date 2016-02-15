@@ -1,37 +1,25 @@
 "USABILITY CONFIGURATION ----------------------
 "Basic and pretty much needed settings to provide a solid base for
+"Download curl
+"add export TERM=xterm-256color to ~/.bashrc
 
 " don't make vim compatible with vi 
 set nocompatible
 
-"turn on syntax highlighting
-syntax on
+"use 256 colors 
+set t_Co=256
 
 "show line numbers
 set number
 
-"reload files changed outside vim
-set autoread         
-
-"use 256 colors 
-set t_Co=256
-
-"encoding is utf 8
-set encoding=utf-8
-
-"enable matchit plugin which ships with vim and greatly enhances '%'
-runtime macros/matchit.vim
-
-" when reading files try unix line endings then dos, also use unix for new
-" buffers
-set fileformats=unix,dos
-
-" save up to 100 marks, enable capital marks
-set viminfo='100,f1
-
 " F7 will enable spellcheck in english
 map <F7> :setlocal spell spelllang=en_us<CR>
-" ---------------------- PLUGIN CONFIGURATION ----------------------
+
+"set tabs at 4 spaces
+set tabstop=4
+set shiftwidth=4
+
+"---------- PLUGIN CONFIGURATION --------
 if empty(glob('~/.vim/autoload/plug.vim'))
 	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
 		\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -45,9 +33,8 @@ Plug 'flazz/vim-colorschemes'
 call plug#end()
 
 "color config
-syntax enable
-set background=dark
-colorscheme solarized
+syntax on
+colorscheme zenburn
 
 "vim-airline config
 set laststatus=2
