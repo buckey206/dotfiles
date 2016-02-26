@@ -28,8 +28,11 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline'
-Plug 'tpope/vim-surround'
-Plug 'flazz/vim-colorschemes'
+Plug 'tpope/vim-surround' " mapping to delete, change and add suroundings in pairs
+Plug 'flazz/vim-colorschemes' " add tons of colorschemes
+Plug 'scrooloose/syntastic' " syntax plugin
+Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html, similar to paren support
+Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
 call plug#end()
 
 "color config
