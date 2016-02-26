@@ -19,6 +19,9 @@ map <F7> :setlocal spell spelllang=en_us<CR>
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" make vim save 100 commands instead of 8
+set history=100
 "---------- PLUGIN CONFIGURATION --------
 if empty(glob('~/.vim/autoload/plug.vim'))
 	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
