@@ -40,7 +40,7 @@ call plug#end()
 
 "color config
 syntax on
-colorscheme zenburn
+colorscheme wombat256
 
 "vim-airline config
 set laststatus=2
