@@ -25,17 +25,20 @@ Plug 'mattn/emmet-vim', { 'for' : 'html' }
 Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
 
 "color plugins
-" Plug 'flazz/vim-colorschemes' " add tons of colorschemes
-Plug 'chriskempson/base16-vim'
-
+"Plug 'flazz/vim-colorschemes' " add tons of colorschemes
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 
 "color config
 set background=dark
-colorscheme base16-default
-let base16colorspace=256 " Access color present in 256 colorspace
-" set t_Co=256 "use 256 colors
+set t_Co=256 "use 256 colors
+colorscheme gruvbox
+let g:gruvbox_termcolors=256
+let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_underline=1
+let g:gruvbox_bold=1
+let g:gruvbox_italic=1
 
 " don't make vim compatible with vi 
 set nocompatible
