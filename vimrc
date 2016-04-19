@@ -12,7 +12,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline' " fancy statusline
-Plug 'edkolev/tmuxline.vim' "fancy tmux statusline
+"Plug 'edkolev/tmuxline.vim' "fancy tmux statusline
 Plug 'benmills/vimux' " vim and tmux plugin
 Plug 'tpope/vim-commentary' " comment stuff out 
 Plug 'tpope/vim-surround' " mapping to delete, change and add suroundings in pairs
@@ -61,7 +61,8 @@ set history=500 " make vim save 1000 commands
 set textwidth=80
 
 "tmuxline.vim config
-let g:tmuxline_powerline_separators = 0
+"let g:tmuxline_powerline_separators = 0
+"let g:tmuxline
 
 "vim-airline config
 set laststatus=2
