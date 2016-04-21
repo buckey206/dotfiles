@@ -26,7 +26,7 @@ font pango:Hack 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st 
+bindsym $mod+Return exec xfce4-terminal 
 
 # start pulseaudio 
 exec --no-startup-id i3-msg 'exec /usr/bin/pulseaudio --start'
