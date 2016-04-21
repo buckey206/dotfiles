@@ -1,4 +1,4 @@
-sudo apt-get install curl vim tmux zsh 
+#sudo apt-get install curl vim tmux zsh 
 
 ln -s ~/dotfiles/i3 ~/.i3
 ln -s ~/dotfiles/vimrc ~/.vimrc
