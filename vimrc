@@ -17,11 +17,16 @@ Plug 'benmills/vimux' " vim and tmux plugin
 Plug 'tpope/vim-commentary' " comment stuff out 
 Plug 'tpope/vim-surround' " mapping to delete, change and add suroundings in pairs
 Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-markdown', {'for': 'markdown'}
-Plug 'ervandew/supertab'
+Plug 'ervandew/supertab' " autocomplete with tab
 
-Plug 'scrooloose/syntastic' " syntax plugin " HTML Plugins
-Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html, similar to paren support
+"MARKDOWN Plugins
+Plug 'tpope/vim-markdown', {'for': 'md'}
+
+" PYTHON Plugins
+Plug 'klen/python-mode', {'for': 'py'}
+"HTML Plugins
+Plug 'scrooloose/syntastic' " syntax plugin 
+Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html 
 Plug 'mattn/emmet-vim', { 'for' : 'html' }
 Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
 
@@ -43,22 +48,23 @@ let g:gruvbox_bold=1
 " don't make vim compatible with vi 
 set nocompatible
 
+" syntax settings
 syntax on
+set showmatch "show matching tags
 
-"show line numbers
-set number
+set number "show line numbers
+
 
 " Tab control
-set noexpandtab " insert tabs rather than spaces for <Tab>
-set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
-set tabstop=4 " the visible width of tabs
-set softtabstop=4 " edit as if the tabs are 4 characters wide
+set textwidth=80
 set shiftwidth=4 " number of spaces to use for indent and unindent
+set tabstop=4 " the visible width of tabs
+set expandtab " insert spaces when hitting Tabs
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/Backspace 
 set shiftround " round indent to a multiple of 'shiftwidth'
 set autoindent " align the new line indent with the previous.
 
 set history=500 " make vim save 1000 commands 
-set textwidth=80
 
 "tmuxline.vim config
 "let g:tmuxline_powerline_separators = 0
