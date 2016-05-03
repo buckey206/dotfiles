@@ -1,0 +1,1 @@
+curl vim tmux zsh hexchat guake htop aria2 youtube-dl
