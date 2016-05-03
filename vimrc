@@ -18,6 +18,7 @@ Plug 'tpope/vim-commentary' " comment stuff out
 Plug 'tpope/vim-surround' " mapping to delete, change and add suroundings in pairs
 Plug 'tpope/vim-repeat'
 Plug 'ervandew/supertab' " autocomplete with tab
+Plug 'scrooloose/syntastic' " syntax plugin 
 
 "MARKDOWN Plugins
 Plug 'tpope/vim-markdown', {'for': 'md'}
@@ -25,7 +26,6 @@ Plug 'tpope/vim-markdown', {'for': 'md'}
 " PYTHON Plugins
 Plug 'klen/python-mode', {'for': 'py'}
 "HTML Plugins
-Plug 'scrooloose/syntastic' " syntax plugin 
 Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html 
 Plug 'mattn/emmet-vim', { 'for' : 'html' }
 Plug 'othree/html5.vim', { 'for': 'html' } " html5 support

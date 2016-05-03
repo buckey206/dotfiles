@@ -1,1 +1,1 @@
-curl vim tmux zsh hexchat vlc telegram guake htop
+curl vim tmux zsh hexchat guake htop

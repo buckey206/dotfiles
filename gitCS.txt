@@ -1,0 +1,25 @@
+Git Cheat Sheet
+
+repo = repository
+
+                               Create & Clone 
+                                     (O)
+create new repo                       | git init
+clone local repo                      | git clone /path/to/repository
+clone remote repo                     | git clone username@host:/path/to/repo
+                                     (O)
+                                  Add & Remove
+add change to INDEX                   | git add <filename>
+add all changes to INDEX              | git add *
+remove/delete                         | git rm <filename>
+                               Commit & Synchronize
+                                     (0)
+commit changes                        | git commit -m "Commit message"
+push changes to remote repo           | git push origin master
+connect local repo to remote repo     | git remote add origin <server>
+update local repo with remote changes | git pull
+                                   Branches
+                                      *
+                                      | \
+create new branch                     | |
+
