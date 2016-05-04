@@ -1,1 +1,0 @@
-curl vim tmux zsh hexchat guake htop
