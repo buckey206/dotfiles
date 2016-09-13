@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-#curl vim tmux zsh 
+#sudo pacman -S curl vim tmux zsh 
 #
 #ln -s ~/dotfiles/i3 ~/.i3
 #ln -s ~/dotfiles/vimrc ~/.vimrc
