@@ -14,9 +14,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline' " fancy statusline
 "Plug 'edkolev/tmuxline.vim' "fancy tmux statusline
 Plug 'benmills/vimux' " vim and tmux plugin
-Plug 'tpope/vim-commentary' " comment stuff out 
-Plug 'tpope/vim-surround' " mapping to delete, change and add suroundings in pairs
-Plug 'tpope/vim-repeat'
+Plug 'keith/tmux.vim'
 Plug 'ervandew/supertab' " autocomplete with tab
 "Plug 'scrooloose/syntastic' " syntax plugin 
 

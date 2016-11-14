@@ -87,3 +87,5 @@ PATH=$PATH:"~/Dropbox/todo"
 export TODOTXT_DEFAULT_ACTION=ls
 alias t='~/Dropbox/todo/todo.sh -d ~/Dropbox/todo/todo.cfg'
 alias gpicv='gpicview'
+
+PATH=$PATH:"/home/jared/adroid-ndk-r13b/"
