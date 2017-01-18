@@ -83,3 +83,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
+source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
