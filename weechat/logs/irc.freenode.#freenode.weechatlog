@@ -1,0 +1,339 @@
+2017-01-17 21:19:46	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #freenode
+2017-01-17 21:19:46	--	Topic for #freenode is "Welcome to #freenode. Staff are on '/who freenode/staff/*'; some may also be on '/stats p'. Feel free to message us at any time. | We're doing some maintenance; sorry for any noise. | https://freenode.net/news/new-year-new-freenode"
+2017-01-17 21:19:46	--	Topic set by dax (~dax@freenode/staff/dax) on Tue, 03 Jan 2017 20:04:30
+2017-01-17 21:19:46	--	Channel #freenode: 1409 nicks (29 ops, 0 voices, 1380 normals)
+2017-01-17 21:19:46	--	URL for #freenode: http://freenode.net/
+2017-01-17 21:19:48	--	Channel created on Fri, 09 Feb 2001 16:16:24
+2017-01-17 21:19:50	<--	murfjr (~ayy@185.21.216.185) has quit (Remote host closed the connection)
+2017-01-17 21:20:17	<--	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2017-01-17 21:20:51	<--	jackie2017 (~textual@node-5eq.pool-1-10.dynamic.totbb.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-17 21:21:02	MetaNova	Antioch: as unhelpful as it may sound, the best advice really is to set a secure password, then to try to not worry about it -- in most cases, failed login attempts are accidental or unintentional (often, clients configured with a 'user name' which happens to match your actual nick, and IRC settings which the user may not even be aware of -- Thunderbird is notorious for this)
+2017-01-17 21:21:08	-->	josspyker (~quassel@unaffiliated/josspyker) has joined #freenode
+2017-01-17 21:21:08	-->	jellobot (446afa0b@gateway/web/freenode/ip.68.106.250.11) has joined #freenode
+2017-01-17 21:21:37	MetaNova	Antioch: what's more, although you could /ignore messages from saslserv, that's not a great idea just in case someone /does/ log in to your account, you'd want to be aware of it
+2017-01-17 21:22:42	gry	oh, I would hope thunderbird doesn't do sasl auth
+2017-01-17 21:22:43	-->	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has joined #freenode
+2017-01-17 21:23:14	laowai	your hope is like shit
+2017-01-17 21:23:17	rob0	thunderbird as a MUA does do SASL AUTH :)
+2017-01-17 21:23:29	-->	koan (~koan@unaffiliated/koan) has joined #freenode
+2017-01-17 21:23:38	gry	I mean on irc
+2017-01-17 21:23:47	rob0	I know
+2017-01-17 21:24:13	--	irc: disconnected from server
+2017-01-18 03:54:43	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #freenode
+2017-01-18 03:54:43	--	Topic for #freenode is "Welcome to #freenode. Staff are on '/who freenode/staff/*'; some may also be on '/stats p'. Feel free to message us at any time. | We're doing some maintenance; sorry for any noise. | https://freenode.net/news/new-year-new-freenode"
+2017-01-18 03:54:43	--	Topic set by dax (~dax@freenode/staff/dax) on Tue, 03 Jan 2017 20:04:20
+2017-01-18 03:54:43	--	Channel #freenode: 1423 nicks (28 ops, 0 voices, 1395 normals)
+2017-01-18 03:54:43	--	URL for #freenode: http://freenode.net/
+2017-01-18 03:54:45	--	Channel created on Fri, 09 Feb 2001 16:16:24
+2017-01-18 03:55:16	--	irc: disconnected from server
+2017-01-18 03:57:49	-->	teenytree (~teenytree@24.121.3.146) has joined #freenode
+2017-01-18 03:57:49	--	Topic for #freenode is "Welcome to #freenode. Staff are on '/who freenode/staff/*'; some may also be on '/stats p'. Feel free to message us at any time. | We're doing some maintenance; sorry for any noise. | https://freenode.net/news/new-year-new-freenode"
+2017-01-18 03:57:49	--	Topic set by dax (~dax@freenode/staff/dax) on Tue, 03 Jan 2017 20:04:30
+2017-01-18 03:57:49	--	Channel #freenode: 1426 nicks (28 ops, 0 voices, 1398 normals)
+2017-01-18 03:57:49	--	URL for #freenode: http://freenode.net/
+2017-01-18 03:57:51	--	Channel created on Fri, 09 Feb 2001 16:16:24
+2017-01-18 03:58:40	<--	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has quit (Remote host closed the connection)
+2017-01-18 03:58:42	Speiros	What does this mean? "CNOTICE WHOX ETRACE KNOCK :are supported by this server"?
+2017-01-18 03:58:44	apenboi	k
+2017-01-18 03:58:54	<--	apenboi (c057c481@gateway/web/cgi-irc/kiwiirc.com/ip.192.87.196.129) has left #freenode
+2017-01-18 03:58:58	@bigpresh	Speiros: It's the server telling the client about certain IRC features that it supports.
+2017-01-18 03:59:22	Speiros	bigpresh I see.  Thanks mate:)
+2017-01-18 03:59:24	@bigpresh	IRC is a very old protocol; some additional features were added over time which some servres will support but others won't
+2017-01-18 03:59:32	@bigpresh	So, the server tells the client what it supports
+2017-01-18 03:59:44	Speiros	bigpresh Interesting.
+2017-01-18 04:00:01	-->	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has joined #freenode
+2017-01-18 04:00:12	@bigpresh	There'll also be a line telling the server various things that can be different between networks - like max nick lengths, max number of modes set in a single command, etc.
+2017-01-18 04:00:23	@bigpresh	s/telling the servre/telling the client/
+2017-01-18 04:00:43	Speiros	bigpresh I see that one, yep.
+2017-01-18 04:01:15	<--	yhogade (7bc9c068@gateway/web/freenode/ip.123.201.192.104) has quit (Quit: Page closed)
+2017-01-18 04:01:17	<--	fnordd (~fnordd@2001:638:513:e80:8db8:e36:ae7d:406d) has quit (Ping timeout: 240 seconds)
+2017-01-18 04:01:34	Speiros	bigpresh Good to know.
+2017-01-18 04:01:37	-->	modlin (~modlin@93.123.41.167) has joined #freenode
+2017-01-18 04:01:40	<--	bongjovi (~bongjovi@87.224.97.75) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-01-18 04:01:58	-->	fnordd (~fnordd@2001:638:513:e80:8db8:e36:ae7d:406d) has joined #freenode
+2017-01-18 04:02:01	<--	Rissa (~androirc@114.4.83.57) has left #freenode ("AndroIRC")
+2017-01-18 04:04:27	<--	ae__ (~ae__@unaffiliated/ae/x-1948392) has quit (Remote host closed the connection)
+2017-01-18 04:04:53	<--	WayToDoor (~milk.bott@autresservs.api-d.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-18 04:05:40	-->	yo (c057c481@gateway/web/cgi-irc/kiwiirc.com/ip.192.87.196.129) has joined #freenode
+2017-01-18 04:05:46	<--	modlin (~modlin@93.123.41.167) has quit (Client Quit)
+2017-01-18 04:06:03	--	yo is now known as Guest31378
+2017-01-18 04:06:03	-->	YuGiOhJCJ (~YuGiOhJCJ@bur64-4-78-199-90-154.fbx.proxad.net) has joined #freenode
+2017-01-18 04:06:30	-->	for{} (~gangalo@unaffiliated/gangalo) has joined #freenode
+2017-01-18 04:06:57	<--	nyxover (~pierrebui@ALille-652-1-84-222.w2-5.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
+2017-01-18 04:07:46	-->	kreate (~kreate@112.210.195.229) has joined #freenode
+2017-01-18 04:07:54	<--	ballangddang (~valentin@67.160.92.92.rev.sfr.net) has quit (Read error: Connection reset by peer)
+2017-01-18 04:07:58	-->	kittyP (~kittyP@unaffiliated/kittyp) has joined #freenode
+2017-01-18 04:08:32	<--	favadi (~favadi@113.190.18.109) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-01-18 04:08:33	-->	Tobbi (~Tobbi@supertux/tobbi) has joined #freenode
+2017-01-18 04:09:37	-->	ruler (uid206039@gateway/web/irccloud.com/x-lkghgsvfgzjiuiqj) has joined #freenode
+2017-01-18 04:09:48	-->	yuken (~Yuken@unaffiliated/yuken) has joined #freenode
+2017-01-18 04:12:32	<--	Guest26062 (~Nicmavr@2002:5bb8:cc59::5bb8:cc59) has quit (Ping timeout: 255 seconds)
+2017-01-18 04:13:23	-->	modlin (~modlin@93.123.41.167) has joined #freenode
+2017-01-18 04:14:25	-->	darsie (~darsie@84-113-55-42.cable.dynamic.surfer.at) has joined #freenode
+2017-01-18 04:14:27	<--	DoomTaper (uid151262@gateway/web/irccloud.com/x-hbievdtosxuhajex) has quit (Quit: Connection closed for inactivity)
+2017-01-18 04:15:52	<--	redblade (~redblade7@gateway/tor-sasl/redblade7) has quit (Quit: Later...)
+2017-01-18 04:16:47	<--	dungodung (~felix@wikimedia/dungodung) has quit (Ping timeout: 256 seconds)
+2017-01-18 04:17:52	<--	honey (~wtf-honey@unaffiliated/wtf-honey) has left #freenode ("k bai")
+2017-01-18 04:17:55	-->	vinalencc (~vinalencc@unaffiliated/vinalencc) has joined #freenode
+2017-01-18 04:17:56	<--	kittyP (~kittyP@unaffiliated/kittyp) has quit (Quit: Leaving)
+2017-01-18 10:08:43	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #freenode
+2017-01-18 10:08:43	--	Topic for #freenode is "Welcome to #freenode. Staff are on '/who freenode/staff/*'; some may also be on '/stats p'. Feel free to message us at any time. | We're doing some maintenance; sorry for any noise. | https://freenode.net/news/new-year-new-freenode"
+2017-01-18 10:08:43	--	Topic set by dax (~dax@freenode/staff/dax) on Tue, 03 Jan 2017 20:04:21
+2017-01-18 10:08:43	--	Channel #freenode: 1422 nicks (28 ops, 0 voices, 1394 normals)
+2017-01-18 10:08:43	--	URL for #freenode: http://freenode.net/
+2017-01-18 10:08:43	GPenguin	i cant find that sociologist who showed how people are shifting from expressing racism openly to slander and mobbing types
+2017-01-18 10:08:45	--	Channel created on Fri, 09 Feb 2001 16:16:24
+2017-01-18 10:08:56	GPenguin	somebody posted it
+2017-01-18 10:11:00	-->	czart__ (~czart@drf181.neoplus.adsl.tpnet.pl) has joined #freenode
+2017-01-18 10:11:46	<--	ibttis (~asdafawad@unaffiliated/ibttis) has quit (Ping timeout: 264 seconds)
+2017-01-18 10:12:31	-->	fs-ab (~root@win-36xe63q2kaj.aoknetworking.com) has joined #freenode
+2017-01-18 10:13:20	-->	Adi (~anonymous@ti0028a400-0746.bb.online.no) has joined #freenode
+2017-01-18 10:13:32	<--	Adi (~anonymous@ti0028a400-0746.bb.online.no) has left #freenode
+2017-01-18 10:14:19	<--	czart_ (~czart@drf181.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 255 seconds)
+2017-01-18 10:14:20	JazzCrimes	GPenguin:  i post on a forum and someone got ripped off by someone else on the forum selling something, people started openly posting threats against the person who done the ripping off and the mods did nothing to stop it.  in the end the person who done the ripping off actually called the police and said he was being abused
+2017-01-18 10:14:36	-->	ibttis (~asdafawad@staticline-31-183-73-231.toya.net.pl) has joined #freenode
+2017-01-18 10:14:36	<--	ibttis (~asdafawad@staticline-31-183-73-231.toya.net.pl) has quit (Changing host)
+2017-01-18 10:14:36	-->	ibttis (~asdafawad@unaffiliated/ibttis) has joined #freenode
+2017-01-18 10:14:46	<--	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has quit (Remote host closed the connection)
+2017-01-18 10:15:03	GPenguin	a huge mess in the end, yeah
+2017-01-18 10:15:10	<--	BlackHellRacer (Hell@unaffiliated/blackhellracer) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:15:18	JazzCrimes	yea
+2017-01-18 10:15:22	-->	Sario (~sario528@2607:fb90:585e:2a:affd:31a9:d765:f34) has joined #freenode
+2017-01-18 10:15:28	GPenguin	even in cyberspace we seem to try as much space as possible
+2017-01-18 10:15:38	GPenguin	try to claim //
+2017-01-18 10:15:38	<--	Sagan (luke@tnb/staff/Luke081515) has quit (Ping timeout: 260 seconds)
+2017-01-18 10:15:41	<--	pupher (~pupher@unaffiliated/pupher) has quit (Ping timeout: 258 seconds)
+2017-01-18 10:15:49	-->	Zilo (a2d37ef4@gateway/web/freenode/ip.162.211.126.244) has joined #freenode
+2017-01-18 10:15:56	GPenguin	with much work for the moderators
+2017-01-18 10:15:59	-->	kyan (~kyan@cpe-24-198-97-231.maine.res.rr.com) has joined #freenode
+2017-01-18 10:16:19	-->	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has joined #freenode
+2017-01-18 10:16:54	-->	Adi (~anonymous@ti0028a400-0746.bb.online.no) has joined #freenode
+2017-01-18 10:17:06	<--	Adi (~anonymous@ti0028a400-0746.bb.online.no) has left #freenode
+2017-01-18 10:17:22	-->	Damme (~Damme@2001:16d8:cc75::1337) has joined #freenode
+2017-01-18 10:17:30	<--	nanga (~nanga@unaffiliated/m0f0x) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:17:58	-->	firstname (7085c402@gateway/web/freenode/ip.112.133.196.2) has joined #freenode
+2017-01-18 10:18:35	-->	guest7347 (~user@68-189-60-20.dhcp.rdng.ca.charter.com) has joined #freenode
+2017-01-18 10:18:40	@Fuchs	Sario: be identified with your account  (/msg nickserv identify Account Password)   then   /msg nickserv group
+2017-01-18 10:18:41	<--	dottorclown (~emporio@ip5658b121.direct-adsl.nl) has quit (Ping timeout: 276 seconds)
+2017-01-18 10:18:51	GPenguin	what makes me really think are quite a few people - at first in usa and now in europe too, who commited suicide as reaction to the mental abuse they received
+2017-01-18 10:19:00	-->	nanga (~nanga@191.96.4.30) has joined #freenode
+2017-01-18 10:19:00	<--	nanga (~nanga@191.96.4.30) has quit (Changing host)
+2017-01-18 10:19:00	-->	nanga (~nanga@unaffiliated/m0f0x) has joined #freenode
+2017-01-18 10:19:17	<--	guest7347 (~user@68-189-60-20.dhcp.rdng.ca.charter.com) has quit (Remote host closed the connection)
+2017-01-18 10:19:58	GPenguin	if you are affected and try to report it then nobody will listen
+2017-01-18 10:20:15	-->	pupher (~pupher@unaffiliated/pupher) has joined #freenode
+2017-01-18 10:21:01	-->	vreg (~vreg@unaffiliated/vreg) has joined #freenode
+2017-01-18 10:21:05	<--	AstralStorm (~astralsto@unaffiliated/astralstorm) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:21:41	-->	lynnaemae (~lynaemae@95.187.129.241) has joined #freenode
+2017-01-18 10:21:43	--	czart__ is now known as czart
+2017-01-18 10:21:48	GPenguin	it feels horrible. i had two guys from the police here. and they told me there is nothing i can do
+2017-01-18 10:22:03	GPenguin	nothing they can do
+2017-01-18 10:22:25	Sario	Fuchs: thanks
+2017-01-18 10:22:32	@Fuchs	welcome :)
+2017-01-18 10:22:35	-->	nankyokusei (~nankyokus@unaffiliated/nankyokusei) has joined #freenode
+2017-01-18 10:22:49	<--	Sario (~sario528@2607:fb90:585e:2a:affd:31a9:d765:f34) has left #freenode ("I shall return. Maybe.")
+2017-01-18 10:22:51	-->	crayfishx_ (crayfishx@2a03:b0c0:3:d0::7:400f) has joined #freenode
+2017-01-18 10:23:20	<--	Zilo (a2d37ef4@gateway/web/freenode/ip.162.211.126.244) has quit (Ping timeout: 260 seconds)
+2017-01-18 10:24:18	-->	nicknik (~familia@177.5.162.198) has joined #freenode
+2017-01-18 10:24:23	<--	anonymuse (~anonymuse@198.246.222.128) has quit (Remote host closed the connection)
+2017-01-18 10:25:38	-->	Guest55 (~textual@199.201.64.138) has joined #freenode
+2017-01-18 10:25:38	-->	mutz (~muts@kali/developer/muts) has joined #freenode
+2017-01-18 10:25:40	<--	Infermon (~Infermon@c-98-211-220-54.hsd1.fl.comcast.net) has quit (Quit: Sleep mode.)
+2017-01-18 10:26:08	<--	nicknik (~familia@177.5.162.198) has quit (Client Quit)
+2017-01-18 10:26:10	-->	Infermon (~djm@c-98-211-220-54.hsd1.fl.comcast.net) has joined #freenode
+2017-01-18 10:26:14	<--	muts (~muts@kali/developer/muts) has quit (Read error: Connection reset by peer)
+2017-01-18 10:26:28	-->	BlackHellRacer (Hell@unaffiliated/blackhellracer) has joined #freenode
+2017-01-18 10:26:55	-->	anonymuse (~anonymuse@198.246.222.128) has joined #freenode
+2017-01-18 10:27:18	<--	nankyokusei (~nankyokus@unaffiliated/nankyokusei) has quit (Ping timeout: 260 seconds)
+2017-01-18 10:27:22	<--	AndChat|526161 (~AndChat52@27.63.186.87) has quit (Ping timeout: 255 seconds)
+2017-01-18 10:28:15	<--	firstname (7085c402@gateway/web/freenode/ip.112.133.196.2) has left #freenode
+2017-01-18 10:28:53	<--	frenchcode (~Thunderbi@gai69-1-82-67-6-114.fbx.proxad.net) has quit (Quit: frenchcode)
+2017-01-18 10:29:05	-->	frenchcode (~Thunderbi@gai69-1-82-67-6-114.fbx.proxad.net) has joined #freenode
+2017-01-18 10:29:16	-->	TheSilentLink (~TheSilent@unaffiliated/thesilentlink) has joined #freenode
+2017-01-18 10:29:57	-->	Sagan (luke@tnb/staff/Luke081515) has joined #freenode
+2017-01-18 10:31:26	<--	akwiatkowski (~bobik314@dhcp95-108-46-76.eaw.com.pl) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:31:47	-->	ghvgfc (268cbd72@gateway/web/cgi-irc/kiwiirc.com/ip.38.140.189.114) has joined #freenode
+2017-01-18 10:32:09	<--	ghvgfc (268cbd72@gateway/web/cgi-irc/kiwiirc.com/ip.38.140.189.114) has quit (Client Quit)
+2017-01-18 10:32:11	<--	[0xAA] (~ThisIsZen@unaffiliated/thisiszenified) has quit (Quit: Leaving)
+2017-01-18 10:32:58	-->	fs-ab_ (434ef562@gateway/web/freenode/ip.67.78.245.98) has joined #freenode
+2017-01-18 10:33:53	<--	revanth (~revanth@157.49.81.238) has quit (Read error: Connection reset by peer)
+2017-01-18 10:34:45	<--	lynnaemae (~lynaemae@95.187.129.241) has quit (Remote host closed the connection)
+2017-01-18 10:34:51	<--	Texou (~Texou@unaffiliated/texou) has quit (Ping timeout: 258 seconds)
+2017-01-18 10:35:50	<--	fs-ab_ (434ef562@gateway/web/freenode/ip.67.78.245.98) has quit (Client Quit)
+2017-01-18 10:36:53	<--	Matiia (Matiia@wikimedia/Matiia) has left #freenode ("Leaving")
+2017-01-18 10:38:21	-->	AstralStorm (~astralsto@unaffiliated/astralstorm) has joined #freenode
+2017-01-18 10:38:28	-->	amade (~amade@apn-31-1-0-128.dynamic.gprs.plus.pl) has joined #freenode
+2017-01-18 10:38:36	-->	eightyieght (~88@76-218-214-139.lightspeed.sntcca.sbcglobal.net) has joined #freenode
+2017-01-18 10:39:28	-->	GeeKoyo (~clint@pdpc/supporter/active/clint-) has joined #freenode
+2017-01-18 10:40:21	@Fuchs	eightyieght: /nick newnickhere
+2017-01-18 10:41:07	-->	[0xAA] (~ThisIsZen@unaffiliated/thisiszenified) has joined #freenode
+2017-01-18 10:42:13	-->	revanth (~revanth@218.248.46.107) has joined #freenode
+2017-01-18 10:42:49	<--	wordsToLiveBy (~wordsToLi@unaffiliated/wordstoliveby) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-01-18 10:42:50	<--	diogenese (diogenese@diogenese.velotech.net) has quit (Read error: Connection reset by peer)
+2017-01-18 10:43:09	-->	sainathan (uid208073@gateway/web/irccloud.com/x-htcauvpuyvekgxbt) has joined #freenode
+2017-01-18 10:44:05	-->	ncrntn (~ncrntn@unaffiliated/ncrntn) has joined #freenode
+2017-01-18 10:44:43	<--	alkalinemoe (~alkalinem@unaffiliated/alkalinemoe) has quit (Ping timeout: 249 seconds)
+2017-01-18 10:45:28	<--	sainathan (uid208073@gateway/web/irccloud.com/x-htcauvpuyvekgxbt) has left #freenode
+2017-01-18 10:45:32	<--	Ryanar (~Ryanar@unaffiliated/ryanar) has quit (Quit: Ryanar)
+2017-01-18 10:46:11	<--	[twisti] (~twisti]@xdsl-213-196-255-231.netcologne.de) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:46:11	 *	BurningPrincess gives Fuchs a cookie
+2017-01-18 10:46:22	<--	LilleCarl (~quassel@ip201.ip-87-98-159.eu) has left #freenode
+2017-01-18 10:46:55	-->	dtux (~dmtucker@23.252.48.15) has joined #freenode
+2017-01-18 10:47:41	<--	Henric (~Henric@h138n13-mr-a11.ias.bredband.telia.com) has quit (Remote host closed the connection)
+2017-01-18 10:47:42	-->	Texou (~Texou@unaffiliated/texou) has joined #freenode
+2017-01-18 10:47:44	-->	Hawk3ye (~lb@host86-181-129-191.range86-181.btcentralplus.com) has joined #freenode
+2017-01-18 10:47:51	-->	wordsToLiveBy (~wordsToLi@unaffiliated/wordstoliveby) has joined #freenode
+2017-01-18 10:48:18	-->	Keanu73 (~Keanu73@unaffiliated/keanu73) has joined #freenode
+2017-01-18 10:48:49	-->	learnit (~learnit@2606:f180:1:df:df:9b0d:4a81:9905) has joined #freenode
+2017-01-18 10:49:05	 *	gitgud steals the BurningPrincess' cookie and then logs in to her facebook account with it
+2017-01-18 10:49:14	-->	SawFist (~SawFist@217.red-88-26-13.staticip.rima-tde.net) has joined #freenode
+2017-01-18 10:49:15	 *	gitgud types "i'm super gay" on her facebook status
+2017-01-18 10:49:27	BurningPrincess	I do not have FaceBook. (I have no phone number)
+2017-01-18 10:49:34	-->	Ryanar (~Ryanar@unaffiliated/ryanar) has joined #freenode
+2017-01-18 10:49:46	BurningPrincess	I did *think* about gettimg ome
+2017-01-18 10:49:51	BurningPrincess	*getting one
+2017-01-18 10:50:09	<--	ncrntn (~ncrntn@unaffiliated/ncrntn) has quit (Quit: Leaving)
+2017-01-18 10:50:14	<--	SawFist (~SawFist@217.red-88-26-13.staticip.rima-tde.net) has left #freenode
+2017-01-18 10:50:32	<--	Usurp (~syl@reactos/developer/Usurp) has quit (Ping timeout: 276 seconds)
+2017-01-18 10:50:33	-->	sdgjk (b2a2d807@gateway/web/cgi-irc/kiwiirc.com/ip.178.162.216.7) has joined #freenode
+2017-01-18 10:51:05	<--	dtux (~dmtucker@23.252.48.15) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:51:30	-->	FrostCyborg (~FrostCybo@unaffiliated/frostcyborg) has joined #freenode
+2017-01-18 10:51:51	<--	Ryanar (~Ryanar@unaffiliated/ryanar) has quit (Client Quit)
+2017-01-18 10:51:55	<--	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has quit (Remote host closed the connection)
+2017-01-18 10:52:06	<--	sdgjk (b2a2d807@gateway/web/cgi-irc/kiwiirc.com/ip.178.162.216.7) has quit (Client Quit)
+2017-01-18 10:52:08	-->	DFsdvaed (268cbd72@gateway/web/cgi-irc/kiwiirc.com/ip.38.140.189.114) has joined #freenode
+2017-01-18 10:52:19	<--	wuseman (~wuziduzi@unaffiliated/wuseman) has quit (Read error: Connection reset by peer)
+2017-01-18 10:52:40	<--	DFsdvaed (268cbd72@gateway/web/cgi-irc/kiwiirc.com/ip.38.140.189.114) has quit (Client Quit)
+2017-01-18 10:52:40	<--	timothy (drizzt@archlinux/trusteduser/DrizztBSD) has quit (Remote host closed the connection)
+2017-01-18 10:52:48	binaryhermit	hmm http://arstechnica.com/information-technology/2017/01/oracle-sort-of-confirms-demise-of-solaris-12-effort/
+2017-01-18 10:53:10	jcjordyn120	grr
+2017-01-18 10:53:12	<--	acerbic (~acerbic@2602:30a:2cf9:4710:f27b:cbff:fe81:c6b3) has quit (Read error: Connection reset by peer)
+2017-01-18 10:53:29	-->	timvisher (~tim.vishe@pool-72-94-54-98.phlapa.fios.verizon.net) has joined #freenode
+2017-01-18 10:53:30	jcjordyn120	did anyone get a message saying "HUE" over and over?
+2017-01-18 10:53:31	gitgud	BurningPrincess, dont get one
+2017-01-18 10:53:34	gitgud	i had one and i dropped it
+2017-01-18 10:53:41	<--	DrJ (~DrJ@unaffiliated/bacon) has quit (Disconnected by services)
+2017-01-18 10:53:41	-->	i-ghost (~i-ghost@pdpc/supporter/active/i-ghost) has joined #freenode
+2017-01-18 10:53:41	-->	DrJ_y (~DrJ@unaffiliated/bacon) has joined #freenode
+2017-01-18 10:53:46	jcjordyn120	BurningPrincess: I say get one :)
+2017-01-18 10:53:49	--	DrJ_y is now known as DrJ
+2017-01-18 10:53:54	 *	binaryhermit figures that's more on-topic than his... political topic... that he brought up earlier
+2017-01-18 10:54:07	BurningPrincess	I just (1) did not have a phone, (two_) I kinda dislike Facebook
+2017-01-18 10:54:26	jcjordyn120	BurningPrincess: aw and aw?
+2017-01-18 10:54:37	 *	BurningPrincess looks confused
+2017-01-18 10:54:40	-->	ni291187 (~u931732@127.red-176-83-127.dynamicip.rima-tde.net) has joined #freenode
+2017-01-18 10:54:41	letty	social media ruined the internet
+2017-01-18 10:54:45	gitgud	i find facebook to be quite invasive
+2017-01-18 10:55:02	gitgud	like if i go to work, then have friends, then also have people from irc on there, eventually they are all going to mix together
+2017-01-18 10:55:09	<--	anonymuse (~anonymuse@198.246.222.128) has quit (Remote host closed the connection)
+2017-01-18 10:55:24	jcjordyn120	letty: it made it 1000 times better :)
+2017-01-18 10:55:25	<--	ni291187 (~u931732@127.red-176-83-127.dynamicip.rima-tde.net) has left #freenode
+2017-01-18 10:55:26	letty	my flesh friends dont even know im into computers
+2017-01-18 10:55:35	<--	johnc4510 (~johnc4510@unaffiliated/johnc4510) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:55:43	-->	anonymuse (~anonymuse@198.246.222.128) has joined #freenode
+2017-01-18 10:55:47	swarfega	gitgud: if you found facebook invasive then what about this: http://deltatgame.com/wp-content/uploads/2016/10/oculus-1200x799.jpg
+2017-01-18 10:55:57	jcjordyn120	swarfega: oooooo
+2017-01-18 10:56:10	<--	al2o3-cr (~al2o3-cr@unaffiliated/gr33n7007h) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:56:13	swarfega	thats the future
+2017-01-18 10:56:18	-->	johnc4510 (~johnc4510@unaffiliated/johnc4510) has joined #freenode
+2017-01-18 10:56:38	<--	yano (~yano@freenode/staff-emeritus/yano) has quit (Ping timeout: 255 seconds)
+2017-01-18 10:56:45	 *	jcjordyn120 makes BurningPrincess a facebook then types in "I am sooo gay."
+2017-01-18 10:56:53	-->	ni291187 (~u931732@127.red-176-83-127.dynamicip.rima-tde.net) has joined #freenode
+2017-01-18 10:56:55	BurningPrincess	(That fails)
+2017-01-18 10:57:00	<--	i-ghost (~i-ghost@pdpc/supporter/active/i-ghost) has quit (Client Quit)
+2017-01-18 10:57:26	gitgud	swarfega, yeah fuck those people
+2017-01-18 10:57:28	<--	ni291187 (~u931732@127.red-176-83-127.dynamicip.rima-tde.net) has quit (Remote host closed the connection)
+2017-01-18 10:57:31	swarfega	:p
+2017-01-18 10:57:43	jcjordyn120	:p
+2017-01-18 10:57:57	binaryhermit	anyway, I have to be home in 33 minutes
+2017-01-18 10:57:59	gitgud	point is i dont like all these social groups that i so hesitantly participate with to mix together. my roommates  have no reason to communicate with my work group and vice versa
+2017-01-18 10:58:10	gitgud	and thats one thing i dislike about facebook
+2017-01-18 10:58:14	binaryhermit	err, wrong channel
+2017-01-18 10:58:14	<--	gabix (~gabix@79.113.245.21) has quit (Ping timeout: 258 seconds)
+2017-01-18 10:58:15	binaryhermit	sorry
+2017-01-18 10:58:28	jcjordyn120	gitgud: ...
+2017-01-18 10:58:32	<--	for{} (~gangalo@unaffiliated/gangalo) has quit (Remote host closed the connection)
+2017-01-18 10:58:35	-->	Usurp (~syl@reactos/developer/Usurp) has joined #freenode
+2017-01-18 10:58:37	swarfega	i primarily use facebook to follow companies and their announcements
+2017-01-18 10:58:38	gitgud	jcjordyn120, yes?
+2017-01-18 10:59:04	jcjordyn120	gitgud: that was for the facebook thing.
+2017-01-18 10:59:14	gitgud	idk what to infer from 3 dots tbh lol
+2017-01-18 10:59:23	-->	YetiMaster5000 (uid146541@gateway/web/irccloud.com/x-hquzykryfurmddlc) has joined #freenode
+2017-01-18 10:59:38	YetiMaster5000	Is there a mod person I can ask a question?
+2017-01-18 10:59:40	jcjordyn120	lol
+2017-01-18 11:00:18	BurningPrincess	YetiMaster5000 Freenode staff are on /stats p
+2017-01-18 11:00:23	YetiMaster5000	Thanks
+2017-01-18 11:00:28	-->	cigarband (~cigarband@208.102.187.254) has joined #freenode
+2017-01-18 11:01:05	<--	cigarband (~cigarband@208.102.187.254) has left #freenode
+2017-01-18 11:01:20	-->	yano (~yano@freenode/staff-emeritus/yano) has joined #freenode
+2017-01-18 11:01:24	BurningPrincess	You are wecome
+2017-01-18 11:01:33	<--	eightyieght (~88@76-218-214-139.lightspeed.sntcca.sbcglobal.net) has quit (Changing host)
+2017-01-18 11:01:33	-->	eightyieght (~88@unaffiliated/s0ph1e) has joined #freenode
+2017-01-18 11:01:35	<--	geoid_ (~geoid@95.131.217.194) has quit (Quit: Be back later ...)
+2017-01-18 11:02:06	-->	publio (~publio@unaffiliated/publio) has joined #freenode
+2017-01-18 11:02:08	-->	geoid_ (~geoid@95.131.217.194) has joined #freenode
+2017-01-18 11:02:29	-->	Fibonacci (uid136497@gateway/web/irccloud.com/x-vnwhdwrmlwfsqbdp) has joined #freenode
+2017-01-18 11:02:47	<--	Pant (~Pant@gateway/tor-sasl/pant) has quit (Remote host closed the connection)
+2017-01-18 11:02:50	--	eightyieght is now known as s0ph1e_
+2017-01-18 11:02:52	-->	gucci (48305f85@gateway/web/freenode/ip.72.48.95.133) has joined #freenode
+2017-01-18 11:03:02	<--	d10n-work (uid37161@gateway/web/irccloud.com/x-beaigeacctmlzorc) has quit (Quit: Connection closed for inactivity)
+2017-01-18 11:03:53	jcjordyn120	BurningPrincess: not all staff
+2017-01-18 11:03:56	-->	al2o3-cr (~al2o3-cr@unaffiliated/gr33n7007h) has joined #freenode
+2017-01-18 11:04:03	--	Mode #freenode [-qz $~a] by Sigyn
+2017-01-18 11:04:06	jcjordyn120	most of them are on '/who freenode/staff/*' :P
+2017-01-18 11:04:09	<--	YetiMaster5000 (uid146541@gateway/web/irccloud.com/x-hquzykryfurmddlc) has left #freenode
+2017-01-18 11:04:09	<--	BurningPrincess (~BurningPr@unaffiliated/burningprincess) has quit (Remote host closed the connection)
+2017-01-18 11:04:12	<--	ShubhamRathi (uid205164@gateway/web/irccloud.com/x-pncvoxhwkwyxqqtn) has quit (Quit: Connection closed for inactivity)
+2017-01-18 11:04:25	-->	BurningPrincess (~BurningPr@unaffiliated/burningprincess) has joined #freenode
+2017-01-18 11:04:29	--	edists3w is now known as w3stside
+2017-01-18 11:04:48	<--	Pisuke (~Sembei@unaffiliated/sembei) has quit (Ping timeout: 256 seconds)
+2017-01-18 11:04:57	@emerson	some are lurking too
+2017-01-18 11:05:13	<--	gucci (48305f85@gateway/web/freenode/ip.72.48.95.133) has quit (Client Quit)
+2017-01-18 11:05:18	jcjordyn120	emerson: that too
+2017-01-18 11:05:23	--	banzaikitten is now known as kanzaibitten
+2017-01-18 11:06:28	-->	wildwood (48305f85@gateway/web/freenode/ip.72.48.95.133) has joined #freenode
+2017-01-18 11:06:47	<--	geoid_ (~geoid@95.131.217.194) has quit (Ping timeout: 276 seconds)
+2017-01-18 11:07:10	-->	doodoo (~doodoo@2607:f720:f00:4043:17f:d960:99eb:cc95) has joined #freenode
+2017-01-18 11:08:07	<--	wildwood (48305f85@gateway/web/freenode/ip.72.48.95.133) has quit (Client Quit)
+2017-01-18 11:09:10	<--	zhongfu (~zhongfu@unaffiliated/zhongfu) has quit (Ping timeout: 240 seconds)
+2017-01-18 11:09:38	genec	jcjordyn120: but one should generally _try_ to contact those on /stats p first for new stuff
+2017-01-18 11:09:59	jcjordyn120	why?
+2017-01-18 11:10:18	-->	Tux[Qyou] (~Tux@unaffiliated/tux-qyou/x-4822048) has joined #freenode
+2017-01-18 11:10:24	@Fuchs	if someone replies in here it's all fine
+2017-01-18 11:10:34	jcjordyn120	nice ;P
+2017-01-18 11:10:35	@Fuchs	if not, /stats p   is probably a good idea
+2017-01-18 11:10:35	jcjordyn120	*:P
+2017-01-18 11:10:38	-->	radious (~radious@104.238.180.250) has joined #freenode
+2017-01-18 11:10:53	-->	millerti (~millerti@149.125.131.18) has joined #freenode
+2017-01-18 11:11:33	-->	vinalencc (~vinalencc@unaffiliated/vinalencc) has joined #freenode
+2017-01-18 11:11:39	-->	Ryanar (~Ryanar@unaffiliated/ryanar) has joined #freenode
+2017-01-18 11:11:43	-->	niSe_ (~niSe@cnpr.suceava.rdsnet.ro) has joined #freenode
+2017-01-18 11:11:53	-->	raynold_ (uid201163@gateway/web/irccloud.com/x-ihnkvhotdaiwslpc) has joined #freenode
+2017-01-18 11:12:07	-->	callum_ (5bf0ae66@gateway/web/freenode/ip.91.240.174.102) has joined #freenode
+2017-01-18 11:12:13	genec	jcjordyn120: if you're looking to talk with someone in general, instead of waiting for an in-channel response, as fuchs said.
+2017-01-18 11:12:21	<--	niSe_ (~niSe@cnpr.suceava.rdsnet.ro) has quit (Client Quit)
+2017-01-18 11:12:58	@Fuchs	always as Fuchs says. Good Fuchs. Rawr.
+2017-01-18 11:13:18	<--	Ryanar (~Ryanar@unaffiliated/ryanar) has quit (Client Quit)
+2017-01-18 11:13:26	jcjordyn120	Fuchs: XD
+2017-01-18 11:13:30	--	nightfrog is now known as culb
+2017-01-18 11:13:31	jcjordyn120	genec: yeah
+2017-01-18 11:13:31	-->	Sektor_ (5bf673c4@gateway/web/freenode/ip.91.246.115.196) has joined #freenode
+2017-01-18 11:13:46	<--	astrofog (~astrofog@unaffiliated/astrofog) has quit (Quit: Quite)
+2017-01-18 11:13:47	callum_	hi, i was wondering if i could take ownership of a username that hasnt logged in for 11 weeks?
+2017-01-18 11:14:04	@Fuchs	callum_: depends. Can you /nick to it?
+2017-01-18 11:15:12	<--	bongjovi (~bongjovi@87.224.97.75) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-01-18 11:15:18	<--	Zvmdyv (~Zvmdyv@unaffiliated/zvmdyv) has quit (Remote host closed the connection)
+2017-01-18 11:15:41	callum_	if you mean /nick callum then no
+2017-01-18 11:15:47	-->	Amm0n (~Amm0n@unaffiliated/amm0n) has joined #freenode
+2017-01-18 11:15:59	raynold_	ahh it's a wonderful day
+2017-01-18 11:16:11	@Fuchs	callum_: then I'm afraid I also could not free it for you
+2017-01-18 11:16:45	<--	Waldo (~Waldo@unaffiliated/waldo) has quit (Read error: Connection reset by peer)
+2017-01-18 11:16:49	callum_	Fuchs: why not ? im not aware of this process
+2017-01-18 11:16:51	xboner	http://i.imgur.com/DjP5VWZ.gifv
+2017-01-18 11:16:52	-->	Waldo (~Waldo@unaffiliated/waldo) has joined #freenode
+2017-01-18 11:17:05	@Fuchs	callum_: because people need to be able to /nick to a nick in order for us to drop it
+2017-01-18 11:17:25	letty	callum_: he might not have logged into services, but he is online and using the nick now
+2017-01-18 11:17:50	<--	brogon_ (~brogon@unaffiliated/brogon) has quit (Ping timeout: 256 seconds)
+2017-01-18 11:17:50	callum_	Fuchs: hes using callum_ atm, idk why im callum_ here
+2017-01-18 11:17:57	callum_	i can /nick callum_
+2017-01-18 11:18:21	--	irc: disconnected from server

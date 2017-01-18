@@ -1,0 +1,972 @@
+2017-01-18 07:47:49	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #gamingonlinux
+2017-01-18 07:47:49	--	Topic for #gamingonlinux is "Welcome to www.gamingonlinux.com IRC, feel free to talk about anything and be respectful! Support Liam on Patreon here: https://www.patreon.com/liamdawe, please try to follow our rules https://www.gamingonlinux.com/index.php?module=rules"
+2017-01-18 07:47:49	--	Topic set by NaughtySquid (~liam@cpc1-newt38-2-0-cust1058.19-3.cable.virginm.net) on Wed, 20 Jul 2016 01:30:12
+2017-01-18 07:47:49	--	Channel #gamingonlinux: 224 nicks (5 ops, 0 voices, 219 normals)
+2017-01-18 07:47:51	--	Channel created on Mon, 01 Apr 2013 12:01:43
+2017-01-18 07:48:19	-->	ky0_ (~ky0@53554550.cm-6-6b.dynamic.ziggo.nl) has joined #gamingonlinux
+2017-01-18 07:48:37	@NaughtySquid	oh god
+2017-01-18 07:48:41	@NaughtySquid	speak of the devils
+2017-01-18 07:48:43	@NaughtySquid	Samsai: hahahaha
+2017-01-18 07:48:45	@NaughtySquid	our emails
+2017-01-18 07:48:54	@NaughtySquid	LinuxFoundation spamming their stuff to us now :P
+2017-01-18 07:49:14	@NaughtySquid	oh no its not
+2017-01-18 07:49:25	@NaughtySquid	its AffiliateManager.com on behalf of LinuxFoundation
+2017-01-18 07:49:28	@NaughtySquid	<_<
+2017-01-18 07:49:50	@Samsai	NaughtySquid, that's where the conversation started
+2017-01-18 07:49:57	@Samsai	i said things have improved drastically
+2017-01-18 07:49:58	@NaughtySquid	oh i only just saw that one :P
+2017-01-18 07:50:05	homerj	NaughtySquid, how much to put http://i1.kym-cdn.com/photos/images/original/000/005/553/Centipedes.jpg as an add?
+2017-01-18 07:50:06	@NaughtySquid	at least its actually fucking relevent
+2017-01-18 07:50:08	homerj	ad
+2017-01-18 07:50:17	@NaughtySquid	homerj: $5
+2017-01-18 07:50:22	@NaughtySquid	but im not gonna tell you where
+2017-01-18 07:50:25	@NaughtySquid	you have to find it
+2017-01-18 07:50:27	@NaughtySquid	you can pay me now
+2017-01-18 07:51:02	homerj	I wonder how much people would pay me on pateron for stuff
+2017-01-18 07:51:27	@Samsai	homerj, depends on what you do
+2017-01-18 07:51:31	@Samsai	or pretend you are doing
+2017-01-18 07:52:03	homerj	what's something development related people would give me pateron bucks for here?
+2017-01-18 07:52:33	libgradev	lol, homerj want to team up ^^
+2017-01-18 07:52:52	uso_	if it's pr0n you can have a lot
+2017-01-18 07:53:00	@Samsai	homerj, DIY sex toys with arduino?
+2017-01-18 07:53:07	@Samsai	i imagine that would get you some patreon bucks
+2017-01-18 07:53:24	homerj	na, I did a teledildonics startup
+2017-01-18 07:53:27	homerj	didn't work out
+2017-01-18 07:54:06	@Samsai	well... if you are desperate enough you could become an indie game developer :P
+2017-01-18 07:54:13	-->	sobkas (~sobkas@193.106.102.81) has joined #gamingonlinux
+2017-01-18 07:54:40	libgradev	lol
+2017-01-18 07:55:15	-->	Huckert (~Lurger@17.173.251.212.customer.cdi.no) has joined #gamingonlinux
+2017-01-18 07:55:29	<--	murray (~murray@91.229.169.120) has quit (Quit: Verlassend)
+2017-01-18 07:56:24	<--	BadSector (~BadSector@46-159-240.adsl.cyta.gr) has quit (Quit: Leaving)
+2017-01-18 07:56:31	homerj	na, I got classes to attend to
+2017-01-18 07:59:47	@NaughtySquid	woah
+2017-01-18 07:59:48	@NaughtySquid	https://www.reddit.com/r/Minecraft/comments/5opl31/help_us_test_the_new_minecraft_launcher_now_with/dcl1je4/
+2017-01-18 07:59:49	GolBot	[ ProfMobius comments on Help us test the new Minecraft launcher! Now with actual Linux support! ]
+2017-01-18 07:59:53	@NaughtySquid	a minecraft dev is an arch user
+2017-01-18 07:59:55	@NaughtySquid	:O
+2017-01-18 08:00:44	libgradev	best distro ;p
+2017-01-18 08:01:40	@NaughtySquid	well, yeah
+2017-01-18 08:01:43	@NaughtySquid	even i'm on arch now :P
+2017-01-18 08:01:50	homerj	arch is great
+2017-01-18 08:01:58	@NaughtySquid	i do need to learn how to upgrade AUR packages though
+2017-01-18 08:02:03	homerj	pacaur
+2017-01-18 08:02:09	xpander69	pacman -Syua works also
+2017-01-18 08:02:10	homerj	then pacaur -Syu
+2017-01-18 08:02:16	libgradev	pacaur - 2nd that
+2017-01-18 08:02:21	@NaughtySquid	hmm
+2017-01-18 08:02:30	@BTRE	I think antergos comes with yaourt by default
+2017-01-18 08:02:31	@NaughtySquid	will it selectively only update stuff i've install manually from the AUR?
+2017-01-18 08:02:54	homerj	if there's an updated aur package, it will build it
+2017-01-18 08:02:55	xpander69	uhh yaourt -Syua i wanted to say.. as antergos has yaourt as default i think
+2017-01-18 08:03:06	homerj	yaourt is for suckers
+2017-01-18 08:03:10	xpander69	u suck
+2017-01-18 08:03:14	libgradev	when I moved to Linux originally I ended up on Arch - and haven't changed since...
+2017-01-18 08:03:27	@NaughtySquid	oh wow
+2017-01-18 08:03:31	@NaughtySquid	yaourt -Syua is exactly what i wanted :D
+2017-01-18 08:03:49	homerj	I only installed Arch for one reason, when I had an amd card, it was the most painless way to install Catalyst
+2017-01-18 08:04:01	@NaughtySquid	so that command checks for updates on all packages, plus those i've installed from AUR?
+2017-01-18 08:04:06	homerj	yes
+2017-01-18 08:04:07	xpander69	yes
+2017-01-18 08:04:11	@NaughtySquid	this is love
+2017-01-18 08:04:13	@NaughtySquid	pure fucking love
+2017-01-18 08:04:24	xpander69	-Syyua if you want to force new repo scan
+2017-01-18 08:04:33	uso_	but you still need to confirme the aur [ackage
+2017-01-18 08:04:43	@NaughtySquid	yeah i saw that
+2017-01-18 08:04:45	@NaughtySquid	had obs to update
+2017-01-18 08:04:49	xpander69	yeah for that you can use yaourt -Syua --noconfirm
+2017-01-18 08:04:54	xpander69	so you dont have to confirm anything
+2017-01-18 08:04:55	libgradev	lmfao *hugs* NaughtySquid
+2017-01-18 08:05:09	-->	chan20 (~quassel@124.123.81.196) has joined #gamingonlinux
+2017-01-18 08:05:09	uso_	naa, pure love is pacman -Sy love
+2017-01-18 08:05:53	uso_	NaughtySquid: have you set ILoveCandy pacman.conf ?
+2017-01-18 08:05:58	@NaughtySquid	whut
+2017-01-18 08:06:13	ky0	NaughtySquid: just make an alias in your bashrc which does yaourt -Syua --noconfirm
+2017-01-18 08:06:25	ky0	and another for pacman -Syu
+2017-01-18 08:06:26	xpander69	ILoveCandy is amazing :D
+2017-01-18 08:06:56	@NaughtySquid	someone wanna let me in on what it is? :P
+2017-01-18 08:07:10	xpander69	nano ~/.bashrc
+2017-01-18 08:07:23	uso_	NaughtySquid: in your /etc/pacman.conf just under "#misc option" add "ILoveCandy"
+2017-01-18 08:07:23	libgradev	see there's this thing called Google... ;P
+2017-01-18 08:07:26	nauticalnexus	wait
+2017-01-18 08:07:27	uso_	withour the quote
+2017-01-18 08:07:28	nauticalnexus	HOLD ON
+2017-01-18 08:07:29	nauticalnexus	WAIT.
+2017-01-18 08:07:35	nauticalnexus	LIAM.
+2017-01-18 08:07:39	nauticalnexus	WHY ARE YOU USING YAOURT
+2017-01-18 08:07:52	xpander69	alias yaourt -Syua --noconfirm="fuckingupdate"
+2017-01-18 08:08:25	nauticalnexus	NaughtySquid, https://wiki.archlinux.org/index.php/AUR_helpers#Comparison_table
+2017-01-18 08:08:25	GolBot	[ AUR helpers - ArchWiki ]
+2017-01-18 08:08:30	homerj	wat?
+2017-01-18 08:08:35	homerj	ILoveCandy?
+2017-01-18 08:08:39	nauticalnexus	yeah
+2017-01-18 08:08:49	nauticalnexus	it makes the progress bars Pacman
+2017-01-18 08:08:53	@NaughtySquid	xpander69: hmmm do i need to refresh it or something?
+2017-01-18 08:09:06	xpander69	open new terminal
+2017-01-18 08:09:10	von	--noconfirm is bad
+2017-01-18 08:09:16	nauticalnexus	...or source ~/.bashrc
+2017-01-18 08:09:25	von	aur is not moderated, not even reviewed or approved
+2017-01-18 08:09:29	nauticalnexus	^
+2017-01-18 08:09:32	xpander69	--noconfirm can be bad yeah :D
+2017-01-18 08:09:32	-->	Crendgrim_ (~crend@wesnoth/forum-moderator/crendgrim) has joined #gamingonlinux
+2017-01-18 08:09:34	nauticalnexus	plus yaourt is bad
+2017-01-18 08:09:35	xpander69	but i still use it :D
+2017-01-18 08:09:37	nauticalnexus	in general
+2017-01-18 08:09:42	xpander69	yaourt is great
+2017-01-18 08:09:45	libgradev	pacaur - again
+2017-01-18 08:09:48	nauticalnexus	did you not see the link
+2017-01-18 08:09:48	nauticalnexus	https://wiki.archlinux.org/index.php/AUR_helpers#Comparison_table
+2017-01-18 08:09:49	GolBot	[ AUR helpers - ArchWiki ]
+2017-01-18 08:09:51	von	do not trust packages in aur.
+2017-01-18 08:09:54	libgradev	handles split pkgs correctly
+2017-01-18 08:09:55	nauticalnexus	yaourt is severely unsafe
+2017-01-18 08:09:56	nauticalnexus	as hell
+2017-01-18 08:09:57	xpander69	i saw all the links
+2017-01-18 08:09:59	xpander69	who cares
+2017-01-18 08:10:03	nauticalnexus	....
+2017-01-18 08:10:06	libgradev	amongst other things...
+2017-01-18 08:10:10	xpander69	yaourt at least shows latest comments
+2017-01-18 08:10:16	xpander69	so i can see if something is wrong with the package
+2017-01-18 08:10:19	@NaughtySquid	hmmm xpander69 not working
+2017-01-18 08:10:19	nauticalnexus	don't bitch to me when your system fails then
+2017-01-18 08:10:48	xpander69	NaughtySquid, i dunno then.. probably made a typo or something :)
+2017-01-18 08:11:04	@NaughtySquid	alias yaourt -Syua="fuckingupdate"
+2017-01-18 08:11:05	<--	Crendgrim (~crend@wesnoth/forum-moderator/crendgrim) has quit (Ping timeout: 240 seconds)
+2017-01-18 08:11:09	@NaughtySquid	just at the end of the file?
+2017-01-18 08:11:20	xpander69	and when you type fuckingupdate to terminal it doesnt work?
+2017-01-18 08:11:28	@NaughtySquid	nopes
+2017-01-18 08:11:32	xpander69	hmm
+2017-01-18 08:11:52	@NaughtySquid	[liam@liam-antergos ~]$ sudo fuckingupdate
+2017-01-18 08:11:54	@NaughtySquid	[sudo] password for liam:
+2017-01-18 08:11:55	@NaughtySquid	sudo: fuckingupdate: command not found
+2017-01-18 08:11:57	@NaughtySquid	[liam@liam-antergos ~]$
+2017-01-18 08:12:25	von	err wat
+2017-01-18 08:12:29	xpander69	ohh wait :D
+2017-01-18 08:12:31	nauticalnexus	don't run yaourt as sudo
+2017-01-18 08:12:36	nauticalnexus	#1
+2017-01-18 08:12:36	xpander69	yeah no sudo
+2017-01-18 08:12:37	@NaughtySquid	you had the syntax wrong xpander69
+2017-01-18 08:12:38	von	maybe the other way around?
+2017-01-18 08:12:48	von	alias fuckingupdate='yaourt whatever'
+2017-01-18 08:12:50	xpander69	but put the stuff into quotes :D
+2017-01-18 08:12:55	xpander69	yeah
+2017-01-18 08:13:01	libgradev	Liam: alias sysupd='sudo pacman -Sy --needed linux-headers pacman && pacaur -Syu --noedit'
+2017-01-18 08:13:14	nauticalnexus	pacaur :D
+2017-01-18 08:13:24	xpander69	yeah i said viceversa :D my bad :D
+2017-01-18 08:13:39	nauticalnexus	HAHAHAH IT EVEN WORKS IN ZSH
+2017-01-18 08:13:53	nauticalnexus	wow that's amazing
+2017-01-18 08:14:09	xpander69	so alias 'fuckingupdate'= 'yaourt -Syua --noconfirm'
+2017-01-18 08:14:10	nauticalnexus	I made "updatepls" equal "sudo apt update && sudo apt upgrade"
+2017-01-18 08:14:13	xpander69	that should work
+2017-01-18 08:15:12	teenytree	lol that reminds me of this amazing tool I found called thefuck https://github.com/nvbn/thefuck
+2017-01-18 08:15:14	GolBot	[ GitHub - nvbn/thefuck: Magnificent app which corrects your previous console command. ]
+2017-01-18 08:15:34	nauticalnexus	see I ask nicely
+2017-01-18 08:15:38	libgradev	sysupd being the command you run
+2017-01-18 08:15:47	libgradev	clit's a thing too ;)
+2017-01-18 08:15:49	nauticalnexus	I say "updatepls"
+2017-01-18 08:16:44	-->	outside (~outside@donger/dongest/outside) has joined #gamingonlinux
+2017-01-18 08:16:49	<--	grumplestiltzkin (~outside@donger/dongest/outside) has quit (Write error: Broken pipe)
+2017-01-18 08:16:50	-->	liam__ (~liam@cpc94110-newt38-2-0-cust75.19-3.cable.virginm.net) has joined #gamingonlinux
+2017-01-18 08:16:50	--	Mode #gamingonlinux [+o liam__] by ChanServ
+2017-01-18 08:16:52	<--	Tiedemann (~multiforc@150.81-166-69.customer.lyse.net) has quit (Excess Flood)
+2017-01-18 08:16:54	<--	gbee (~stuartm@mythtv/developer/stuartm) has quit (Remote host closed the connection)
+2017-01-18 08:16:58	@liam__	so yeah my net jumped off a cliff for a moment there
+2017-01-18 08:17:03	nauticalnexus	lol
+2017-01-18 08:17:06	--	outside is now known as grumplestiltzkin
+2017-01-18 08:17:07	nauticalnexus	hi liam
+2017-01-18 08:17:10	<--	TingPing (~tingping@fedora/pdpc.professional.tingping) has quit (Excess Flood)
+2017-01-18 08:17:15	-->	Tiedemann (~multiforc@150.81-166-69.customer.lyse.net) has joined #gamingonlinux
+2017-01-18 08:17:20	@liam__	brb
+2017-01-18 08:17:21	-->	TingPing (~tingping@fedora/pdpc.professional.tingping) has joined #gamingonlinux
+2017-01-18 08:17:21	<--	NaughtySquid (~liam@cpc94110-newt38-2-0-cust75.19-3.cable.virginm.net) has quit (Write error: Broken pipe)
+2017-01-18 08:17:24	<--	liam__ (~liam@cpc94110-newt38-2-0-cust75.19-3.cable.virginm.net) has quit (Client Quit)
+2017-01-18 08:17:52	stqn	I have a feeling liam’s Arch install will soon be broken :)
+2017-01-18 08:17:59	nauticalnexus	lol
+2017-01-18 08:18:06	xpander69	nothing new there :D
+2017-01-18 08:18:24	@Samsai	it already was once
+2017-01-18 08:18:31	nauticalnexus	well that's yaourt for you
+2017-01-18 08:18:41	-->	antarcti1ian (~sgunes@st-cn0001.oulu.fi) has joined #gamingonlinux
+2017-01-18 08:18:41	@Samsai	wasn't caused by yaourt
+2017-01-18 08:18:41	-->	vmode_ (~vmode@li150-249.members.linode.com) has joined #gamingonlinux
+2017-01-18 08:18:43	xpander69	it was because he missed lib32 nvidia drivers :D
+2017-01-18 08:18:43	<--	vmode (~vmode@li150-249.members.linode.com) has quit (Write error: Broken pipe)
+2017-01-18 08:18:43	<--	doppo (doppo@2604:180::e0fc:a07f) has quit (Write error: Broken pipe)
+2017-01-18 08:18:49	-->	oddvar_ (~dollarone@oddvar.org) has joined #gamingonlinux
+2017-01-18 08:18:49	@Samsai	he combined nouveau and nvidia prop drivers
+2017-01-18 08:18:52	-->	doppo_ (doppo@2604:180::e0fc:a07f) has joined #gamingonlinux
+2017-01-18 08:18:54	-->	krbtgt__ (~calvin@remote.stenoweb.net) has joined #gamingonlinux
+2017-01-18 08:18:56	nauticalnexus	you don't do that
+2017-01-18 08:18:58	<--	antarctician (~sgunes@st-cn0001.oulu.fi) has quit (Remote host closed the connection)
+2017-01-18 08:18:58	nauticalnexus	you just don't
+2017-01-18 08:19:00	--	Crendgrim_ is now known as Crendgrim
+2017-01-18 08:19:11	teenytree	anyone want to play some Rocket League?
+2017-01-18 08:19:13	--	doppo_ is now known as doppo
+2017-01-18 08:19:20	<--	bcsaller (~quassel@c-24-6-151-117.hsd1.ca.comcast.net) has quit (*.net *.split)
+2017-01-18 08:19:20	<--	derpdude (uid189461@gateway/web/irccloud.com/x-pstsjebxdqoqedwk) has quit (*.net *.split)
+2017-01-18 08:19:20	<--	rndevfx (~rnespitha@host-93-104-237-213.customer.m-online.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Faalagorn (~faalagorn@89-67-48-141.dynamic.chello.pl) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	TheSilen- (~TheSilent@unaffiliated/thesilentlink) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	koden-km (~koden-km@27-33-52-6.static.tpgi.com.au) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	flipper-maniac (~quassel@unaffiliated/flipper-maniac) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	zopsi (~zopsi@dir.ac) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	benoliver999 (~benoliver@198.50.245.34) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	jxf (sid59058@gateway/web/irccloud.com/x-yeadvbqxwckvztdg) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	vayan (sid14337@gateway/web/irccloud.com/x-fluyvmiofszhdovt) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	UgJkA (~ugjka@ugjka.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	wN (~jack@redhat/jwaterwo) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	krbtgt_ (~calvin@remote.stenoweb.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	von (~von@unaffiliated/von) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	MatthewAllan93 (~MatthewAl@unaffiliated/matthewallan93) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Fenix2412 (Fenix2412@2001:41d0:1000:3c6:1338::10) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	uso_ (~matthias@ows-185-21-195-233.eu-west-1.compute.outscale.com) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Dezponia (~pony@h-9-234.a357.priv.bahnhof.se) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	addaitech (addaitech@null.route.ddos.im) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	trousermonkey (~na@c-73-231-220-25.hsd1.ca.comcast.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	yarre (sid37501@gateway/web/irccloud.com/x-sjbpywhnwuflhksn) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	jaapz (~jaapz@141.138.199.174) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	oddvar (~dollarone@oddvar.org) has quit (*.net *.split)
+2017-01-18 08:19:34	xpander69	do not split
+2017-01-18 08:19:36	-->	TheSilentLink (~TheSilent@unaffiliated/thesilentlink) has joined #gamingonlinux
+2017-01-18 08:19:37	-->	jaapz (~jaapz@141.138.199.174) has joined #gamingonlinux
+2017-01-18 08:19:37	-->	uso_ (~matthias@ows-185-21-195-233.eu-west-1.compute.outscale.com) has joined #gamingonlinux
+2017-01-18 08:19:39	-->	von (~von@unaffiliated/von) has joined #gamingonlinux
+2017-01-18 08:19:44	-->	zopsi (~zopsi@dir.ac) has joined #gamingonlinux
+2017-01-18 08:19:45	nauticalnexus	damn
+2017-01-18 08:20:02	-->	koden-km (~koden-km@27-33-52-6.static.tpgi.com.au) has joined #gamingonlinux
+2017-01-18 08:20:04	-->	wN (~jack@cpe-172-74-75-122.nc.res.rr.com) has joined #gamingonlinux
+2017-01-18 08:20:04	<--	wN (~jack@cpe-172-74-75-122.nc.res.rr.com) has quit (Changing host)
+2017-01-18 08:20:04	-->	wN (~jack@redhat/jwaterwo) has joined #gamingonlinux
+2017-01-18 08:20:07	-->	addaitech (addaitech@null.route.ddos.im) has joined #gamingonlinux
+2017-01-18 08:20:13	-->	gbee (~stuartm@cpc95496-derb17-2-0-cust390.8-3.cable.virginm.net) has joined #gamingonlinux
+2017-01-18 08:20:14	<--	gbee (~stuartm@cpc95496-derb17-2-0-cust390.8-3.cable.virginm.net) has quit (Changing host)
+2017-01-18 08:20:14	-->	gbee (~stuartm@mythtv/developer/stuartm) has joined #gamingonlinux
+2017-01-18 08:20:19	xpander69	i think liam isnt coming back anymore :D
+2017-01-18 08:20:31	xpander69	few days later he announces that he is using ubuntu again
+2017-01-18 08:20:32	-->	benoliver999 (~benoliver@198.50.245.34) has joined #gamingonlinux
+2017-01-18 08:20:45	libgradev	his PC exploded? I was AFK :/
+2017-01-18 08:20:52	-->	ugjka (~ugjka@ugjka.net) has joined #gamingonlinux
+2017-01-18 08:20:56	xpander69	we dont know yet :D
+2017-01-18 08:21:02	xpander69	client quit was the quit message
+2017-01-18 08:21:05	-->	Dezponia (~pony@h-9-234.a357.priv.bahnhof.se) has joined #gamingonlinux
+2017-01-18 08:21:14	stqn	hehe :)
+2017-01-18 08:21:15	Piratelv	just watch his twitter, he'll sigh on there when it dies again :D
+2017-01-18 08:21:40	nauticalnexus	lol
+2017-01-18 08:21:51	<--	blacksyke (sid151792@gateway/web/irccloud.com/x-iqyrjxreqhzrbqwt) has quit (Ping timeout: 258 seconds)
+2017-01-18 08:21:55	libgradev	ahh don't you guys just love these *new* Linux users ;D
+2017-01-18 08:22:07	xpander69	i think his irc client quit message should be (Brexit)
+2017-01-18 08:22:28	-->	Swankey (~Swankey@76.9.199.178) has joined #gamingonlinux
+2017-01-18 08:22:34	@Samsai	liam's dead?
+2017-01-18 08:22:45	-->	MatthewAllan93 (~MatthewAl@2001:4b98:dc2:43:216:3eff:fe92:c2e0) has joined #gamingonlinux
+2017-01-18 08:22:45	-->	bcsaller (~quassel@c-24-6-151-117.hsd1.ca.comcast.net) has joined #gamingonlinux
+2017-01-18 08:22:45	-->	rndevfx (~rnespitha@host-93-104-237-213.customer.m-online.net) has joined #gamingonlinux
+2017-01-18 08:22:45	-->	Faalagorn (~faalagorn@89-67-48-141.dynamic.chello.pl) has joined #gamingonlinux
+2017-01-18 08:22:45	-->	flipper-maniac (~quassel@unaffiliated/flipper-maniac) has joined #gamingonlinux
+2017-01-18 08:22:45	-->	trousermonkey (~na@c-73-231-220-25.hsd1.ca.comcast.net) has joined #gamingonlinux
+2017-01-18 08:22:49	@Samsai	guess what that means :D
+2017-01-18 08:22:51	-->	jxf (sid59058@gateway/web/irccloud.com/x-zwcfpglrsrcgmqxc) has joined #gamingonlinux
+2017-01-18 08:23:03	<--	MatthewAllan93 (~MatthewAl@2001:4b98:dc2:43:216:3eff:fe92:c2e0) has quit (Max SendQ exceeded)
+2017-01-18 08:23:10	xpander69	that means you can run away with all the patreon money? :D
+2017-01-18 08:23:17	libgradev	muhaha
+2017-01-18 08:23:24	-->	MatthewAllan93 (~MatthewAl@2001:4b98:dc2:43:216:3eff:fe92:c2e0) has joined #gamingonlinux
+2017-01-18 08:23:27	@Samsai	nah
+2017-01-18 08:23:30	-->	Swankey_ (~Swankey@206.223.184.2) has joined #gamingonlinux
+2017-01-18 08:23:39	xpander69	you wouldnt go far with that money though :D
+2017-01-18 08:23:43	xpander69	its not enough
+2017-01-18 08:23:52	@Samsai	i'm going to elevate myself to the position of the high overseer ultimate overlord of GOL
+2017-01-18 08:23:56	-->	emp64 (~quassel@92-52-6-237.dynamic.orange.sk) has joined #gamingonlinux
+2017-01-18 08:23:57	@Samsai	and then run with the patreon money
+2017-01-18 08:23:59	nauticalnexus	what the fuck is Liam's Twitter handle
+2017-01-18 08:24:01	nauticalnexus	god damn
+2017-01-18 08:24:22	xpander69	same as the name here :D
+2017-01-18 08:24:27	-->	TwistedFate (~TwistedFa@unaffiliated/twistedfate) has joined #gamingonlinux
+2017-01-18 08:24:33	-->	frostwork (~frostwork@p5DDE6D69.dip0.t-ipconnect.de) has joined #gamingonlinux
+2017-01-18 08:24:34	Piratelv	https://twitter.com/thenaughtysquid
+2017-01-18 08:24:35	@Samsai	he's obviously naughtysquid
+2017-01-18 08:24:35	GolBot	[ SirSquid (@thenaughtysquid) | Twitter ]
+2017-01-18 08:24:50	<--	angular_mike_ (sid45533@gateway/web/irccloud.com/x-enljltnevlvpindv) has quit (Ping timeout: 240 seconds)
+2017-01-18 08:25:09	nauticalnexus	oooh
+2017-01-18 08:25:16	nauticalnexus	THE
+2017-01-18 08:25:19	nauticalnexus	there's a THE
+2017-01-18 08:25:25	@Samsai	there is nothing weird about naughty squids
+2017-01-18 08:25:45	libgradev	^^
+2017-01-18 08:26:07	@Samsai	but i would like to point out that he really likes that animu
+2017-01-18 08:26:23	nauticalnexus	lol
+2017-01-18 08:26:50	<--	Swankey (~Swankey@76.9.199.178) has quit (Ping timeout: 252 seconds)
+2017-01-18 08:27:05	xpander69	why did youtube remove subscribtions button from the top of the page? i now have to fucking use the stupid sidepanel to go into my subscriptions list :(
+2017-01-18 08:27:15	libgradev	Samsai: he's just a bit weird really, isn't he
+2017-01-18 08:27:32	@Samsai	libgradev, and a bit naughty
+2017-01-18 08:27:34	@Samsai	just ask tumocs
+2017-01-18 08:27:36	libgradev	lol
+2017-01-18 08:27:40	<--	rndevfx (~rnespitha@host-93-104-237-213.customer.m-online.net) has quit (Remote host closed the connection)
+2017-01-18 08:28:14	-->	Fenix2412 (Fenix2412@2001:41d0:1000:3c6:1338::10) has joined #gamingonlinux
+2017-01-18 08:28:25	-->	yarre (sid37501@gateway/web/irccloud.com/x-viphijceoeigmsxs) has joined #gamingonlinux
+2017-01-18 08:28:32	-->	derpdude (uid189461@gateway/web/irccloud.com/x-qyffawnaeyxnbhqn) has joined #gamingonlinux
+2017-01-18 08:28:46	-->	blacksyke (sid151792@gateway/web/irccloud.com/x-zuseqelniqefzzod) has joined #gamingonlinux
+2017-01-18 08:30:12	libgradev	he really has nuked it
+2017-01-18 08:30:43	libgradev	Samsai: you on Arch too
+2017-01-18 08:30:48	@Samsai	what did liam even do?
+2017-01-18 08:30:50	@Samsai	libgradev, yes
+2017-01-18 08:30:57	-->	vayan (sid14337@gateway/web/irccloud.com/x-iiphcqhajhlwscpy) has joined #gamingonlinux
+2017-01-18 08:31:10	libgradev	he was trying to update from the AUR
+2017-01-18 08:31:14	@Samsai	PPAs shipped really bad stable mesa for me while we were supposed to play HOI4
+2017-01-18 08:31:18	@Samsai	so i got angry
+2017-01-18 08:31:20	libgradev	nice :) what WM you use?
+2017-01-18 08:31:25	@Samsai	xfwm
+2017-01-18 08:31:31	@Samsai	it's an ordinary xfce setup
+2017-01-18 08:31:34	<--	SnowCrash (~SnowCrash@ares.esotericforest.com) has quit (Quit: ZNC - http://znc.in)
+2017-01-18 08:31:48	stqn	Samsai: not sure if Arch will help as you generally don’t get the choice of the versions you install
+2017-01-18 08:31:48	Fenix2412	how can you fuck up your OS while updating stuff from AUR?
+2017-01-18 08:31:57	-->	NaughtySquid (~liam@104.238.169.121) has joined #gamingonlinux
+2017-01-18 08:31:57	--	Mode #gamingonlinux [+o NaughtySquid] by ChanServ
+2017-01-18 08:32:05	@Samsai	NaughtySquid, what did you break this time?
+2017-01-18 08:32:10	xpander69	i never fucked up from updatting from aur :D
+2017-01-18 08:32:17	xpander69	but i guess if you have gpu drivers from there you could
+2017-01-18 08:32:22	@Samsai	stqn, at least the stable mesa works here
+2017-01-18 08:32:34	@Samsai	on ubuntu everything was red and crashy
+2017-01-18 08:32:50	Fenix2412	xpander69, still easy to fix
+2017-01-18 08:32:55	-->	SnowCrash (~SnowCrash@ares.esotericforest.com) has joined #gamingonlinux
+2017-01-18 08:32:56	libgradev	using mesa git here - working fine - Deus Ex performance up greatly FYI
+2017-01-18 08:32:56	xpander69	true that
+2017-01-18 08:33:22	<--	SnowCrash (~SnowCrash@ares.esotericforest.com) has quit (Changing host)
+2017-01-18 08:33:22	-->	SnowCrash (~SnowCrash@unaffiliated/esotericforest) has joined #gamingonlinux
+2017-01-18 08:34:31	-->	angular_mike_ (sid45533@gateway/web/irccloud.com/x-veddtqfcluhkqivz) has joined #gamingonlinux
+2017-01-18 08:35:11	@NaughtySquid	Samsai: huh nothing
+2017-01-18 08:35:15	@NaughtySquid	switched to vpn
+2017-01-18 08:35:30	@Samsai	NaughtySquid, oh
+2017-01-18 08:35:37	xpander69	long switch :D
+2017-01-18 08:35:41	@Samsai	well
+2017-01-18 08:35:47	@Samsai	my reign of terror was short-lived
+2017-01-18 08:35:52	libgradev	lol
+2017-01-18 08:35:57	libgradev	but brutal
+2017-01-18 08:36:13	xpander69	NaughtySquid, meanwhile Samsai bought a plain ticked with your patreon money :D
+2017-01-18 08:36:15	@Samsai	NaughtySquid, i might have started executing people for heresy while you were gone
+2017-01-18 08:36:16	xpander69	in case you missed
+2017-01-18 08:36:23	xpander69	plane*
+2017-01-18 08:36:54	<--	Tobbi (~Tobbi@supertux/tobbi) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-18 08:36:54	libgradev	xpander69: it could have been a plain plane ticket...
+2017-01-18 08:37:00	-->	murray (~murray@91.229.169.120) has joined #gamingonlinux
+2017-01-18 08:37:12	@NaughtySquid	whut
+2017-01-18 08:37:16	xpander69	Max Plain
+2017-01-18 08:37:18	-->	canseco (~quassel@50.195.79.188.dynamic.jazztel.es) has joined #gamingonlinux
+2017-01-18 08:37:20	libgradev	lol
+2017-01-18 08:38:15	-->	psymin (~psymin@host-69-146-8-222.static.bresnan.net) has joined #gamingonlinux
+2017-01-18 08:38:47	libgradev	NaughtySquid: what WM you using?
+2017-01-18 08:38:47	-->	yepla (~quassel@LFbn-1-10252-187.w86-193.abo.wanadoo.fr) has joined #gamingonlinux
+2017-01-18 08:39:18	xpander69	SquidWM
+2017-01-18 08:39:18	@NaughtySquid	KDE
+2017-01-18 08:39:38	libgradev	You've not completely ascended yet then ;D
+2017-01-18 08:41:24	-->	Tobbi (~Tobbi@supertux/tobbi) has joined #gamingonlinux
+2017-01-18 08:42:25	stqn	libgradev: trying to start a WM war? These are uncommon.
+2017-01-18 08:42:47	-->	EdSantos754 (~EdSantos7@a109-49-148-107.cpe.netcabo.pt) has joined #gamingonlinux
+2017-01-18 08:43:02	libgradev	lol
+2017-01-18 08:43:52	frostwork	2017 - the year of the linux DE wars :}
+2017-01-18 08:43:56	tumocs	twm is the only proper wm!
+2017-01-18 08:44:27	stqn	OpenBox is the best.
+2017-01-18 08:44:46	xpander69	WM is for weak
+2017-01-18 08:44:51	tumocs	more like brokenbox am I right guise?!
+2017-01-18 08:44:55	Smilex	You are all incorrect! Clearly the best one is the one I made
+2017-01-18 08:45:01	stqn	tumocs: lol :)
+2017-01-18 08:45:06	libgradev	Oooh got a good spread here today then - i3
+2017-01-18 08:45:16	hidekin	i3 too :D
+2017-01-18 08:45:25	xpander69	i3 is 2 cores only :D
+2017-01-18 08:45:56	libgradev	xpander69: very good ;p
+2017-01-18 08:46:11	libgradev	I'm ex Awesome
+2017-01-18 08:46:37	xpander69	xfwm ftw clearly :D
+2017-01-18 08:46:50	 *	frostwork nods
+2017-01-18 08:46:52	-->	DigitalReaper (~DigitalRe@2a00:23c4:583:da00:4555:c04d:484b:ce04) has joined #gamingonlinux
+2017-01-18 08:47:09	xpander69	i dont use XFCE though :P
+2017-01-18 08:47:21	libgradev	NaughtySquid: once you use a tiling WM you won't look back
+2017-01-18 08:47:31	comrad	fvwm95 ftw!
+2017-01-18 08:47:34	tumocs	!!!Tom's Window Manager!!!
+2017-01-18 08:47:50	xpander69	tumocs window manager - twm
+2017-01-18 08:48:04	<--	Kryptron (~Kryptron@unaffiliated/kryptron) has quit (Read error: Connection reset by peer)
+2017-01-18 08:48:04	tumocs	I'll just fork it and change the name
+2017-01-18 08:48:40	homerj	I tried tiling
+2017-01-18 08:48:44	homerj	I could never figure it out
+2017-01-18 08:48:58	-->	Kryptron (~Kryptron@unaffiliated/kryptron) has joined #gamingonlinux
+2017-01-18 08:49:00	xpander69	same.. i never got used to tiling
+2017-01-18 08:49:20	libgradev	give it a week, so much real estate
+2017-01-18 08:49:29	xpander69	i think i gave it 2 weeks
+2017-01-18 08:49:34	xpander69	i3
+2017-01-18 08:49:40	<--	Tobbi (~Tobbi@supertux/tobbi) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-18 08:50:53	xpander69	maybe i should try again, it was 1 year ago or more.. but im lazy atm.. it will ruin my workflow at first :D
+2017-01-18 08:51:18	libgradev	:)
+2017-01-18 08:51:46	@NaughtySquid	right, family time
+2017-01-18 08:51:49	@NaughtySquid	will be back later
+2017-01-18 08:51:57	@NaughtySquid	telegram or email me if it's important or noteworthy
+2017-01-18 08:51:59	xpander69	id like to have second monitor with tiling wm and primary with normal :D
+2017-01-18 08:52:28	libgradev	what's your telegram?
+2017-01-18 08:52:53	 *	xpander69 goes afk also
+2017-01-18 08:53:02	-->	chomwitt3 (~chomwitt@ppp-94-69-222-21.home.otenet.gr) has joined #gamingonlinux
+2017-01-18 08:53:30	von	moving tags between screens in i3 is amazing
+2017-01-18 08:54:08	libgradev	von: yup - have you got the search addon?
+2017-01-18 08:54:23	von	the search addon?
+2017-01-18 08:54:31	libgradev	sec I'm diggin it up
+2017-01-18 08:54:37	von	don't think so, I use an upstream version, don't think it supports addons
+2017-01-18 08:55:01	<--	chomwitt2 (~chomwitt@ppp-94-67-200-3.home.otenet.gr) has quit (Ping timeout: 256 seconds)
+2017-01-18 08:55:13	libgradev	quickswitch-i3
+2017-01-18 08:56:04	libgradev	mod4+x and it searches all open windows on all tags across all screens!
+2017-01-18 08:57:22	von	I do have rofi installed for that (-show window), but I barely ever use it
+2017-01-18 08:57:35	von	maybe I just don't have too  many windows open, I dunno :)
+2017-01-18 08:58:39	libgradev	yeah, I've got, kinda a lot :D
+2017-01-18 08:59:21	von	I don't use rofi for launching stuff though since its fuzzy search is horrible, and the dev is a whiny little fuck
+2017-01-18 08:59:32	-->	diego12 (~diego11@93-55-117-150.ip263.fastwebnet.it) has joined #gamingonlinux
+2017-01-18 08:59:50	von	dmenu has its ow issue, but it's fuzzy search does not give me problems
+2017-01-18 09:00:10	Grifter	i couldn't get i3 to work with separate X screens when i tried it, is that still impossible?
+2017-01-18 09:00:10	libgradev	I just use dmenu
+2017-01-18 09:00:28	von	Grifter, what do you mean by that?
+2017-01-18 09:00:47	von	i3's multi monitor support is superb
+2017-01-18 09:00:49	libgradev	Grifter: I'm using it with multiple simultaneous X sessions if that helps
+2017-01-18 09:00:56	Grifter	i mean multiple monitors, each set up as a separate X screen, only the primary worked in i3, the others were non-interactable
+2017-01-18 09:01:04	libgradev	each using 3 screens
+2017-01-18 09:01:06	von	ah, that
+2017-01-18 09:01:18	von	maybe you have to run a separate i3 session on each screen?
+2017-01-18 09:01:28	von	are there even wms that do support that kind of setup?
+2017-01-18 09:01:32	Grifter	that defeats the purpose of a window manager, now i'm managing the window manager
+2017-01-18 09:01:51	Grifter	yes, all wms used to do it, but i don't think they do anymore
+2017-01-18 09:01:57	libgradev	ah, ok
+2017-01-18 09:02:10	libgradev	why did you want that ooi?
+2017-01-18 09:02:28	Grifter	so i can control each individual monitor through ssh
+2017-01-18 09:03:35	libgradev	use case?
+2017-01-18 09:04:03	Grifter	i thought i just gave one :p
+2017-01-18 09:04:05	Grifter	but let's say
+2017-01-18 09:04:10	libgradev	lol, end goal then
+2017-01-18 09:04:26	Grifter	you ssh in and want to mplayer on one monitor, but then change your mind, you want the output on a different monitor
+2017-01-18 09:04:48	Grifter	DISPLAY=:0.1 mplayer foo, DISPLAY=:0.2 mplayer foo
+2017-01-18 09:05:11	libgradev	ah ok
+2017-01-18 09:05:26	von	I probably should try awesome 4, haven't used awesome in a while now.
+2017-01-18 09:05:31	homerj	sometimes I work with a lot of windows, and it would be nice to have tiling
+2017-01-18 09:05:40	homerj	but I can never figure out how to move the windows around
+2017-01-18 09:05:51	Grifter	the whole point is to not move them around :p
+2017-01-18 09:05:54	homerj	that's what really got me
+2017-01-18 09:05:58	libgradev	Grifter: something like winswitch any use?
+2017-01-18 09:06:08	Grifter	never heard of it, libgradev what's that
+2017-01-18 09:06:49	libgradev	renders the client to a detatched (background) X session which you can attach to any running X session
+2017-01-18 09:07:11	libgradev	allows you to move apps between X sessions
+2017-01-18 09:07:35	Grifter	does it use a nested X server to do some jiggery-hackery?
+2017-01-18 09:07:37	von	homerj, generally, with hotkeys
+2017-01-18 09:08:01	homerj	Grifter, well, for instance I'm writing a paper, I have emacs, browser, pdf, etc. open
+2017-01-18 09:08:05	von	also if you want to run mostly floating, with only occasional tiling, you probably should try awesome.
+2017-01-18 09:08:18	homerj	I end up with emacs in a sliver a window on the side, and I can't make it the main window
+2017-01-18 09:08:28	homerj	or then go "ok, I want the pdf to be 1/2 the screen
+2017-01-18 09:08:33	libgradev	von: I used Awesome for about a year then left it - had some flaws which I haven't hit in i3
+2017-01-18 09:09:17	libgradev	Grifter: see http://xpra.org/
+2017-01-18 09:09:17	GolBot	[ xpra home page ]
+2017-01-18 09:09:26	libgradev	it's the backend iirc
+2017-01-18 09:09:44	-->	Crendgrim_ (~crend@wesnoth/forum-moderator/crendgrim) has joined #gamingonlinux
+2017-01-18 09:10:34	<--	murray (~murray@91.229.169.120) has quit (Ping timeout: 264 seconds)
+2017-01-18 09:10:45	Grifter	it sounds interesting but it's kind of backwards of what i use it for, in this case you use it like screen, ie you're actively at the monitor and attaching it to a new place, but what i like with having a separate X screen is being able to ssh in and control stuff without needing to be at the monitor itself
+2017-01-18 09:11:10	<--	Crendgrim (~crend@wesnoth/forum-moderator/crendgrim) has quit (Ping timeout: 240 seconds)
+2017-01-18 09:11:17	von	homerj, dwm and its derivatives (including awesome) have the 'main window' concept, when you have multiple windows tiled on the screen with one bigger than the others, and you just move the window you want to work with there
+2017-01-18 09:11:39	libgradev	yeah, I get where you're coming from. I wondered if there might be remote control built in...
+2017-01-18 09:12:31	Grifter	i think it's just the nature of the beast, i think new window managers don't really incorporate that aspect anymore (openbox doesn't work with separate x screens either anymore, though it used to), so i'm stuck with my old wm
+2017-01-18 09:12:39	libgradev	can't say I've ever had the need here
+2017-01-18 09:12:56	von	libgradev, some of the awesome's flaws I've fixed myself while I was using it, like support for sublayouts or reverting floating window sizes on switching between floating / tiled
+2017-01-18 09:13:54	von	chromium and some of its forks have a really weird bug, when they won't reattach tabs on the secondary screens.
+2017-01-18 09:14:02	von	that I obviously couldn't fix :)
+2017-01-18 09:14:09	<--	yepla (~quassel@LFbn-1-10252-187.w86-193.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2017-01-18 09:14:20	-->	yepla (~quassel@LFbn-1-10252-187.w86-193.abo.wanadoo.fr) has joined #gamingonlinux
+2017-01-18 09:15:04	libgradev	Grifter: makes me wonder why
+2017-01-18 09:15:38	libgradev	can't you just send a switch monitor command to a suitable WM?
+2017-01-18 09:16:23	homerj	von, yeah, but I never quite figured them out
+2017-01-18 09:16:33	homerj	the keyboard shortcuts, the configs, etc.
+2017-01-18 09:16:42	von	yeah, takes time and getting used to
+2017-01-18 09:17:05	Grifter	my wm works fine normally, i wouldn't mind having a newer wm like i3, but i also don't exactly need it
+2017-01-18 09:17:30	libgradev	von: It used to do annoying things like stall out when the LAN connection was down and it crashed out UE4-Editor due to the way it handled dialogs...
+2017-01-18 09:17:31	von	also I don't find the main window concept all that useful tbh, as well as tiling every window on the same screen. Too little space, I generally use tabbed layout, and an occasional window that I like to keep always visible on the side.
+2017-01-18 09:17:40	von	so it's mostly always fullscreen
+2017-01-18 09:17:43	Grifter	so it wouldn't be just switching the wm, it would be switching me, and i can't be arsed to do that yet, not enough upsides yet
+2017-01-18 09:17:50	<--	diego12 (~diego11@93-55-117-150.ip263.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-01-18 09:18:52	libgradev	Grifter: fair enough. Must be an alternative if WM's have been dropping the feature...
+2017-01-18 09:18:56	von	libgradev, window rules man, can't use a tiling wm without them :)
+2017-01-18 09:19:21	libgradev	i3 has them
+2017-01-18 09:19:49	Grifter	i'm not sure why, but i don't know anything about it either, i think it's because of nvidia's driver making all monitors be one screen, i assume that's what pushed it in that direction
+2017-01-18 09:19:58	von	my awesome config has like 150 lines with window rules applied.
+2017-01-18 09:20:08	von	(mostly formatting though)
+2017-01-18 09:20:20	von	libgradev, I think every tiling wm has to have them.
+2017-01-18 09:20:43	von	but my point was if some program behaves funny in a tiling wm, just make a window rule for it to be always floating
+2017-01-18 09:20:45	homerj	see, I'm also just lazy with configs
+2017-01-18 09:21:50	von	I'd rather like for i3 to stop making floating windows always on top. It kinda makes sense, but annoys me quite a bit sometimes.
+2017-01-18 09:23:10	von	Grifter, it's how X supports multi monitor setups really
+2017-01-18 09:23:22	von	I don't think it has to do with nvidia or any other driver
+2017-01-18 09:23:28	libgradev	von: ah, yeah, wouldn't have fixed the network issue and I don't know if it would have fixed UE4...
+2017-01-18 09:23:39	von	dunno about the network issue
+2017-01-18 09:23:46	Grifter	actually X's support of multi monitor is to use separate X screens, to bunch them all up is a kind of 'hack'
+2017-01-18 09:23:58	von	maybe you used some custom shit to display network status or something
+2017-01-18 09:24:07	von	could have been blocking awesome
+2017-01-18 09:24:50	libgradev	von: believe I read Awesome was single threaded so the whole UI could stall if an addon stalled...
+2017-01-18 09:25:19	von	libgradev, depends on how you write your addons I think, but yeah. There are some disadvantages to that.
+2017-01-18 09:25:41	von	I remember running wmii, it was blocked by launching programs lol.
+2017-01-18 09:25:57	von	"starting firefox? no, I don't think you can switch windows until it starts, sorry!"
+2017-01-18 09:25:59	libgradev	I've never had i3 stall out, ever
+2017-01-18 09:26:41	von	I've never had awesome stall out, but my only addon was asynchronous.
+2017-01-18 09:26:53	libgradev	:)
+2017-01-18 09:27:18	libgradev	Awesome was good generally though
+2017-01-18 09:27:25	von	flawed, but awesome :)
+2017-01-18 09:27:31	libgradev	yep :)
+2017-01-18 09:28:21	von	speaking of i3, I've replaced i3status with a small tool in python that can be extended with plugins
+2017-01-18 09:28:55	libgradev	yeah?
+2017-01-18 09:29:01	von	https://git.vdrandom.org/vdstatus
+2017-01-18 09:29:01	GolBot	[ vdstatus - An i3status alternative that can easily be extended. Some day, when it is ready. ]
+2017-01-18 09:29:16	von	it's not documented yet though :)
+2017-01-18 09:29:20	libgradev	lol
+2017-01-18 09:30:59	<--	emp64 (~quassel@92-52-6-237.dynamic.orange.sk) has quit (Remote host closed the connection)
+2017-01-18 09:31:04	von	it's not interactive though, so it can only display things :)
+2017-01-18 09:31:10	libgradev	I make heavy use of the scratchpad
+2017-01-18 09:31:24	von	I've tried it, but didn't find it all that useful really
+2017-01-18 09:31:47	libgradev	it is with rules - you can bind show/hide apps to key combinations
+2017-01-18 09:32:36	von	yeah, but I generally don't have ones that I need to access for a few second and then out of sight. I'm mostly fine with spreading them between tags.
+2017-01-18 09:32:55	libgradev	ahh
+2017-01-18 09:32:59	von	(insert a joke about how long it takes for emacs to start)
+2017-01-18 09:33:22	libgradev	keep stuff like terminal/Clementine/notes app on it
+2017-01-18 09:34:10	<--	NaughtySquid (~liam@104.238.169.121) has quit (Ping timeout: 240 seconds)
+2017-01-18 09:34:30	von	most of my work is done within terminals, so I tend to keep them on one of the tags. Music yeah, good point. I probably should try moving google music into the scratchpad.
+2017-01-18 09:34:58	libgradev	just means I can pop it up quickly on any screen / any tag
+2017-01-18 09:35:07	libgradev	then hide it again
+2017-01-18 09:36:10	von	notes yeah, but I still haven't found a tool nice enough for them. vimwiki seemed fine until I had to make a not in Russian (vim modes don't play well with non-latin keyboard layouts)
+2017-01-18 09:36:30	von	zim is a bit clunky and quite unstable
+2017-01-18 09:36:59	von	what do you use?
+2017-01-18 09:37:05	libgradev	I settled on simplenote
+2017-01-18 09:37:12	-->	Tobbi (~Tobbi@supertux/tobbi) has joined #gamingonlinux
+2017-01-18 09:37:34	libgradev	android app as well
+2017-01-18 09:37:36	von	ew, electron.
+2017-01-18 09:37:45	<--	ky0_ (~ky0@53554550.cm-6-6b.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2017-01-18 09:38:09	<--	ky0 (b92ed466@gateway/web/freenode/ip.185.46.212.102) has quit (Quit: Page closed)
+2017-01-18 09:38:52	stqn	that reminds me I lost my xfce notes when I switched to lxqt… oh well, I never looked at them
+2017-01-18 09:39:10	libgradev	just needed something simple that I could edit from my mob or desk
+2017-01-18 09:39:25	von	makes sense
+2017-01-18 09:39:49	libgradev	anything that's worth keeping gets escalated to a LibreOffice doc anyway
+2017-01-18 09:40:15	libgradev	or Inkscape SVG or <insert relevant application>
+2017-01-18 09:41:07	libgradev	I was using our internal OwnCloud server but Android editing was broken iirc
+2017-01-18 09:41:21	libgradev	that's got notes built in
+2017-01-18 09:42:01	von	for the stuff that I need access to remotely I use drafts in gmail lol
+2017-01-18 09:42:23	nauticalnexus	I'm a mature human I swear
+2017-01-18 09:42:28	libgradev	fair enough - I've used an email draft before
+2017-01-18 09:42:35	nauticalnexus	I just made my terminal spit out "no, fuck you" whenever I type "fuckyou"
+2017-01-18 09:42:44	libgradev	lol
+2017-01-18 09:42:54	nauticalnexus	I wonder if I can do that with a space..
+2017-01-18 09:43:34	<--	wN (~jack@redhat/jwaterwo) has quit (Ping timeout: 264 seconds)
+2017-01-18 09:43:41	von	fuck() { echo 'no, fuck you'; }
+2017-01-18 09:44:31	stqn	you have to check that "you" is the first argument
+2017-01-18 09:44:41	von	not necessarily
+2017-01-18 09:44:45	von	it's even funnier that way
+2017-01-18 09:44:58	von	'fuck work' - 'no, fuck you'; 'fuck my life' - 'no fuck you'
+2017-01-18 09:45:10	von	'fuck stqn' - 'no, fuck you'
+2017-01-18 09:45:15	von	a perfect function!
+2017-01-18 09:45:32	libgradev	stqn: you can't argue ;D
+2017-01-18 09:45:52	stqn	I’d make it return "you" is there is no argument, then.
+2017-01-18 09:45:56	stqn	if*
+2017-01-18 09:46:03	nauticalnexus	fuck everything                                      ✓
+2017-01-18 09:46:04	nauticalnexus	no, fuck you
+2017-01-18 09:46:09	nauticalnexus	lmao
+2017-01-18 09:46:19	nauticalnexus	the only thing is
+2017-01-18 09:46:23	nauticalnexus	when I open a new terminal
+2017-01-18 09:46:26	nauticalnexus	it spams "no, fuck you"
+2017-01-18 09:46:32	nauticalnexus	lmfao
+2017-01-18 09:46:43	libgradev	work pc then ;D
+2017-01-18 09:47:10	von	wat
+2017-01-18 09:47:15	von	why does that happen
+2017-01-18 09:47:20	nauticalnexus	idk
+2017-01-18 09:47:24	nauticalnexus	if I knew I'd fix it
+2017-01-18 09:47:32	von	indeed
+2017-01-18 09:47:46	stqn	while true; do fuck; done?
+2017-01-18 09:47:56	von	I think I'm gonna keep that function
+2017-01-18 09:49:05	nauticalnexus	wtf
+2017-01-18 09:49:49	nauticalnexus	how the shit
+2017-01-18 09:49:56	Half-Shot	Waff
+2017-01-18 09:49:57	von	what?
+2017-01-18 09:50:03	nauticalnexus	how the shit do I fix that
+2017-01-18 09:50:04	von	Half-Shot, you're alive!
+2017-01-18 09:50:05	von	good
+2017-01-18 09:50:11	von	fix what?
+2017-01-18 09:50:17	Half-Shot	I am? Awesome
+2017-01-18 09:50:38	Half-Shot	nauticalnexus: apply mustard to affected area
+2017-01-18 09:51:34	nauticalnexus	von, http://paste.ubuntu.com/23822874/
+2017-01-18 09:51:34	GolBot	[ Ubuntu Pastebin ]
+2017-01-18 09:51:46	von	ew
+2017-01-18 09:51:49	<--	Tobbi (~Tobbi@supertux/tobbi) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-01-18 09:51:56	von	nauticalnexus, what's in that bashrc?
+2017-01-18 09:52:05	nauticalnexus	I use zsh
+2017-01-18 09:52:08	von	eerr, zshrc
+2017-01-18 09:52:10	von	yeah, I see
+2017-01-18 09:52:20	nauticalnexus	alias fuck(){echo 'no, fuck you'}
+2017-01-18 09:52:36	von	what
+2017-01-18 09:52:38	von	nonono
+2017-01-18 09:52:41	nauticalnexus	????
+2017-01-18 09:52:45	von	remove alias, keep it as a function
+2017-01-18 09:52:53	von	just remove 'alias ' from that line
+2017-01-18 09:52:59	nauticalnexus	it did the same thing
+2017-01-18 09:53:01	nauticalnexus	lmao
+2017-01-18 09:53:14	nauticalnexus	that's amazing
+2017-01-18 09:53:16	von	you probably should read about how aliases and functions work in shell
+2017-01-18 09:53:36	nauticalnexus	well that doesn't change the fact that it's still doing it without alias
+2017-01-18 09:54:13	von	in a new terminal?
+2017-01-18 09:54:27	nauticalnexus	huh, no
+2017-01-18 09:54:30	nauticalnexus	interesting..
+2017-01-18 09:54:38	von	yeah, that zsh instance has to die
+2017-01-18 09:54:43	nauticalnexus	yay
+2017-01-18 09:54:45	von	the one that's endlessly spitting it
+2017-01-18 09:54:50	nauticalnexus	I did that
+2017-01-18 09:54:57	-->	libgrade1 (~gra@host86-156-172-146.range86-156.btcentralplus.com) has joined #gamingonlinux
+2017-01-18 09:54:58	<--	libgradev (~gra@host165-120-254-228.range165-120.btcentralplus.com) has quit (Ping timeout: 255 seconds)
+2017-01-18 09:55:35	nauticalnexus	this is the best thing ever
+2017-01-18 09:55:37	nauticalnexus	lmao
+2017-01-18 09:55:43	nauticalnexus	I just showed it to my bf
+2017-01-18 09:56:12	libgrade1	nauticalnexus: I've no idea what you've broken :D
+2017-01-18 09:56:24	nauticalnexus	lol
+2017-01-18 09:56:50	--	libgrade1 is now known as libgradev
+2017-01-18 09:56:59	libgradev	he impressed?
+2017-01-18 09:56:59	von	libgradev, alias func() {whatever}. I dunno why, but zsh just made that endless loop instead of just spitting a warning about syntax errors
+2017-01-18 09:57:10	nauticalnexus	HAHAHAHA
+2017-01-18 09:57:17	nauticalnexus	libgradev, he said my terminal is sassy
+2017-01-18 09:57:20	von	anyways, have fun, I've got to go now :)
+2017-01-18 09:57:33	libgradev	ttfn
+2017-01-18 09:57:35	nauticalnexus	von, alright, ttyl!
+2017-01-18 09:57:41	libgradev	nauticalnexus: lol, sassy
+2017-01-18 09:57:48	libgradev	don't hear that often
+2017-01-18 09:57:57	nauticalnexus	lol
+2017-01-18 09:58:22	-->	wN (~jack@cpe-172-74-75-122.nc.res.rr.com) has joined #gamingonlinux
+2017-01-18 09:58:22	<--	wN (~jack@cpe-172-74-75-122.nc.res.rr.com) has quit (Changing host)
+2017-01-18 09:58:22	-->	wN (~jack@redhat/jwaterwo) has joined #gamingonlinux
+2017-01-18 09:59:44	libgradev	mines functional ;p
+2017-01-18 10:00:58	psymin	mines?!
+2017-01-18 10:01:02	 *	psymin tiptoes.
+2017-01-18 10:01:18	nauticalnexus	lol
+2017-01-18 10:01:24	libgradev	mine's - being lazy, I'm eating Christmas cake ;p
+2017-01-18 10:02:34	stqn	lol
+2017-01-18 10:03:18	libgradev	and drinking Tea
+2017-01-18 10:03:45	libgradev	how wonderfully British of me :)
+2017-01-18 10:03:52	 *	nauticalnexus doesn't like tea
+2017-01-18 10:04:19	uso_	libgradev: https://www.youtube.com/watch?v=KpqFRu9k44Y
+2017-01-18 10:04:19	GolBot	[ Turisas - No Good Story Ever Starts With Drinking Tea (HD) - Turisas 2013 - Full album - YouTube ]
+2017-01-18 10:04:27	stqn	psymin: I wish there was a similar joke for "its", "your" and "im"
+2017-01-18 10:05:17	psymin	https://www.youtube.com/watch?v=063jQAM6N8I
+2017-01-18 10:05:17	GolBot	[ The It's-man & Intros of Monty Python's Flying Circus - YouTube ]
+2017-01-18 10:05:38	libgradev	Right, now I've finished stuffing my face...
+2017-01-18 10:07:23	--	irc: disconnected from server
+2017-01-18 10:07:43	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #gamingonlinux
+2017-01-18 10:07:43	--	Topic for #gamingonlinux is "Welcome to www.gamingonlinux.com IRC, feel free to talk about anything and be respectful! Support Liam on Patreon here: https://www.patreon.com/liamdawe, please try to follow our rules https://www.gamingonlinux.com/index.php?module=rules"
+2017-01-18 10:07:43	--	Topic set by NaughtySquid (~liam@cpc1-newt38-2-0-cust1058.19-3.cable.virginm.net) on Wed, 20 Jul 2016 01:30:12
+2017-01-18 10:07:43	--	Channel #gamingonlinux: 229 nicks (4 ops, 0 voices, 225 normals)
+2017-01-18 10:07:43	--	Channel created on Mon, 01 Apr 2013 12:01:43
+2017-01-18 10:10:40	libgradev	Anyone else rocking Deus?
+2017-01-18 10:12:27	-->	mirv_ (~mirv@host81-157-246-122.range81-157.btcentralplus.com) has joined #gamingonlinux
+2017-01-18 10:12:47	nauticalnexus	http://paste.ubuntu.com/23823078/
+2017-01-18 10:12:47	GolBot	[ Ubuntu Pastebin ]
+2017-01-18 10:13:18	psymin	double deus
+2017-01-18 10:13:29	libgradev	nauticalnexus: grats ;)
+2017-01-18 10:13:33	nauticalnexus	hehe
+2017-01-18 10:13:42	-->	Sonolin (~michael@wsip-184-178-115-131.sd.sd.cox.net) has joined #gamingonlinux
+2017-01-18 10:13:52	libgradev	you'll graduate to Arch soon ;p
+2017-01-18 10:13:56	nauticalnexus	nope
+2017-01-18 10:13:58	nauticalnexus	no Arch for me
+2017-01-18 10:14:00	nauticalnexus	not again
+2017-01-18 10:14:05	libgradev	:-O
+2017-01-18 10:14:13	libgradev	why?
+2017-01-18 10:14:19	nauticalnexus	so complicated
+2017-01-18 10:14:19	uso_	why?
+2017-01-18 10:14:19	nauticalnexus	:/
+2017-01-18 10:14:25	Fenix2412	nauticalnexus, what did you fuck yup to say that you won't use it again?
+2017-01-18 10:14:32	uso_	as Arch say: Arch is the best
+2017-01-18 10:14:33	nauticalnexus	I'm fine with Debian Testing
+2017-01-18 10:14:38	nauticalnexus	Fenix2412, LVM
+2017-01-18 10:14:48	libgradev	LVM - ahh
+2017-01-18 10:14:52	uso_	naa ubuntu is too complex, arch is easy & sweet
+2017-01-18 10:14:53	libgradev	it's served me well
+2017-01-18 10:14:54	-->	Keniyal (~Keniyal@unaffiliated/keniyal) has joined #gamingonlinux
+2017-01-18 10:14:56	uso_	and have candies
+2017-01-18 10:15:12	Fenix2412	lol I had more problems with ubuntu/mint sometimes than I have with arch :D
+2017-01-18 10:15:13	libgradev	ArchLinuxWorldDomination
+2017-01-18 10:15:21	nauticalnexus	that's another reason
+2017-01-18 10:15:30	<--	VikingHoarder (~VikingHoa@203.233.108.93.rev.vodafone.pt) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:15:30	nauticalnexus	Everyone that uses Arch thinks they're some sort of superior race
+2017-01-18 10:15:41	uso_	nauticalnexus: na that's not true
+2017-01-18 10:15:45	nauticalnexus	LOL
+2017-01-18 10:15:45	stqn	I know right
+2017-01-18 10:15:48	libgradev	aww nauticalnexus I was only kidding *hugs*
+2017-01-18 10:15:49	uso_	we are the superior race
+2017-01-18 10:15:51	nauticalnexus	you're fucking JOKING right
+2017-01-18 10:15:58	xpander69	im superior
+2017-01-18 10:16:00	stqn	they are delusional
+2017-01-18 10:16:01	xpander69	:D
+2017-01-18 10:16:03	nauticalnexus	you're no superior to anyone that is here
+2017-01-18 10:16:03	@Ysblokje	Did I see correctly that naughte is reviewing an arch based OS :D
+2017-01-18 10:16:13	nauticalnexus	get off your high horse
+2017-01-18 10:16:17	stqn	everybody knows Gentoo users are the superior race
+2017-01-18 10:16:22	nauticalnexus	lol
+2017-01-18 10:16:24	xpander69	lol
+2017-01-18 10:16:30	Fenix2412	ARCH IS ZE ONLY CHOICE FOR SUPPERIOR LINUX COMPUTING
+2017-01-18 10:16:34	nauticalnexus	I'm too ADHD to install Gentoo
+2017-01-18 10:16:38	qptain_Nemo	nauticalnexus: well, that's not true, i don't think i'm some sort of superior race
+2017-01-18 10:16:43	xpander69	well arch irc channel here in freenode is really toxic though:D
+2017-01-18 10:16:44	Cracker	if by superior means have 3 days to upgrade to the latest release, yah
+2017-01-18 10:16:45	nauticalnexus	most then
+2017-01-18 10:16:48	Cracker	gentoo is quite superior ;)
+2017-01-18 10:17:03	xpander69	you say something that others dont like you will be banned and yelled before that :D
+2017-01-18 10:17:12	nauticalnexus	^^^^
+2017-01-18 10:17:15	libgradev	xpander69: yeah I've noticed that
+2017-01-18 10:17:20	Sonolin	I'm planning on trying gentoo soon, I can't wait to join the one race
+2017-01-18 10:17:22	nauticalnexus	true, legitimate story
+2017-01-18 10:17:25	stqn	Cracker: there is no release to be updated to
+2017-01-18 10:17:27	nauticalnexus	I was in ARCHLINUX-WOMEN
+2017-01-18 10:17:32	xpander69	but thats actually minority.. loud minority of the community
+2017-01-18 10:17:34	Cracker	stqn: I use to run gentoo
+2017-01-18 10:17:46	nauticalnexus	I said one tiny thing that bursted their safe space
+2017-01-18 10:17:46	tumocs	Sonolin: gentoo is for people who can't into LFS
+2017-01-18 10:17:47	Cracker	whatever you want to call it, update to current, or whatever
+2017-01-18 10:17:48	nauticalnexus	and I got banned
+2017-01-18 10:17:51	libgradev	shame really as I find the forums fine...
+2017-01-18 10:17:52	nauticalnexus	basically for life
+2017-01-18 10:17:53	Sonolin	mostly because I got sick of compiling things on arch and why not if I have to compile 90% anyways?
+2017-01-18 10:18:04	nauticalnexus	as if I bloody care.
+2017-01-18 10:18:10	nauticalnexus	feminazi's over there
+2017-01-18 10:18:11	libgradev	nauticalnexus: what did you say???
+2017-01-18 10:18:12	Sonolin	or who want portage tumocs
+2017-01-18 10:18:18	nauticalnexus	libgradev, Jesus I forgot
+2017-01-18 10:18:22	libgradev	lol
+2017-01-18 10:18:26	nauticalnexus	but apparently it was FUCKING TERRIBLE
+2017-01-18 10:18:29	Cracker	compiling everything from source is really quite the waste of time today
+2017-01-18 10:18:35	libgradev	yeah religious stuff always kicks off ;p
+2017-01-18 10:18:52	Cracker	but whatever floats your boat.  I'm not hating on gentoo, I just have better things to do and to wait on than upgrading
+2017-01-18 10:18:59	Sonolin	not everybody runs x86 Cracker
+2017-01-18 10:19:06	nauticalnexus	I LOVE THAT NAME
+2017-01-18 10:19:12	stqn	Sonolin: Gentoo is great, past the initial difficulty cliff
+2017-01-18 10:19:16	nauticalnexus	yo, sup Cracker
+2017-01-18 10:19:19	Sonolin	not nearly as much in Arch ARM
+2017-01-18 10:19:21	nauticalnexus	:P
+2017-01-18 10:19:31	Sonolin	*as much packages
+2017-01-18 10:19:36	Cracker	sonolin: so what arch needs to compile from source today to get cpu specific instructions that make a real difference?
+2017-01-18 10:19:59	Sonolin	things that don't compile from the AUR natively on ARM, for example...
+2017-01-18 10:20:11	Sonolin	at least without manual intervention (then, really, what's the point of the AUR?)
+2017-01-18 10:20:29	qptain_Nemo	is it really that bad on arm?
+2017-01-18 10:20:30	xpander69	ARM ..pff
+2017-01-18 10:20:35	xpander69	gaming on linux on ARM? :D
+2017-01-18 10:20:39	xpander69	you kidding me? :D
+2017-01-18 10:20:41	Cracker	hehe
+2017-01-18 10:20:42	Sonolin	no
+2017-01-18 10:20:43	stqn	Cracker: you’re not hating on Gentoo but every time someone says the word you start to spread FUD about it and say how useless it is
+2017-01-18 10:20:47	Sonolin	GemRB runs great :D
+2017-01-18 10:20:50	Cracker	really?
+2017-01-18 10:20:52	Cracker	every time?
+2017-01-18 10:20:58	Cracker	do you have sites on this?
+2017-01-18 10:20:58	qptain_Nemo	xpander69: why not?
+2017-01-18 10:20:59	Cracker	;)
+2017-01-18 10:21:10	Sonolin	also Morrowind can technically run on arm, haven't tried yet though
+2017-01-18 10:21:14	Cracker	I speak in here like 3 times a month ;)
+2017-01-18 10:21:22	@Ysblokje	I have a few packages in AUR , if people complain it wont work on arm unless .... I'm more than willing to add patches
+2017-01-18 10:21:28	Sonolin	that's 90% of my quality gaming right there :)
+2017-01-18 10:21:28	stqn	Cracker: ok maybe not every time, but it’s not the first
+2017-01-18 10:21:37	uso_	frozen bubble should run fine on arm, as it's the only playable game on linux
+2017-01-18 10:21:41	uso_	*was
+2017-01-18 10:21:53	@Ysblokje	that's what the comments sections are for (In my oppinion)
+2017-01-18 10:21:58	Cracker	yah, I might have spoke about it being a waste of time compiling everything from source before, I can't argue that point ;)
+2017-01-18 10:22:43	xpander69	i do have rpi with arch though :D but i havent put it to good use yet cause i discovered that netflix cant be done
+2017-01-18 10:22:52	<--	BTRE (~BTRE@190.163.229.113) has quit (Quit: Leaving)
+2017-01-18 10:22:52	--	Crendgrim_ is now known as Crendgrim
+2017-01-18 10:22:57	Cracker	But I'm not hating on gentoo, just voicing my opinion about it's process of upgrading
+2017-01-18 10:22:59	Sonolin	ooh yea plus you can do X11 streaming via ARM, that's on my short list :)
+2017-01-18 10:23:07	nauticalnexus	Gentoo doesn't have systemd by default
+2017-01-18 10:23:07	Sonolin	then I have access to my full steam library for ~$40 :D
+2017-01-18 10:23:08	Cracker	That doesn't mean I think we should burn it with fire and kill it
+2017-01-18 10:23:08	nauticalnexus	what the fuck
+2017-01-18 10:23:15	nauticalnexus	what the literal, mindfucking fuck
+2017-01-18 10:23:21	Sonolin	nauticalnexus yet another reason for Gentoo
+2017-01-18 10:23:25	nauticalnexus	LOL
+2017-01-18 10:23:27	nauticalnexus	I like systemd
+2017-01-18 10:23:28	Sonolin	fuck systemd
+2017-01-18 10:23:35	stqn	Cracker: "FUD" may be a bit of an exageration from my part, but what I’m trying to say is updates take 10 min to 2 hours here, worst case 3 hours maybe, not 3 days. (on an i5)
+2017-01-18 10:23:37	uso_	I think slackware don't have systemd eiter
+2017-01-18 10:23:39	nauticalnexus	"no, fuck you"
+2017-01-18 10:23:44	xpander69	systemd is the best :D
+2017-01-18 10:23:50	Sonolin	yea I think you're right uso_
+2017-01-18 10:24:00	nauticalnexus	I like systemd :P
+2017-01-18 10:24:03	libgradev	oh grief we're on to systemd now ;D
+2017-01-18 10:24:07	Sonolin	as well as Void, Deavaun (sp?), and Manjaro (opt-out at least)
+2017-01-18 10:24:08	nauticalnexus	lol
+2017-01-18 10:24:08	uso_	and Patrick Volkerding use to brew beer himself
+2017-01-18 10:24:17	uso_	so the distro can't be bad
+2017-01-18 10:24:24	libgradev	works for me tbh
+2017-01-18 10:24:25	Cracker	stqn: Fair enough
+2017-01-18 10:25:04	Cracker	I used gentoo way back on crappy hardware, when CPU optimization did sometimes prove to be useful, so it took quite awhile
+2017-01-18 10:25:24	stqn	yeah the i5 certainly helps
+2017-01-18 10:25:25	Cracker	Depending on the packages that needed to be updated
+2017-01-18 10:25:31	qptain_Nemo	Cracker: how useful?
+2017-01-18 10:25:32	nauticalnexus	i7 i7 i7
+2017-01-18 10:25:41	Cracker	qptain_nemo: not very ;)
+2017-01-18 10:25:54	nauticalnexus	AMD AMD AMD
+2017-01-18 10:25:57	nauticalnexus	AMD AMD AMD AMD AMD AMD
+2017-01-18 10:26:02	Cracker	You could sometimes squeeze out a couple percent better performance
+2017-01-18 10:26:09	 *	nauticalnexus chants a combination of AMD and Debian Testing.
+2017-01-18 10:26:09	Cracker	but in the end not nearly enough for the effort I found
+2017-01-18 10:26:14	libgradev	nauticalnexus: well if you ever decide to try Arch again you're welcome to harass me for help :)
+2017-01-18 10:26:29	nauticalnexus	libgradev, just for help? :(
+2017-01-18 10:26:38	libgradev	lmfao
+2017-01-18 10:26:49	libgradev	shall we start at that and move on ;)
+2017-01-18 10:27:02	xpander69	get a room you two :D
+2017-01-18 10:27:09	nauticalnexus	well that was taken differently than I thought it would be taken
+2017-01-18 10:27:14	libgradev	lmfao
+2017-01-18 10:27:33	nauticalnexus	way differently
+2017-01-18 10:27:36	Cracker	I use Ubuntu today, mainly because I'm lazy, and it works and is supported
+2017-01-18 10:27:44	libgradev	sorry - installation instructions?!?
+2017-01-18 10:27:45	nauticalnexus	I use Debian Testing :D
+2017-01-18 10:27:45	Cracker	and it has LTS releases for my servers
+2017-01-18 10:27:53	Cracker	Debian is an amazing project
+2017-01-18 10:28:00	nauticalnexus	Debian turns me on..
+2017-01-18 10:28:04	xpander69	haiku!
+2017-01-18 10:28:05	nauticalnexus	in multiple ways
+2017-01-18 10:28:06	Cracker	used it for years and donated time and hardware and money to the project
+2017-01-18 10:28:23	Cracker	But I need a real supported piece of software for my servers and Ubuntu fits that bill
+2017-01-18 10:29:11	Cracker	Running anything considered "testing" in production is just silly IMO
+2017-01-18 10:29:35	libgradev	Cracker: oh, don't get me wrong, I don't run Arch on my servers
+2017-01-18 10:29:40	-->	BTRE (~BTRE@190.163.229.113) has joined #gamingonlinux
+2017-01-18 10:29:40	--	Mode #gamingonlinux [+o BTRE] by ChanServ
+2017-01-18 10:29:44	nauticalnexus	lol
+2017-01-18 10:29:48	tuubi	I regret that one ubuntu server I'm stuck with
+2017-01-18 10:29:56	libgradev	that would be *brave* ;D
+2017-01-18 10:29:58	nauticalnexus	omg tuubi
+2017-01-18 10:30:00	Cracker	hehe
+2017-01-18 10:30:01	nauticalnexus	it's me
+2017-01-18 10:30:05	nauticalnexus	IT'S ME tuubi
+2017-01-18 10:30:06	tuubi	debian all the way on servers
+2017-01-18 10:30:20	libgradev	ubuntu here
+2017-01-18 10:30:22	nauticalnexus	libgradev, check your fucking queries lol
+2017-01-18 10:30:29	frostwork	gentoo and arch on most servers @home and @work
+2017-01-18 10:30:31	Cracker	tuubi: that's the wonderful thing about GNU & Linux, you have choices and can pick what works best for you
+2017-01-18 10:30:34	Cracker	it's awesome!
+2017-01-18 10:30:41	nauticalnexus	tuubi, it's me from the Discord
+2017-01-18 10:30:41	tuubi	true
+2017-01-18 10:31:16	tuubi	yeah, i got it already, it's you :)
+2017-01-18 10:31:28	uso_	Cracker: exept asesome are for inferior peoples, real men use afterstep
+2017-01-18 10:31:36	nauticalnexus	it's me lol
+2017-01-18 10:31:59	Cracker	uso_: Whatever makes your water craft float ;)
+2017-01-18 10:34:43	sebbu	GNUStep
+2017-01-18 10:34:55	uso_	sebbu: gnu step is not a DE
+2017-01-18 10:35:44	nauticalnexus	i3 is my favourite DE
+2017-01-18 10:35:47	nauticalnexus	hands down
+2017-01-18 10:35:54	uso_	have someone ever suced to install that: http://etoileos.com/etoile/
+2017-01-18 10:35:54	GolBot	[ Étoilé ]
+2017-01-18 10:35:57	qptain_Nemo	tuubi: why do you regret the ubuntu server?
+2017-01-18 10:36:14	frostwork	yes, many years ago, uso_
+2017-01-18 10:36:30	frostwork	and looking glass :}
+2017-01-18 10:36:34	uso_	I actually use KDE for steam/firefox and ratpoison for devlopement
+2017-01-18 10:38:00	frostwork	remember metisse with fvwm?
+2017-01-18 10:38:36	tuubi	qptain_Nemo, security updates have killed the server twice in the last year, requiring manual intervention
+2017-01-18 10:38:53	tuubi	might be bad luck
+2017-01-18 10:39:04	<--	Keniyal (~Keniyal@unaffiliated/keniyal) has quit (Ping timeout: 255 seconds)
+2017-01-18 10:39:08	qptain_Nemo	interesting
+2017-01-18 10:39:28	nauticalnexus	ow
+2017-01-18 10:40:15	tuubi	only a couple web apps on nginx+uwsgi, and a simple file server
+2017-01-18 10:40:30	xpander69	woow new nvidia drivers have GL THREADED by default :D
+2017-01-18 10:40:42	xpander69	and some multithreaded GLSL shader compilation thingy also
+2017-01-18 10:40:56	xpander69	378.09 drivers that is
+2017-01-18 10:40:58	tuubi	worth some benchmarks
+2017-01-18 10:41:02	xpander69	http://www.geforce.co.uk/drivers/results/114262
+2017-01-18 10:41:02	GolBot	[ Drivers | GeForce ]
+2017-01-18 10:41:19	Sonolin	uso_ ratpoison is awesome
+2017-01-18 10:41:38	uso_	Sonolin: nope, ratpoison is ratpoison, and awesome is awesome
+2017-01-18 10:41:38	Sonolin	makes you really re-think if a more complicated WM is even necessary, so simple
+2017-01-18 10:41:39	Cracker	Nice
+2017-01-18 10:41:48	Sonolin	lol, good one
+2017-01-18 10:42:04	libgradev	Sonolin: simplify as much as you can in life
+2017-01-18 10:42:17	Sonolin	indeed
+2017-01-18 10:42:24	-->	Crendgrim_ (~crend@wesnoth/forum-moderator/crendgrim) has joined #gamingonlinux
+2017-01-18 10:42:29	Sonolin	if I wasn't so in love with Haskell I'd use i3 or ratpoison every day
+2017-01-18 10:42:38	uso_	my only problem with ratpoison is that I'm not smart enouth to upload mu conf somewhere and I'm generaly too lazy to configure it again
+2017-01-18 10:42:57	uso_	Sonolin: so you use xmonade ?
+2017-01-18 10:43:01	Sonolin	yea xmonad
+2017-01-18 10:43:17	uso_	one my to test list since 2 or 3 year
+2017-01-18 10:43:27	Sonolin	its great, even ootb
+2017-01-18 10:43:30	uso_	but I'm not smart enouth for monade eiter
+2017-01-18 10:43:37	Sonolin	but much more heavyweight than something like i3/ratpoison
+2017-01-18 10:44:20	<--	Crendgrim (~crend@wesnoth/forum-moderator/crendgrim) has quit (Ping timeout: 252 seconds)
+2017-01-18 10:44:21	Sonolin	my main thing is I use 2 monitors, and so far this is the only WM I've been happy with the dual head setup
+2017-01-18 10:44:24	uso_	and I never get how to do a match in haskell as the syntaxe use indentation, so I generally go back to Ocaml or C after 5mn trying to have the eindentation corectelly
+2017-01-18 10:44:25	Sonolin	although i3 comes close
+2017-01-18 10:45:00	Sonolin	ah well indentation in haskell is more "indent at least this much" - you just have to make sure the next block is indented more than the previous
+2017-01-18 10:45:11	Sonolin	took a bit getting used to, but it gives you lots of flexibility with spacing
+2017-01-18 10:46:16	-->	Keniyal (~Keniyal@unaffiliated/keniyal) has joined #gamingonlinux
+2017-01-18 10:46:57	nauticalnexus	i3 is my favourite DE
+2017-01-18 10:47:29	Sonolin	yea i3 is my goto on my non-work boxes
+2017-01-18 10:47:47	Sonolin	I just got sick of always playing around with the layouts
+2017-01-18 10:47:48	uso_	i3 is not a DE
+2017-01-18 10:47:55	nauticalnexus	you're not a DE
+2017-01-18 10:47:59	Sonolin	yea WM :)
+2017-01-18 10:48:06	nauticalnexus	YOU'RE NOT A DE
+2017-01-18 10:48:22	nauticalnexus	GOD
+2017-01-18 10:48:56	wN	wait.. ARE you a DE?
+2017-01-18 10:49:02	nauticalnexus	GOD YOU GUYS
+2017-01-18 10:49:05	nauticalnexus	THIS IS SO STUPID
+2017-01-18 10:49:16	<--	nauticalnexus (~Emily@unaffiliated/nauticalnexus) has left #gamingonlinux ("Leaving")
+2017-01-18 10:49:36	-->	JackWaterworth[m (jackjack-s@gateway/shell/matrix.org/x-jvomrrgbktertmgh) has joined #gamingonlinux
+2017-01-18 10:49:37	-->	nauticalnexus (~Emily@unaffiliated/nauticalnexus) has joined #gamingonlinux
+2017-01-18 10:49:38	nauticalnexus	lol
+2017-01-18 10:49:56	 *	uso_ is now a DE
+2017-01-18 10:50:33	-->	Crendgrim (~crend@wesnoth/forum-moderator/crendgrim) has joined #gamingonlinux
+2017-01-18 10:51:16	-->	VikingHoarder (~VikingHoa@203.233.108.93.rev.vodafone.pt) has joined #gamingonlinux
+2017-01-18 10:51:33	uso_	I might not have cautch the reference...
+2017-01-18 10:51:53	uso_	that was too DEep for me...
+2017-01-18 10:52:05	<--	chomwitt3 (~chomwitt@ppp-94-69-222-21.home.otenet.gr) has quit (Ping timeout: 240 seconds)
+2017-01-18 10:52:05	uso_	I'm in DEstres
+2017-01-18 10:52:34	<--	Crendgrim_ (~crend@wesnoth/forum-moderator/crendgrim) has quit (Ping timeout: 264 seconds)
+2017-01-18 10:55:53	<--	Kryptron (~Kryptron@unaffiliated/kryptron) has quit (Ping timeout: 260 seconds)
+2017-01-18 10:57:04	<--	libgradev (~gra@host86-156-172-146.range86-156.btcentralplus.com) has quit (Ping timeout: 255 seconds)
+2017-01-18 10:57:21	-->	Kryptron (~Kryptron@unaffiliated/kryptron) has joined #gamingonlinux
+2017-01-18 10:57:24	-->	sebbu2 (~sebbu@unaffiliated/sebbu) has joined #gamingonlinux
+2017-01-18 10:57:28	-->	Xard (~xard@a91-154-214-159.elisa-laajakaista.fi) has joined #gamingonlinux
+2017-01-18 10:58:11	-->	libgradev (~gra@host86-164-118-76.range86-164.btcentralplus.com) has joined #gamingonlinux
+2017-01-18 10:58:19	-->	fortyseven47 (c85c1f52@gateway/web/freenode/ip.200.92.31.82) has joined #gamingonlinux
+2017-01-18 11:00:10	<--	sebbu (~sebbu@unaffiliated/sebbu) has quit (Ping timeout: 240 seconds)
+2017-01-18 11:00:13	--	sebbu2 is now known as sebbu
+2017-01-18 11:00:44	-->	Crendgrim_ (~crend@wesnoth/forum-moderator/crendgrim) has joined #gamingonlinux
+2017-01-18 11:02:29	<--	Crendgrim (~crend@wesnoth/forum-moderator/crendgrim) has quit (Ping timeout: 252 seconds)
+2017-01-18 11:02:48	<--	chan20 (~quassel@124.123.81.196) has quit (Read error: Connection reset by peer)
+2017-01-18 11:07:21	-->	redje (~smuxi@ip-81-30-71-146.fiber.nl) has joined #gamingonlinux
+2017-01-18 11:09:27	-->	liothe (~liothe@94.254.51.195) has joined #gamingonlinux
+2017-01-18 11:10:56	-->	gouchi (~gouchi@ivr94-8-88-162-27-162.fbx.proxad.net) has joined #gamingonlinux
+2017-01-18 11:11:02	<--	Splyncryth (~Splyncryt@c-107-2-213-135.hsd1.co.comcast.net) has quit (Read error: Connection reset by peer)
+2017-01-18 11:12:58	-->	rndevfx (~rndevfx@2a02:810d:d00:5c81:f67b:5eff:fe38:2aac) has joined #gamingonlinux
+2017-01-18 11:16:43	<--	VikingHoarder (~VikingHoa@203.233.108.93.rev.vodafone.pt) has quit (Remote host closed the connection)
+2017-01-18 11:16:55	-->	Crendgrim (~crend@wesnoth/forum-moderator/crendgrim) has joined #gamingonlinux
+2017-01-18 11:17:44	jeremyc	How do you monitor GPU usage while playing games? I have an RX460 using amdgpu. It seems that radeontop isn't really supported quite yet
+2017-01-18 11:18:21	--	irc: disconnected from server
+2017-01-18 11:18:38	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #gamingonlinux
+2017-01-18 11:18:38	--	Topic for #gamingonlinux is "Welcome to www.gamingonlinux.com IRC, feel free to talk about anything and be respectful! Support Liam on Patreon here: https://www.patreon.com/liamdawe, please try to follow our rules https://www.gamingonlinux.com/index.php?module=rules"
+2017-01-18 11:18:38	--	Topic set by NaughtySquid (~liam@cpc1-newt38-2-0-cust1058.19-3.cable.virginm.net) on Wed, 20 Jul 2016 01:30:12
+2017-01-18 11:18:38	--	Channel #gamingonlinux: 236 nicks (4 ops, 0 voices, 232 normals)
+2017-01-18 11:18:38	--	Channel created on Mon, 01 Apr 2013 12:01:43
+2017-01-18 11:18:48	<--	fortyseven47 (c85c1f52@gateway/web/freenode/ip.200.92.31.82) has quit (Quit: Page closed)
+2017-01-18 11:19:13	<--	Crendgrim_ (~crend@wesnoth/forum-moderator/crendgrim) has quit (Ping timeout: 260 seconds)
+2017-01-18 11:20:12	@Samsai	jeremyc, gallium hud has an option to monitor GPU usage i think
+2017-01-18 11:20:24	@Samsai	you'll have to go through the manual for that one though
+2017-01-18 11:21:09	jeremyc	Ok.
+2017-01-18 11:21:51	jeremyc	Assuming that works.. If the game is CPU bottlenecked, will the GPU show as less than 100% in use? Or will the GPU still be pegged?
+2017-01-18 11:22:24	@Samsai	if it's a CPU bottleneck the GPU utilization will drop below 100%
+2017-01-18 11:22:29	jeremyc	Ok. cool
+2017-01-18 11:24:55	--	irc: disconnected from server
+2017-01-18 11:25:15	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #gamingonlinux
+2017-01-18 11:25:15	--	Topic for #gamingonlinux is "Welcome to www.gamingonlinux.com IRC, feel free to talk about anything and be respectful! Support Liam on Patreon here: https://www.patreon.com/liamdawe, please try to follow our rules https://www.gamingonlinux.com/index.php?module=rules"
+2017-01-18 11:25:15	--	Topic set by NaughtySquid (~liam@cpc1-newt38-2-0-cust1058.19-3.cable.virginm.net) on Wed, 20 Jul 2016 01:30:12
+2017-01-18 11:25:15	--	Channel #gamingonlinux: 234 nicks (4 ops, 0 voices, 230 normals)
+2017-01-18 11:25:15	--	Channel created on Mon, 01 Apr 2013 12:01:43
+2017-01-18 11:25:50	libgradev	yeah the mesa overlay has a ton of cool features :)
+2017-01-18 11:28:34	libgradev	jeremyc: https://wiki.archlinux.org/index.php/ATI#Gallium_Heads-Up_Display
+2017-01-18 11:28:34	GolBot	[ ATI - ArchWiki ]
+2017-01-18 11:30:16	jeremyc	Thanks libgradev; i'm trying to determine if that will work with the amdgpu driver
+2017-01-18 11:30:31	libgradev	I'm rocking an RX480
+2017-01-18 11:30:55	libgradev	or do you mean the amdgpu-pro driver?
+2017-01-18 11:31:02	jeremyc	amdgpu
+2017-01-18 11:31:08	libgradev	it works
+2017-01-18 11:31:19	libgradev	I've used it on my setup
+2017-01-18 11:31:31	jeremyc	Ok - great. I want to see just how badly my RX460 is bottlenecked by my QX6850 :)
+2017-01-18 11:31:55	libgradev	you could just throw top up in a terminal though - see if the CPU is maxed
+2017-01-18 11:32:27	libgradev	second screen or ssh in
+2017-01-18 11:32:42	jeremyc	1 core is pegged, the other 3 are at like 50% each
+2017-01-18 11:32:43	steakwipe	that's the thing I use ssh on my phone for lol
+2017-01-18 11:32:43	libgradev	but the mesa overlay will show CPU load too
+2017-01-18 11:32:53	libgradev	steakwipe: lol, nice
+2017-01-18 11:33:46	jeremyc	I just asked in #radeon as well, and radeontop does support the polaris chips as well
+2017-01-18 11:33:56	jeremyc	not HUD, obviously
+2017-01-18 11:34:42	libgradev	just use the mesa one tbh - it worked good over Mad Max the other day
+2017-01-18 11:34:57	-->	gnoss (~gnoss@unaffiliated/gnoss) has joined #gamingonlinux
+2017-01-18 11:35:34	libgradev	I'll be afk for a bit
+2017-01-18 11:35:36	jeremyc	ok - great; thank you much
+2017-01-18 11:39:33	--	irc: disconnected from server

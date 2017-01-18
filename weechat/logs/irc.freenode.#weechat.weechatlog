@@ -1,0 +1,380 @@
+2017-01-17 22:58:01	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #weechat
+2017-01-17 22:58:01	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.7 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-17 22:58:01	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 15 Jan 2017 00:20:51
+2017-01-17 22:58:01	--	Channel #weechat: 721 nicks (4 ops, 1 voice, 716 normals)
+2017-01-17 22:58:01	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-17 22:58:01	--	URL for #weechat: https://weechat.org/
+2017-01-17 22:58:02	--	Channel created on Sat, 25 Nov 2006 23:42:51
+2017-01-17 22:58:50	gb	i too used to like mosh when it was first released but too many things in ssh i need
+2017-01-17 22:59:04	adymitruk	nah.. not going to stop using mosh.. it works over very long periods of time. I can sleep my laptop for a day or two, come back, open the lid and continue in the chat here
+2017-01-17 22:59:54	gb	i hibernate  and just have a single letter alias to ssh to my vm with screen -x
+2017-01-17 23:00:59	gb	but till yesterdays crash i used to ssh from tty1 do my beep would work on this silly mint thing
+2017-01-17 23:01:10	gb	now it's brokeded again
+2017-01-17 23:01:37	gb	-do+so
+2017-01-17 23:02:20	gb	everything was set to 0vol of course
+2017-01-17 23:02:48	gb	very insane developers in ubuntu
+2017-01-17 23:03:33	-->	dandels (~dandels@unaffiliated/dandels) has joined #weechat
+2017-01-17 23:03:48	<--	Andr0id (~Andr0id@122.161.253.187) has quit (Remote host closed the connection)
+2017-01-17 23:04:50	--	bgiannan_ is now known as bgiannan
+2017-01-17 23:06:27	<--	woodjrx (~quassel@woodonia.com) has quit (Remote host closed the connection)
+2017-01-17 23:06:47	-->	woodjrx (~quassel@woodonia.com) has joined #weechat
+2017-01-17 23:12:19	<--	somaReverse (~amos@2400:dd01:1022:30:6af7:28ff:fe78:6901) has quit (Remote host closed the connection)
+2017-01-17 23:13:20	-->	somaReverse (~amos@2400:dd01:1022:30:6af7:28ff:fe78:6901) has joined #weechat
+2017-01-17 23:13:42	--	irc: disconnected from server
+2017-01-17 23:14:32	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #weechat
+2017-01-17 23:14:32	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.7 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-17 23:14:32	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 15 Jan 2017 00:20:51
+2017-01-17 23:14:32	--	Channel #weechat: 721 nicks (4 ops, 1 voice, 716 normals)
+2017-01-17 23:14:32	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-17 23:14:32	--	URL for #weechat: https://weechat.org/
+2017-01-17 23:14:32	--	Channel created on Sat, 25 Nov 2006 23:42:51
+2017-01-18 03:33:44	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #weechat
+2017-01-18 03:33:44	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.7 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-18 03:33:44	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 15 Jan 2017 00:20:38
+2017-01-18 03:33:44	--	Channel #weechat: 719 nicks (4 ops, 1 voice, 714 normals)
+2017-01-18 03:33:44	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-18 03:33:44	--	URL for #weechat: https://weechat.org/
+2017-01-18 03:33:46	--	Channel created on Sat, 25 Nov 2006 23:42:51
+2017-01-18 03:34:14	<--	Atm0spher1c (~future@unaffiliated/atm0spher1c) has quit (Quit: quit)
+2017-01-18 03:36:48	<--	newtly (~newtly@209.222.61.162) has quit (Quit: WeeChat 1.0)
+2017-01-18 03:38:19	-->	missmumin (~missmumin@h-147-23.a259.priv.bahnhof.se) has joined #weechat
+2017-01-18 03:39:26	<--	asmodai (~asmodai@freebsd/developer/asmodai) has quit (Ping timeout: 240 seconds)
+2017-01-18 03:39:27	Tyranic-Moron	virgoerns: this seems to work - echo 'core.weechat */allserv whois Tyranic-Moron' > ~/.weechat/weechat_fifo
+2017-01-18 03:39:52	Tyranic-Moron	so I guess you could just do */allserv away
+2017-01-18 03:40:01	virgoerns	neat :)
+2017-01-18 03:40:43	virgoerns	beautiful, thanks :)
+2017-01-18 03:44:23	-->	droide (~droide@unaffiliated/droide) has joined #weechat
+2017-01-18 03:48:47	-->	movreeks_ (~dclzr@x4e34440e.dyn.telefonica.de) has joined #weechat
+2017-01-18 03:49:33	movreeks_	how can I execute upon connecting succesfully to a server, for example (/mode username +x)?
+2017-01-18 03:50:29	Tyranic-Moron	/help irc.server.freenode.command
+2017-01-18 03:51:09	Tyranic-Moron	or irc.server_default.command if you want it on all servers
+2017-01-18 03:52:08	-->	Vini (~Vini@LFbn-1-3096-215.w90-79.abo.wanadoo.fr) has joined #weechat
+2017-01-18 03:52:27	movreeks_	Tyranic-Moron: thx
+2017-01-18 03:53:13	-->	astrofog (~astrofog@unaffiliated/astrofog) has joined #weechat
+2017-01-18 03:53:30	--	irc: disconnected from server
+2017-01-18 03:54:08	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #weechat
+2017-01-18 03:54:08	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.7 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-18 03:54:08	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 15 Jan 2017 00:20:58
+2017-01-18 03:54:08	--	Channel #weechat: 721 nicks (4 ops, 1 voice, 716 normals)
+2017-01-18 03:54:08	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-18 03:54:08	--	URL for #weechat: https://weechat.org/
+2017-01-18 03:54:08	--	Channel created on Sat, 25 Nov 2006 23:42:51
+2017-01-18 03:55:16	--	irc: disconnected from server
+2017-01-18 03:56:06	-->	teenytree (~teenytree@24.121.3.146) has joined #weechat
+2017-01-18 03:56:06	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.7 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-18 03:56:06	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 15 Jan 2017 00:21:08
+2017-01-18 03:56:06	--	Channel #weechat: 721 nicks (4 ops, 1 voice, 716 normals)
+2017-01-18 03:56:06	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-18 03:56:06	--	URL for #weechat: https://weechat.org/
+2017-01-18 03:56:07	--	Channel created on Sat, 25 Nov 2006 23:42:51
+2017-01-18 04:03:05	-->	jarlath (~jarlath@178.167.254.17.threembb.ie) has joined #weechat
+2017-01-18 04:03:54	-->	mkoskar (~mkoskar@unaffiliated/mkoskar) has joined #weechat
+2017-01-18 04:05:29	gb	!quickstart for movreeks_ install iset then /iset command gives you buiultin gwlp above the selected setting so you can be certain it's the correct thing to change with examples
+2017-01-18 04:05:29	+weebot	https://weechat.org/doc/quickstart
+2017-01-18 04:05:55	gb	arrgh -gwlp+help
+2017-01-18 04:06:03	<--	Miblo (~matt@37.152.223.121) has quit (Ping timeout: 245 seconds)
+2017-01-18 04:07:20	gb	not sure if it is in dev yet but there is a new user mode setting being included soon
+2017-01-18 04:09:33	-->	blackmesa (~blackmesa@aftr-37-201-227-31.unity-media.net) has joined #weechat
+2017-01-18 04:10:34	gb	till then you will have to suffice with adding a ;/mode $nick ... after whatever other command's you might run to regain your nick
+2017-01-18 04:13:25	-->	hiyosilver (~hiyosilve@unaffiliated/hiyosilver) has joined #weechat
+2017-01-18 04:14:12	hiyosilver	Hi, how could i activate notify send with weechat? i tried with pl plugin integrated in weechat, notify-send.pl but i dont know how run it.
+2017-01-18 04:15:20	gb	the perl plugin cannot do that but maybe if you tried using a perl script
+2017-01-18 04:16:26	gb	if you installed the script with /script there might be a /help scriptname for more info or /iset scriptname
+2017-01-18 04:17:31	hiyosilver	ok thanks
+2017-01-18 04:18:28	hiyosilver	inkown iset command
+2017-01-18 04:18:34	hiyosilver	trying with help
+2017-01-18 04:22:01	gb	!quickstart install iset as per directions
+2017-01-18 04:22:01	+weebot	https://weechat.org/doc/quickstart
+2017-01-18 04:22:21	hiyosilver	reading
+2017-01-18 04:22:59	gb	i have no idea what settings that script adds if any
+2017-01-18 04:23:08	<--	sjl (~sjl@clients-pool-1.nat.ru.is) has quit (Ping timeout: 245 seconds)
+2017-01-18 04:24:03	gb	others do use that script so if you are patient one of them might help you
+2017-01-18 04:24:31	<--	hiyosilver (~hiyosilve@unaffiliated/hiyosilver) has quit (Quit: WeeChat 1.6)
+2017-01-18 04:25:01	gb	i guess they have no patience
+2017-01-18 04:26:06	-->	hiyosilver (~hiyosilve@unaffiliated/hiyosilver) has joined #weechat
+2017-01-18 04:26:09	hiyosilver	hi again
+2017-01-18 04:26:26	hiyosilver	./script install iset.pl installed properly
+2017-01-18 04:26:39	hiyosilver	 perl: script "iset" registrado, versión 4.2 (Interactive Set for configuration options)
+2017-01-18 04:32:23	--	tehlarsie is now known as tehlarsie|afk
+2017-01-18 04:35:15	gb	yes did you see any new settings/help for the other script though that's the whole point of iset
+2017-01-18 04:35:35	<--	fengshaun (~fengshaun@unaffiliated/fengshaun) has quit (Ping timeout: 240 seconds)
+2017-01-18 04:35:44	gb	you need not restart after doing a /script install of any script either
+2017-01-18 04:35:56	<--	blackmesa (~blackmesa@aftr-37-201-227-31.unity-media.net) has quit (Ping timeout: 240 seconds)
+2017-01-18 04:37:20	<--	movreeks_ (~dclzr@x4e34440e.dyn.telefonica.de) has quit (Quit: WeeChat 1.4)
+2017-01-18 04:37:51	gb	if you are having troubles with a script you can frequently clear problems/memory leaks by doing /upgrade which does /save;unloads all scripts/plugins/weechat binary and then reloads everything as though you had quit without actually doing a /quit
+2017-01-18 04:38:05	<--	craigp_ (~craigp@154.66.208.158) has quit (Ping timeout: 240 seconds)
+2017-01-18 04:38:16	-->	fengshaun (~fengshaun@unaffiliated/fengshaun) has joined #weechat
+2017-01-18 04:38:34	gb	at worst you lose any ssl connections which you lose when you quit anyhow
+2017-01-18 04:39:54	<--	ojdo (~ojdo@unaffiliated/ojdo) has quit (Ping timeout: 258 seconds)
+2017-01-18 04:41:32	-->	chandan (~chandan@122.171.155.210) has joined #weechat
+2017-01-18 04:41:37	<--	virgoerns (~mgoral@131.228.32.167) has quit (Quit: Bye!)
+2017-01-18 04:41:38	<--	hiyosilver (~hiyosilve@unaffiliated/hiyosilver) has quit (Quit: WeeChat 1.6)
+2017-01-18 04:41:50	-->	chomwitt1 (~chomwitt@ppp-94-66-61-113.home.otenet.gr) has joined #weechat
+2017-01-18 04:43:26	-->	virgoerns (~mgoral@131.228.32.167) has joined #weechat
+2017-01-18 04:47:31	-->	duckpuppy (~patrickai@66.6.147.81) has joined #weechat
+2017-01-18 04:47:40	-->	blackmesa (~blackmesa@aftr-37-201-227-31.unity-media.net) has joined #weechat
+2017-01-18 04:55:51	<--	kelnoky (~shao@ip1f106213.dynamic.kabel-deutschland.de) has quit (Quit: WeeChat 1.6)
+2017-01-18 05:03:22	--	irc: disconnected from server
+2017-01-18 06:08:11	-->	teenytree (~teenytree@24-121-3-146.lkhvcmtk01.res.dyn.suddenlink.net) has joined #weechat
+2017-01-18 06:08:11	--	Topic for #weechat is "https://weechat.org/ | Latest stable version: 1.7 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign source tarball packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2017-01-18 06:08:11	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 15 Jan 2017 00:20:38
+2017-01-18 06:08:11	--	Channel #weechat: 727 nicks (4 ops, 1 voice, 722 normals)
+2017-01-18 06:08:11	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: https://weechat.org/doc/
+2017-01-18 06:08:11	--	URL for #weechat: https://weechat.org/
+2017-01-18 06:08:13	--	Channel created on Sat, 25 Nov 2006 23:42:51
+2017-01-18 06:09:06	<--	flugger (~flugger@c-71-239-39-156.hsd1.il.comcast.net) has quit (Quit: WeeChat 1.7)
+2017-01-18 06:12:12	-->	virgoerns (~mgoral@131.228.32.166) has joined #weechat
+2017-01-18 06:12:23	<--	hiyosilver (~hiyosilve@unaffiliated/hiyosilver) has quit (Quit: WeeChat 1.6)
+2017-01-18 06:13:13	<--	toomin (~HoopyFroo@unaffiliated/toomin) has quit (Remote host closed the connection)
+2017-01-18 06:13:40	-->	toomin (~HoopyFroo@unaffiliated/toomin) has joined #weechat
+2017-01-18 06:16:00	Petzku	can I easily edit the way weechat displays IRC messages, namely the WHOIS output
+2017-01-18 06:16:47	-->	ua (250b5e62@gateway/web/freenode/ip.37.11.94.98) has joined #weechat
+2017-01-18 06:17:19	<--	virgoerns (~mgoral@131.228.32.166) has quit (Quit: Bye!)
+2017-01-18 06:17:19	<--	samfalkn1 (~samfalkne@inet-hqmc06-o.oracle.com) has quit (Remote host closed the connection)
+2017-01-18 06:17:21	<--	ua (250b5e62@gateway/web/freenode/ip.37.11.94.98) has left #weechat
+2017-01-18 06:17:39	-->	samfalkn1 (~samfalkne@inet-hqmc06-o.oracle.com) has joined #weechat
+2017-01-18 06:25:12	<--	toomin (~HoopyFroo@unaffiliated/toomin) has quit (Remote host closed the connection)
+2017-01-18 06:25:34	-->	toomin (~HoopyFroo@106.51.69.45) has joined #weechat
+2017-01-18 06:25:45	<--	toomin (~HoopyFroo@106.51.69.45) has quit (Changing host)
+2017-01-18 06:25:45	-->	toomin (~HoopyFroo@unaffiliated/toomin) has joined #weechat
+2017-01-18 06:25:59	<--	Ravana (~Ravana@unaffiliated/ravana) has quit (Ping timeout: 256 seconds)
+2017-01-18 06:28:25	<--	dhruvasagar (~dhruvasag@106.51.130.107) has quit (Read error: Connection reset by peer)
+2017-01-18 06:28:36	@FlashCode	Petzku: you mean the target buffer where it's displayed or content of messages displayed?
+2017-01-18 06:28:50	@FlashCode	for content of messages, you can define triggers (see the github wiki for examples)
+2017-01-18 06:29:03	@FlashCode	it's not possible with options because all messages are translated in weechat
+2017-01-18 06:29:21	@FlashCode	so there's no possible "theme" for messages displayed (like irssi has for example)
+2017-01-18 06:29:21	-->	somis (~somis@96.9.249.44) has joined #weechat
+2017-01-18 06:31:31	-->	virgoerns (~mgoral@131.228.32.166) has joined #weechat
+2017-01-18 06:32:11	-->	Ravana (~Ravana@unaffiliated/ravana) has joined #weechat
+2017-01-18 06:32:14	<--	toomin (~HoopyFroo@unaffiliated/toomin) has quit (Read error: Connection reset by peer)
+2017-01-18 06:33:22	-->	alex___ (~alex@30-91-132-95.pool.ukrtel.net) has joined #weechat
+2017-01-18 06:34:01	-->	s3qrk (~strang3qu@33.153.114.89.rev.vodafone.pt) has joined #weechat
+2017-01-18 06:34:15	-->	Mizzu (~M1zzu@2a02:120b:2c41:93b0:223:f8ff:fe5c:3) has joined #weechat
+2017-01-18 06:34:29	-->	toomin (~HoopyFroo@unaffiliated/toomin) has joined #weechat
+2017-01-18 06:37:35	<--	s3qrk (~strang3qu@33.153.114.89.rev.vodafone.pt) has quit (Client Quit)
+2017-01-18 06:39:31	<--	sdothum (~sdothum@108.63.177.210) has quit (Read error: Connection reset by peer)
+2017-01-18 06:41:11	-->	sdothum (~sdothum@108.63.177.210) has joined #weechat
+2017-01-18 06:44:52	-->	subli (~renegade@c-94-255-252-169.cust.bredband2.com) has joined #weechat
+2017-01-18 06:44:57	<--	alex___ (~alex@30-91-132-95.pool.ukrtel.net) has quit (Quit: WeeChat 1.4)
+2017-01-18 06:45:40	subli	weechat doesn't save .autojoin channels, everytime i restart it's (undef), why is this?
+2017-01-18 06:45:51	subli	nothing on google :/
+2017-01-18 06:46:09	Tyranic-Moron	you need to /save
+2017-01-18 06:46:13	Tyranic-Moron	same for all settings
+2017-01-18 06:46:44	subli	ahh, thanks!
+2017-01-18 06:49:42	<--	Vlado9A (~Vlado9A@unaffiliated/vlado9a) has quit (Quit: WeeChat 1.6)
+2017-01-18 06:49:49	-->	przemkovv (~przemkovv@gandalf.kari.put.poznan.pl) has joined #weechat
+2017-01-18 06:53:15	<--	subli (~renegade@c-94-255-252-169.cust.bredband2.com) has quit (Quit: WeeChat 1.7)
+2017-01-18 06:53:34	<--	KindOne (kindone@freenode/father-christmas/kindone) has quit (Ping timeout: 245 seconds)
+2017-01-18 06:54:10	-->	subli (~renegade@c-94-255-252-169.cust.bredband2.com) has joined #weechat
+2017-01-18 06:54:25	subli	nope :/ I did /save and it did not save the autojoin settings
+2017-01-18 06:54:57	stfn	/save automatically happens when you /quit
+2017-01-18 06:55:04	@FlashCode	subli: this can be caused by a script
+2017-01-18 06:55:13	subli	I did /save and then /exit
+2017-01-18 06:55:15	@FlashCode	weechat itself saves all options, but some script can reinitialize them
+2017-01-18 06:55:22	@FlashCode	check scripts installed
+2017-01-18 06:55:24	subli	ah, let me check what scripts i have
+2017-01-18 06:55:45	@FlashCode	some autojoin* scripts are known to cause such problems (maybe old versions)
+2017-01-18 06:55:50	subli	hmm, i have autoconnect.py
+2017-01-18 06:55:55	@FlashCode	maybe this one yes
+2017-01-18 06:56:02	subli	i'll delete it
+2017-01-18 06:56:50	<--	subli (~renegade@c-94-255-252-169.cust.bredband2.com) has quit (Client Quit)
+2017-01-18 06:57:03	-->	subli (~renegade@c-94-255-252-169.cust.bredband2.com) has joined #weechat
+2017-01-18 06:57:08	subli	awesome! :D
+2017-01-18 06:58:44	-->	mgaunard1 (~mgaunard@relay.mavsec.com) has joined #weechat
+2017-01-18 06:58:52	mgaunard1	hi, how do I disable mouse gestures in weechat?
+2017-01-18 06:59:31	evilop	/help mouse
+2017-01-18 06:59:38	evilop	!keys
+2017-01-18 06:59:38	+weebot	WeeChat default keys: https://weechat.org/doc/user#key_bindings
+2017-01-18 06:59:48	-->	s3qrk (~strang3qu@33.153.114.89.rev.vodafone.pt) has joined #weechat
+2017-01-18 07:00:06	mgaunard1	I already searched the documentation, couldn't find it
+2017-01-18 07:00:22	evilop	you aparently did not read /help mouse
+2017-01-18 07:01:45	mgaunard1	I did, it just says it's for enabling/disabling the mouse
+2017-01-18 07:01:57	mgaunard1	I don't want to disable the mouse, I just want to disable gestures
+2017-01-18 07:01:58	evilop	which disables mouse guestures
+2017-01-18 07:02:37	evilop	sidenote: you can hold down shift to disable it when you just want to mark something
+2017-01-18 07:02:54	mgaunard1	I still want the mouse support to focus a given window
+2017-01-18 07:03:10	evilop	then you will have to hack the code
+2017-01-18 07:03:38	evilop	you can disable some of the guestures trough /set but not all iirc
+2017-01-18 07:04:36	mgaunard1	I want to disable the switching between buffers
+2017-01-18 07:04:46	mgaunard1	because I keep triggering this without wanting to
+2017-01-18 07:05:05	creadak	take a look at /keys list
+2017-01-18 07:05:26	creadak	Mouse gestures are kinda "keybindings"
+2017-01-18 07:05:52	creadak	You can find the mouse bindings under the mouse context
+2017-01-18 07:06:20	creadak	Find the one you want, to disable and /key unbind it
+2017-01-18 07:07:30	creadak	I prefer using alt+m to toggle the mouse when I want the mouse on, less chance of mucking it up, but you can do what you want to do
+2017-01-18 07:11:36	<--	nightfrog (nightfrog@65-35-35-108.res.bhn.net) has quit (Quit: Quit)
+2017-01-18 07:12:13	-->	nightfrog (nightfrog@65-35-35-108.res.bhn.net) has joined #weechat
+2017-01-18 07:12:39	trebuh	how can I get the terminal version Weechat has registered?
+2017-01-18 07:13:06	@FlashCode	mgaunard1: to disable gestures, you must rebind keys with mouse gestures to a command like /mute (which does nothing)
+2017-01-18 07:13:36	@FlashCode	you can get mouse keys with /key list mouse
+2017-01-18 07:13:51	creadak	Ah, I thought you could just unbind them.
+2017-01-18 07:13:52	@FlashCode	if you remove keys this will work, but later a /key missing will restore them (which is not what you want)
+2017-01-18 07:17:12	gb	i was thinking similar but did not know how to type it
+2017-01-18 07:17:32	--	tehlarsie|afk is now known as tehlarsie
+2017-01-18 07:19:05	gb	maybe you need a feature list where unwanted bindings could be added so when you did fix-missing it prompter user replace this binding ctrl y ctrl n like you get with pasting lotsa lines setting
+2017-01-18 07:21:06	gb	or just display an error of this binding skipped because it is in blacklist keys.txt and have a blacklist set/unset command for those bindings you do not want replaced
+2017-01-18 07:25:10	<--	sjl (~sjl@clients-pool-1.nat.ru.is) has quit (Ping timeout: 240 seconds)
+2017-01-18 07:28:24	Nikky	is there a weechat script like cron.py that functiony by entering a timespan after which it should execute a command ?
+2017-01-18 07:28:37	Nikky	*functions
+2017-01-18 07:30:16	-->	sjl (~sjl@clients-pool-1.nat.ru.is) has joined #weechat
+2017-01-18 07:30:32	gb	you mean like /help wait ?
+2017-01-18 07:30:42	gb	or /help trigger ?
+2017-01-18 07:31:10	<--	blackmes1 (~blackmesa@ip-2-206-1-227.web.vodafone.de) has quit (Ping timeout: 240 seconds)
+2017-01-18 07:31:27	gb	and /help at which is part of cron.py
+2017-01-18 07:32:00	gb	for example /alias nf /mute filter add $1 * nick_$1,irc_nick2_$1  * ; /mute /filter add $1_2 * * $1 ;/wait 2h /mute filter del $1 ;/wait 2h /mute filter del $1_2
+2017-01-18 07:32:09	gb	how you can use wait
+2017-01-18 07:32:40	gb	wait is not /upgrade or /quit tolerant though
+2017-01-18 07:32:50	gb	at apparrently is
+2017-01-18 07:34:11	gb	Nikky: any of that help you ?
+2017-01-18 07:34:56	Nikky	well like cron.py means that it saves the times to a file
+2017-01-18 07:35:07	Nikky	and reloads them after a restart
+2017-01-18 07:35:18	Nikky	so that multiple weeks reminders can work
+2017-01-18 07:35:56	-->	flugger (~flugger@c-71-239-39-156.hsd1.il.comcast.net) has joined #weechat
+2017-01-18 07:36:18	gb	trigger help has a /save example using trigger
+2017-01-18 07:37:00	<--	chandan (~chandan@122.171.155.210) has quit (Ping timeout: 258 seconds)
+2017-01-18 07:37:07	gb	all triggers are saved to a conf file in ~/.weechat
+2017-01-18 07:37:15	flugger	What is the correct syntax to join multiple channels, while one or more may contain a channel key?
+2017-01-18 07:37:49	flugger	the way I've tried doesn't work, will only join the first channel listed.
+2017-01-18 07:37:51	gb	!quickstart install iset then /iset autojoin and read the help
+2017-01-18 07:37:51	+weebot	https://weechat.org/doc/quickstart
+2017-01-18 07:38:10	gb	it provides examples you can read quicker then i can cut/paste
+2017-01-18 07:40:04	gb	if you are already joined to the channels you can also use a script like joinem i think it's called
+2017-01-18 07:41:26	<--	flugger (~flugger@c-71-239-39-156.hsd1.il.comcast.net) has quit (Quit: WeeChat 1.7)
+2017-01-18 07:41:36	Nikky	thanks gb did not relaize that was already part of cron
+2017-01-18 07:43:20	<--	sjl (~sjl@clients-pool-1.nat.ru.is) has quit (Ping timeout: 276 seconds)
+2017-01-18 07:45:51	-->	dandels (~dandels@unaffiliated/dandels) has joined #weechat
+2017-01-18 07:48:13	--	nimaje1 is now known as nimaje
+2017-01-18 07:59:56	gb	yes too many features :-)
+2017-01-18 08:01:41	-->	dondy (~dondy@x5ce12655.dyn.telefonica.de) has joined #weechat
+2017-01-18 08:02:03	<--	dondy (~dondy@x5ce12655.dyn.telefonica.de) has left #weechat
+2017-01-18 08:07:52	Tyranic-Moron	FlashCode: oh that's a good idea, I've been manually fixing new key bindings after updates >_>
+2017-01-18 08:09:11	<--	sdothum (~sdothum@108.63.177.210) has quit (Quit: ZNC - 1.6.0 - http://znc.in)
+2017-01-18 08:10:38	<--	modin (~modin@h-6-164.a444.priv.bahnhof.se) has quit (Ping timeout: 245 seconds)
+2017-01-18 08:10:52	-->	sdothum (~sdothum@108.63.177.210) has joined #weechat
+2017-01-18 08:11:48	gb	FlashCode: maybe add your hint next to fix-missing keys
+2017-01-18 08:12:15	gb	till you ass a better way to deal with it
+2017-01-18 08:12:31	gb	add
+2017-01-18 08:12:47	gb	darn typiztz
+2017-01-18 08:15:48	<--	weebot (~bot@zeta.flashtux.org) has quit (Disconnected by services)
+2017-01-18 08:15:49	-->	weebot` (~bot@weechat.org) has joined #weechat
+2017-01-18 08:16:14	-->	tigr (~tigrmesh@archlinux/op/tigrmesh) has joined #weechat
+2017-01-18 08:16:35	-->	miniCruz1 (~cruzr@unaffiliated/miniCruzer) has joined #weechat
+2017-01-18 08:16:50	<--	Xiti` (~Xiti-@unaffiliated/xiti) has quit (Excess Flood)
+2017-01-18 08:16:51	--	weebot` is now known as weebot
+2017-01-18 08:16:51	--	Mode #weechat [+v weebot] by ChanServ
+2017-01-18 08:16:54	<--	aitch (mcnulty@2001:41d0:8:1b5b::1) has quit (Max SendQ exceeded)
+2017-01-18 08:17:03	<--	Raimondi (~israelcha@c-73-244-170-150.hsd1.fl.comcast.net) has quit (Write error: Broken pipe)
+2017-01-18 08:17:10	<--	tigrmesh (~tigrmesh@archlinux/op/tigrmesh) has quit (Quit: WeeChat 1.6)
+2017-01-18 08:17:11	-->	aitch (stringer@2001:41d0:8:1b5b::1) has joined #weechat
+2017-01-18 08:17:16	-->	Xiti` (~Xiti-@unaffiliated/xiti) has joined #weechat
+2017-01-18 08:17:21	<--	Zooklubba (~Zooklubba@babyjeffrey.foreverunclean.com) has quit (Excess Flood)
+2017-01-18 08:17:21	<--	Whoop (~Whoop@unaffiliated/whoop) has quit (Excess Flood)
+2017-01-18 08:17:21	<--	rt (rt@lykos/rt) has quit (Excess Flood)
+2017-01-18 08:17:22	<--	miniCruzer (~cruzr@unaffiliated/miniCruzer) has quit (Remote host closed the connection)
+2017-01-18 08:17:24	-->	Whooop (~Whoop@unaffiliated/whoop) has joined #weechat
+2017-01-18 08:17:32	-->	Raimondi (~israelcha@c-73-244-170-150.hsd1.fl.comcast.net) has joined #weechat
+2017-01-18 08:17:39	--	tigr is now known as tigrmesh
+2017-01-18 08:17:55	<--	rivarun (~rivarun@ipa210.225.tellas.gr) has quit (Killed (adams.freenode.net (Nickname regained by services)))
+2017-01-18 08:18:01	-->	Zooklubba (~Zooklubba@babyjeffrey.foreverunclean.com) has joined #weechat
+2017-01-18 08:18:13	-->	Michaela (mikaela@unaffiliated/mikaela) has joined #weechat
+2017-01-18 08:18:21	-->	rivarun (~rivarun@ipa210.225.tellas.gr) has joined #weechat
+2017-01-18 08:18:31	-->	rt (rt@lykos/rt) has joined #weechat
+2017-01-18 08:18:43	<--	Ratler (~ratler@lunar-linux/developer/ratler) has quit (Write error: Broken pipe)
+2017-01-18 08:18:53	<--	FiXato (~FiXato@ip25.ip-149-56-231.net) has quit (Max SendQ exceeded)
+2017-01-18 08:18:53	<--	Mikaela (mikaela@unaffiliated/mikaela) has quit (Quit: ⚧♀∞🃁⚪🍰⚧🐧 https://mikaela.info/ 🐧⚧🍰⚪🃁∞♀⚧)
+2017-01-18 08:19:20	<--	Shawn (~Shawn@unaffiliated/shawn) has quit (*.net *.split)
+2017-01-18 08:19:20	<--	Damme (~Damme@2001:16d8:cc75::1337) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	somaReverse (~amos@2400:dd01:1022:30:6af7:28ff:fe78:6901) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	THX1138` (~THX1138@unaffiliated/zzyzx) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Guest44896 (skarn@gateway/shell/firrre/x-dwmqmkrrrrtkziim) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	pkiller (~pkiller@unaffiliated/pkiller) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	yamo (~yamo@195-154-118-138.rev.poneytelecom.eu) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	mhite (~mhite@c-50-131-39-22.hsd1.ca.comcast.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	ormaaj_ (~ormaaj@97-127-33-199.mpls.qwest.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Liocer (~Liocer@do.you.get.me.izit.org) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	bobobo[m] (bobobomatr@gateway/shell/matrix.org/x-hkzzencurewpwpof) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	scde[m] (scdematrix@gateway/shell/matrix.org/x-grhxumqsdejsedth) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	jmnx[m] (jmnxmatrix@gateway/shell/matrix.org/x-abfyoahcsvlitwwu) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	jasonKR (uid116191@gateway/web/irccloud.com/x-fixyqyvhdjtfivgr) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	jiggie (~joe@2605:a000:130d:4004:e93b:4c42:76c8:5380) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	bathtub_shark (zarthus@trivialand/guesser/zarthus) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	mnemonic (~semeion@unaffiliated/semeion) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	muxer (~remux@unaffiliated/muxer) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	benoliver999 (~benoliver@198.50.245.34) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Caelum (rkitover@cachemiss.com) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	mbwe (~mbwe@188.166.40.21) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	neohaven (~neohaven@unaffiliated/neohaven) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Random832 (~random@unaffiliated/random832) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	lyrokain (~lyrokain@mail.k21.org) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	deepy (deepy@wrongplanet/deepa) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	haasn (~haasn@haasn.xyz) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	demize (kyrias@archlinux/trusteduser/demize) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	cherti (cherti@eris.noname-ev.de) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Zarthus (zarthus@trivialand/guesser/zarthus) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	kalm (~kimmo@gehenna.fi) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	bwidawsk (~bwidawsk@zangief.bwidawsk.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	xt (xt@xt.gg) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	TheMoonMaster (~TMM@reddit/operator/themoonmaster) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	quite (quite@unaffiliated/quite) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	drawkula (~username@p4FC10C9B.dip0.t-ipconnect.de) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	derrida (~derrida-f@unaffiliated/deleuze) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	kunwon1 (~kunwon1@unaffiliated/kunwon1) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	calops (~calops@2001:41d0:8:bbb1::6) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	damyan^ (damyan@mail.0x4711.org) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	f00b4r_ (~f00b4r@vps4.t-kindler.de) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	sim642 (~simmo@unaffiliated/sim642) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	mcint (~mcint@pox.ocf.berkeley.edu) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	prosody (sid32673@gateway/web/irccloud.com/x-owsmbygtzfkzlzee) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	MatthewAllan93 (~MatthewAl@unaffiliated/matthewallan93) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	TacoThief (~TacoThief@unaffiliated/tacothief) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	omahn (~pre500@2001:41c9:1:41d::100) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	sparr (~sparr@pdpc/supporter/active/sparr) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Qommand0r (~HENKiE@unaffiliated/schaap137) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	phlux[BAMA] (phlux@unaffiliated/phlux) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	chadv (chadv@2600:3c01::f03c:91ff:fe26:6e66) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	sjohnson (sjohnson@cow.sj.rfc1459.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	DenSchub (~DenSchub@2a02:2260:2:1f40:2:4:0:1) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Malinux (~malin@unaffiliated/malin/x-8072090) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	haavard (root@haavard.me) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	addaitech (addaitech@null.route.ddos.im) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	winny (~winny@unaffiliated/winstonw) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	yosafbridge (~yosafbrid@68.ip-149-56-14.net) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	janmh (~a@2a01:4f8:c17:5721::2) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	orbea (~orbea@unaffiliated/orbea) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	tokage (~tokage@fsfe/tokage) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	kInOzAwA (~init@linuxforum/member/kInOzAwA) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	mosinut (mosinut@unaffiliated/mosinut) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	zymurgy (~zymurgy@li607-220.members.linode.com) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	Lord (~Lord@zapp.lord.re) has quit (*.net *.split)
+2017-01-18 08:19:21	<--	altyr (~nobody@unaffiliated/altyr) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	emid (~emid@45.55.245.32) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	stonecold (Elite16986@gateway/shell/elitebnc/x-imkbnuwwsndytzbc) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	LambdaComplex (~LambdaCom@lambda.complex.rocks) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	pocketprotector (~pocketpro@unaffiliated/pocketprotector) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	JZTech101 (jztech101@techcavern/staff/bfnt.jztech101) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	excalibr (excalibr@gateway/shell/firrre/x-qcjenebiiyksniae) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	Bysmyyr (bysmyyr@kapsi.fi) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	Ring0` (~mike@unaffiliated/ring0/x-8667941) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	lundekvam (freddy@irc.lundekvam.info) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	Spydar007 (spydar007@unaffiliated/spydar007) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	trebuh (~trebuh@unaffiliated/trebuh) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	Joaquin-V (~Joaquin@2a02:4780:1:1::1:8ea6) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	shiinko (~shiinko@lsd25.host) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	anzuof (306692@nat/friedrich-alexander/x-ayijwzingzsinhev) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	Dopefish (dopefish@unaffiliated/imk) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	aep (~aep@libqxt/developer/aep) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	thallada (~thallada@fsf/member/thallada) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	brainwash (tuturu@gateway/shell/fnordserver.eu/x-gcshmfmjwfwglsnd) has quit (*.net *.split)
+2017-01-18 08:19:22	<--	les (asinbeer@fsf/member/les) has quit (*.net *.split)
+2017-01-18 08:19:25	-->	Ratler (~ratler@lunar-linux/developer/ratler) has joined #weechat
+2017-01-18 08:19:30	-->	Joaquin-V (~Joaquin@2a02:4780:1:1::1:8ea6) has joined #weechat
+2017-01-18 08:19:31	-->	Zarthus (zarthus@trivialand/guesser/zarthus) has joined #weechat
+2017-01-18 08:19:32	-->	muxer (~remux@mail.ridersharing.com) has joined #weechat
+2017-01-18 08:19:35	-->	pocketprotector (~pocketpro@unaffiliated/pocketprotector) has joined #weechat
+2017-01-18 08:19:35	-->	aep (~aep@libqxt/developer/aep) has joined #weechat
+2017-01-18 08:19:35	-->	Damme (~Damme@2001:16d8:cc75::1337) has joined #weechat
+2017-01-18 08:19:37	-->	phlux[BAMA] (phlux@unaffiliated/phlux) has joined #weechat
+2017-01-18 08:19:39	-->	sim642 (~simmo@unaffiliated/sim642) has joined #weechat
+2017-01-18 08:19:39	-->	mcint (~mcint@pox.ocf.berkeley.edu) has joined #weechat
