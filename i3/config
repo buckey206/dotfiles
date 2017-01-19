@@ -33,7 +33,8 @@ bindsym $mod+i exec firefox
 bindsym $mod+p exec telegram
 
 # Application Launcher (mod+d)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id "albert toggle"
+#bindsym $mod+d exec --no-startup-id dmenu_run
 #Lock Screen (mod+shift+x)
 bindsym $mod+shift+x exec i3lock
 

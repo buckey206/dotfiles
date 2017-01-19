@@ -12,24 +12,16 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline' " fancy statusline
-"Plug 'edkolev/tmuxline.vim' "fancy tmux statusline
-Plug 'benmills/vimux' " vim and tmux plugin
-Plug 'keith/tmux.vim'
-Plug 'ervandew/supertab' " autocomplete with tab
-"Plug 'scrooloose/syntastic' " syntax plugin 
+
 
 "MARKDOWN Plugins
 Plug 'tpope/vim-markdown', {'for': 'md'}
 
 " PYTHON Plugins
-"Plug 'klen/python-mode', {'for': 'py'}
-"HTML Plugins
-Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html 
-Plug 'mattn/emmet-vim', { 'for' : 'html' }
-Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
+
+Plug 'vim-syntastic/syntastic' " syntax plugin 
 
 "color plugins
-"Plug 'flazz/vim-colorschemes' " add tons of colorschemes
 Plug 'morhetz/gruvbox'
 call plug#end()
 
@@ -54,15 +46,13 @@ set number "show line numbers
 
 
 " Tab control
-set textwidth=80
-set shiftwidth=4 " number of spaces to use for indent and unindent
+"set shiftwidth=4 " number of spaces to use for indent and unindent
 set tabstop=4 " the visible width of tabs
-set expandtab " insert spaces when hitting Tabs
-set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/Backspace 
+"set expandtab " insert spaces when hitting Tabs
 set shiftround " round indent to a multiple of 'shiftwidth'
 set autoindent " align the new line indent with the previous.
 
-set history=500 " make vim save 1000 commands 
+set history=1500 " make vim save 1000 commands 
 
 "tmuxline.vim config
 "let g:tmuxline_powerline_separators = 0
@@ -80,3 +70,12 @@ let g:airline#extensions#branch#enabled = 0
 " put a buffer list at the top
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
