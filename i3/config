@@ -29,14 +29,12 @@ floating_modifier $mod
 bindsym $mod+Return exec gnome-terminal
 # Firefox (mod+i)
 bindsym $mod+i exec firefox
-# Telegram (mod+p)
-bindsym $mod+p exec telegram
 
 # Application Launcher (mod+d)
 bindsym $mod+d exec --no-startup-id "albert toggle"
 #bindsym $mod+d exec --no-startup-id dmenu_run
 #Lock Screen (mod+shift+x)
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec ~/.i3/lock.sh
 
 # Navagation 
 
@@ -188,9 +186,9 @@ bar {
 }
 
 
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# Autostart
 exec --no-startup-id "pulseaudio --start"
-
+exec_always --no-startup-id xautolock -locker ~/dotfiles/i3/lock.sh
 #exec_always feh --bg-scale /home/jared/Pictures/CandJBackground.png 
 exec_always feh --bg-scale /home/jared/Andromeda.jpe 
 
