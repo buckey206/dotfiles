@@ -1,7 +1,6 @@
-"USABILITY CONFIGURATION ----------------------
-"Basic and pretty much needed settings to provide a solid base for
-"Download curl
-"add export TERM=xterm-256color to ~/.bashrc
+set nocompatible
+set number 
+set tabstop=4
 
 "---------- PLUGIN CONFIGURATION --------
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -9,73 +8,19 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 		\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
-
 call plug#begin('~/.vim/plugged')
-Plug 'bling/vim-airline' " fancy statusline
-
-
-"MARKDOWN Plugins
-Plug 'tpope/vim-markdown', {'for': 'md'}
-
-" PYTHON Plugins
-
-Plug 'vim-syntastic/syntastic' " syntax plugin 
-
-"color plugins
 Plug 'morhetz/gruvbox'
 call plug#end()
+"---------- PLUGIN CONFIGURATION ---------
 
-
-"color config
+"Color Config
+syntax on 
 set background=dark
 set t_Co=256 "use 256 colors
+
+" Gruvbox
 colorscheme gruvbox
 let g:gruvbox_termcolors=256
 let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_underline=1
 let g:gruvbox_bold=1
-
-" don't make vim compatible with vi 
-set nocompatible
-
-" syntax settings
-syntax on
-set showmatch "show matching tags
-
-set number "show line numbers
-
-
-" Tab control
-"set shiftwidth=4 " number of spaces to use for indent and unindent
-set tabstop=4 " the visible width of tabs
-"set expandtab " insert spaces when hitting Tabs
-set shiftround " round indent to a multiple of 'shiftwidth'
-set autoindent " align the new line indent with the previous.
-
-set history=1500 " make vim save 1000 commands 
-
-"tmuxline.vim config
-"let g:tmuxline_powerline_separators = 0
-"let g:tmuxline
-
-"vim-airline config
-set laststatus=2
-"simple separators for buffer list
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-"don't count trailing whitespace since it lags in huge files
-let g:airline#extensions#whitespace#enabled = 0
-" disable to improve fugitive performance
-let g:airline#extensions#branch#enabled = 0
-" put a buffer list at the top
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#fnamemod = ':t'
-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
