@@ -26,13 +26,16 @@ floating_modifier $mod
 #Application Bindings 
 
 # Terminal (mod+Enter)
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec termite
 # Firefox (mod+i)
 bindsym $mod+i exec firefox
 
 # Application Launcher (mod+d)
-bindsym $mod+d exec --no-startup-id "albert toggle"
+#bindsym $mod+d exec --no-startup-id "albert toggle"
 #bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+Tab exec --no-startup-id rofi -show window 
+
 #Lock Screen (mod+shift+x)
 bindsym $mod+shift+x exec ~/.i3/lock.sh
 
@@ -188,6 +191,7 @@ bar {
 
 # Autostart
 exec --no-startup-id "pulseaudio --start"
+exec_always --no-startup-id "albert"
 exec_always --no-startup-id xautolock -locker ~/dotfiles/i3/lock.sh
 #exec_always feh --bg-scale /home/jared/Pictures/CandJBackground.png 
 exec_always feh --bg-scale /home/jared/Andromeda.jpe 
@@ -205,5 +209,5 @@ hide_edge_borders smart
 for_window [class="Gnome-terminal"] border pixel 3
 for_window [class="Firefox"] border pixel 3
 
-gaps inner 15
-gaps outer 0
+#gaps inner 15
+#gaps outer 0

@@ -10,6 +10,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
+Plug 'tpope/vim-markdown'
+Plug 'nvie/vim-flake8'
 call plug#end()
 "---------- PLUGIN CONFIGURATION ---------
 
@@ -21,6 +23,8 @@ set t_Co=256 "use 256 colors
 " Gruvbox
 colorscheme gruvbox
 let g:gruvbox_termcolors=256
-let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_underline=1
 let g:gruvbox_bold=1
+
+" Markdown 
+"autocmd BufNewFile,BufReadPost *.md set filetype=markdown
