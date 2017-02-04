@@ -191,10 +191,12 @@ bar {
 
 # Autostart
 exec --no-startup-id "pulseaudio --start"
+exec compton
 exec_always --no-startup-id "albert"
 exec_always --no-startup-id xautolock -locker ~/dotfiles/i3/lock.sh
-#exec_always feh --bg-scale /home/jared/Pictures/CandJBackground.png 
-exec_always feh --bg-scale /home/jared/Andromeda.jpe 
+exec_always feh --bg-scale /home/jared/Documents/backgrounds/galaxy.png 
+#exec_always feh --bg-scale /home/jared/Documents/backgrounds/vim.png 
+#exec_always feh --bg-scale /home/jared/Andromeda.jpe 
 
 
 client.focused #dcdccc #dcdccc #3c3b37 #ffcfaf

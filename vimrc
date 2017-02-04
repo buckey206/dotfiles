@@ -25,6 +25,10 @@ colorscheme gruvbox
 let g:gruvbox_termcolors=256
 let g:gruvbox_underline=1
 let g:gruvbox_bold=1
+let g:gruvbox_contrast_dark='hard'
+
+" Make vim background transparent
+highlight Normal ctermbg=NONE 
 
 " Markdown 
 "autocmd BufNewFile,BufReadPost *.md set filetype=markdown

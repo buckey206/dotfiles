@@ -84,4 +84,3 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
 eval $(pandoc --bash-completion)
-source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"

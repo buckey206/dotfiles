@@ -4,7 +4,8 @@ font = Hack 11
 [colors]
 # gruvbox colorscheme
 # hard contrast: background = #1d2021
-default background = #282828
+#default background = #282828
+background = rgba(63, 63, 63, 0.8)
 #background = #1d2021
 # soft contrast: background = #32302f
 foreground = #ebdbb2
