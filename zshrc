@@ -6,7 +6,6 @@
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="af-magic"
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -84,3 +83,7 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval $(thefuck --alias)
 eval $(pandoc --bash-completion)
+
+# copy text to clipboard
+# example usage: cat file | cs
+alias "cs=xclip -selection clipboard"
