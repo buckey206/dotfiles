@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-markdown'
 Plug 'nvie/vim-flake8'
+Plug 'nelstrom/vim-markdown-folding'
 call plug#end()
 "---------- PLUGIN CONFIGURATION ---------
 
@@ -32,3 +33,7 @@ highlight Normal ctermbg=NONE
 
 " Markdown 
 "autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+if has("autocmd")
+	filetype plugin indent on
+endif
