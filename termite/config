@@ -7,7 +7,7 @@ font = Hack 11
 #default background = #282828
 background = rgba(63, 63, 63, 0.8)
 #background = #1d2021
-# soft contrast: background = #32302f
+soft contrast: background = #32302f
 foreground = #ebdbb2
 foreground_bold = #ebdbb2
 
