@@ -87,3 +87,7 @@ eval $(pandoc --bash-completion)
 # copy text to clipboard
 # example usage: cat file | cs
 alias "cs=xclip -selection clipboard"
+
+#tmux new -d -s vim
+#tmux new -d -c Dropbox/markdown-docs/ -s markdown
+#tmux new-session -A -s main
