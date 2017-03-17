@@ -33,6 +33,7 @@ highlight Normal ctermbg=NONE
 
 " Markdown 
 "autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+nnoremap <Space> za
 
 if has("autocmd")
 	filetype plugin indent on
