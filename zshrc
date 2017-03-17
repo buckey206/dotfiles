@@ -91,3 +91,5 @@ alias "cs=xclip -selection clipboard"
 #tmux new -d -s vim
 #tmux new -d -c Dropbox/markdown-docs/ -s markdown
 #tmux new-session -A -s main
+
+alias "md=tmux new-session -A -c Dropbox/markdown-docs/ -s markdown"
