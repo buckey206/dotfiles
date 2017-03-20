@@ -5,7 +5,9 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="af-magic"
+#ZSH_THEME="af-magic"
+ZSH_THEME="bira"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -62,7 +64,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-export EDITOR='vim'
+export EDITOR='nvim'
+alias 'vim=nvim'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -92,4 +95,5 @@ alias "cs=xclip -selection clipboard"
 #tmux new -d -c Dropbox/markdown-docs/ -s markdown
 #tmux new-session -A -s main
 
+alias "sub=ssh -p 5555 teenytree.com"
 alias "md=tmux new-session -A -c Dropbox/markdown-docs/ -s markdown"

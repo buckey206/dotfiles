@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Liberation Mono:pixelsize=14:antialias=true:autohint=true";
+static char font[] = "Hack:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -82,51 +82,43 @@ static char termname[] = "st-256color";
  */
 static unsigned int tabspaces = 8;
 
+/* gruvbox-dark colorscheme */
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
+/* hard contrast: #1d2021 / med #282828 / soft contrast: #32302f */
+	"#282828", 
+	"#cc241d",
+	"#98971a",
+	"#d79921",
+	"#458588",
+	"#b16286",
+	"#1d2021", 
+	"#689d6a",
+	"#a89984",
+	
+	"#928374",
+	"#fb4934",
+	"#b8bb26",
+	"#fabd2f",
+	"#83a598",
+	"#d3869b",
+	"#8ec07c",
+	"#ebdbb2",
 
-  /* 8 normal colors */
-  [0] = "#282828", /* black   */
-  [1] = "#cc241d", /* red     */
-  [2] = "#98971a", /* green   */
-  [3] = "#d79921", /* yellow  */
-  [4] = "#458588", /* blue    */
-  [5] = "#b16286", /* magenta */
-  [6] = "#689d6a", /* cyan    */
-  [7] = "#a89984", /* white   */
-
-  /* 8 bright colors */
-  [8]  = "#928374", /* black   */
-  [9]  = "#fb4934", /* red     */
-  [10] = "#b8bb26", /* green   */
-  [11] = "#fabd2f", /* yellow  */
-  [12] = "#83a598", /* blue    */
-  [13] = "#d3869b", /* magenta */
-  [14] = "#8ec07c", /* cyan    */
-  [15] = "#ebdbb2", /* white   */
-
-  /* special colors */
-  [256] = "#1d2021", /* background */
-  [257] = "#ebdbb2", /* foreground */
+	[255] = 0,
+	"#cccccc",
+	"#555555",
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor
  */
-static unsigned int defaultfg = 257;
-static unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 258;
-
-/*
- * Colors used, when the specific fg == defaultfg. So in reverse mode this
- * will reverse too. Another logic would only make the simple feature too
- * complex.
- */
-/*static unsigned int defaultitalic = 7;
-static unsigned int defaultunderline = 7;
-*/
+static unsigned int defaultfg = 15;
+static unsigned int defaultbg = 0;
+static unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
