@@ -32,8 +32,8 @@ bindsym $mod+i exec firefox
 
 # Application Launcher (mod+d)
 #bindsym $mod+d exec --no-startup-id "albert toggle"
-bindsym $mod+d exec --no-startup-id dmenu_run
-#bindsym $mod+d exec --no-startup-id rofi -show run
+#bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show run
 #bindsym $mod+Tab exec --no-startup-id rofi -show window 
 
 #Lock Screen (mod+shift+x)
@@ -190,10 +190,11 @@ bar {
 
 
 # Autostart
-exec --no-startup-id compton
+#exec --no-startup-id compton
 #exec_always --no-startup-id "albert"
 exec_always --no-startup-id xautolock -locker ~/dotfiles/i3/lock.sh
 exec_always feh --bg-scale /home/jared/Documents/backgrounds/galaxy.png 
+exec redshift-gtk
 #exec_always feh --bg-scale /home/jared/Documents/backgrounds/vim.png 
 #exec_always feh --bg-scale /home/jared/Andromeda.jpe 
 
