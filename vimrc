@@ -10,17 +10,18 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
-Plug 'altercation/vim-colors-solarized'
-Plug 'tpope/vim-markdown'
-Plug 'reedes/vim-colors-pencil'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'reedes/vim-pencil'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
-Plug 'nelstrom/vim-markdown-folding'
+Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-markdown', { 'for': 'markdown' }
+Plug 'reedes/vim-colors-pencil', { 'for': 'markdown' }
+Plug 'nelstrom/vim-markdown-folding', { 'for': 'markdown' }
+Plug 'reedes/vim-pencil', { 'for': 'markdown' }
+"Plug 'davidhalter/jedi-vim'
 call plug#end()
 "---------- PLUGIN CONFIGURATION ---------
 

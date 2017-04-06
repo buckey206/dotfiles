@@ -190,11 +190,16 @@ bar {
 
 
 # Autostart
-#exec --no-startup-id compton
+exec --no-startup-id compton
 #exec_always --no-startup-id "albert"
 exec_always --no-startup-id xautolock -locker ~/dotfiles/i3/lock.sh
 exec_always feh --bg-scale /home/jared/Documents/backgrounds/galaxy.png 
 exec redshift-gtk
+exec --no-startup-id xfsettingsd
+exec --no-startup-id xbindkeys_autostart
+exec --no-startup-id xfce4-volumed
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id galliumos-update-notifier
 #exec_always feh --bg-scale /home/jared/Documents/backgrounds/vim.png 
 #exec_always feh --bg-scale /home/jared/Andromeda.jpe 
 

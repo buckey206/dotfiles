@@ -54,7 +54,7 @@ plugins=(git vim)
 
 # User configuration
 
-  export PATH="/home/jared/Android/Sdk/tools:/home/jared/Android/Sdk/platform-tools:/home/jared/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/home/jared/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
