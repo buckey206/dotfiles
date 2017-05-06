@@ -11,13 +11,9 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'morhetz/gruvbox'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'w0rp/ale'
 
 Plug 'mhinz/vim-startify'
-Plug 'itchyny/vim-cursorword'
 Plug 'rafi/vim-tinyline'
 Plug 'lifepillar/vim-cheat40'
 
@@ -58,8 +54,15 @@ if has("autocmd")
 	filetype plugin indent on
 endif
 
+" Startify
+let g:startify_bookmarks=[ '~/notes/quicknotes.md' ]
 
+let g:ascii = [
+         \ '        __',
+         \ '.--.--.|__|.--------.',
+         \ '|  |  ||  ||        |',
+         \ ' \___/ |__||__|__|__|',
+         \ ''
+         \]
+let g:startify_custom_header= map(g:ascii,  '"    ".v:val')
 
-"python3 from powerline.vim import setup as powerline_setup
-"python3 powerline_setup()
-"python3 del powerline_setup
