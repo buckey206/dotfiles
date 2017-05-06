@@ -9,18 +9,26 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-sensible'
 Plug 'morhetz/gruvbox'
-Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
+
+Plug 'mhinz/vim-startify'
+Plug 'itchyny/vim-cursorword'
+Plug 'rafi/vim-tinyline'
+Plug 'lifepillar/vim-cheat40'
+
 Plug 'christoomey/vim-tmux-navigator'
+
+" Markdown Plugins
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 Plug 'reedes/vim-colors-pencil', { 'for': 'markdown' }
 Plug 'nelstrom/vim-markdown-folding', { 'for': 'markdown' }
 Plug 'reedes/vim-pencil', { 'for': 'markdown' }
+
 "Plug 'davidhalter/jedi-vim'
 call plug#end()
 "---------- PLUGIN CONFIGURATION ---------
@@ -41,9 +49,17 @@ let g:gruvbox_contrast_dark='hard'
 highlight Normal ctermbg=NONE 
 
 " Markdown 
-"autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" Space will toggle folds
 nnoremap <Space> za
 
 if has("autocmd")
 	filetype plugin indent on
 endif
+
+
+
+"python3 from powerline.vim import setup as powerline_setup
+"python3 powerline_setup()
+"python3 del powerline_setup
