@@ -1,6 +1,7 @@
 set nocompatible
 set number 
 set tabstop=4
+set mouse=a
 
 "---------- PLUGIN CONFIGURATION --------
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -19,11 +20,18 @@ Plug 'lifepillar/vim-cheat40'
 
 Plug 'christoomey/vim-tmux-navigator'
 
+Plug 'python-mode/python-mode', { 'for': 'python' }
+
+Plug 'vimwiki/vimwiki'
+Plug 'itchyny/calendar.vim'
+
 " Markdown Plugins
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
-Plug 'reedes/vim-colors-pencil', { 'for': 'markdown' }
 Plug 'nelstrom/vim-markdown-folding', { 'for': 'markdown' }
-Plug 'reedes/vim-pencil', { 'for': 'markdown' }
+"Plug 'reedes/vim-pencil', { 'for': 'markdown' }
+Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+Plug 'suan/vim-instant-markdown'
+
 
 "Plug 'davidhalter/jedi-vim'
 call plug#end()
@@ -47,12 +55,19 @@ highlight Normal ctermbg=NONE
 " Markdown 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
+"augroup pencil
+"  autocmd!
+"  autocmd FileType markdown,mkd call pencil#init()
+"  autocmd FileType text         call pencil#init()
+"augroup END
+
 " Space will toggle folds
 nnoremap <Space> za
 
 if has("autocmd")
 	filetype plugin indent on
 endif
+
 
 " Startify
 let g:startify_bookmarks=[ '~/notes/quicknotes.md' ]
@@ -66,3 +81,21 @@ let g:ascii = [
          \]
 let g:startify_custom_header= map(g:ascii,  '"    ".v:val')
 
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> ]b :bnext<CR>
+nnoremap <silent> [B :bfirst<CR>
+nnoremap <silent> ]B :blast<CR>
+
+let g:pymode_python = 'python3'
+let g:pymode_folding = 1
+
+
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki', 
+                     \ 'syntax': 'markdown', 'ext': '.md'}]
+
+
+let g:instant_markdown_autostart = 0 
+map <leader>md :InstantMarkdownPreview<CR>
+
+let g:calendar_google_calendar = 1
+let g:calendar_google_task = 1
