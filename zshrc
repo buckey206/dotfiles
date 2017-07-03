@@ -9,8 +9,7 @@
 ZSH_THEME="bira"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
+# CASE_SENSITIVE="true" 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -50,11 +49,11 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vim pass pip)
+plugins=(git vim pass pip zsh-completions)
 
 # User configuration
 
-export PATH="/home/jared/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/home/jared/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -88,3 +87,9 @@ eval $(thefuck --alias)
 # copy text to clipboard
 # example usage: cat file | cs
 alias "cs=xclip -selection clipboard"
+alias clear="echo 'STOP'"
+
+
+# todo.txt
+export TODOTXT_DEFAULT_ACTION=ls
+alias "t=~/Dropbox/todo/todo.sh -d ~/Dropbox/todo/todo.cfg"

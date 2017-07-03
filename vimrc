@@ -45,12 +45,17 @@ Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 
 "Plug 'bling/vim-bufferline'
+Plug 'freitass/todo.txt-vim'
+
+Plug 'scrooloose/nerdtree'
 
 "Plug 'mhinz/vim-startify'
 "Plug 'rafi/vim-tinyline'
 "Plug 'lifepillar/vim-cheat40'
 
 Plug 'bling/vim-airline'
+
+Plug 'mileszs/ack.vim'
 
 
 Plug 'christoomey/vim-tmux-navigator'
@@ -63,23 +68,18 @@ Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 Plug 'nelstrom/vim-markdown-folding', { 'for': 'markdown' }
 "Plug 'reedes/vim-pencil', { 'for': 'markdown' }
-Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
-Plug 'suan/vim-instant-markdown'
+"Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
+"Plug 'suan/vim-instant-markdown'
 
 
 "Plug 'davidhalter/jedi-vim'
 call plug#end()
 "---------- PLUGIN CONFIGURATION ---------
 
-"Color Config
-"set background=light
-set background=dark
-set t_Co=256 "use 256 colors
-
 " Gruvbox
 colorscheme gruvbox
 let g:gruvbox_termcolors=256
-" let g:gruvbox_underline=1
+let g:gruvbox_underline=1
 let g:gruvbox_bold=1
 let g:gruvbox_contrast_dark='hard'
 
@@ -109,15 +109,29 @@ let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki',
                      \ 'template_path': '~/Dropbox/vimwiki/templates',
                      \ 'template_default': 'default', 
                      \ 'syntax': 'markdown', 'ext': '.md',
-                     \ 'path_html': '~/Dropbox/vimwiki/site_html/',
-                     \ 'custom_wiki2html': 'vimwiki_markdown',
-                     \ 'template_ext': '.tpl'}]
+                     \ 'path_html': '~/Dropbox/vimwiki/site_html/',}]
 
-
-let g:instant_markdown_autostart = 0 
-map <leader>md :InstantMarkdownPreview<CR>
 
 map <leader>t :TagbarToggle<CR>
 
+"Color Config
+set background=light
+"set background=dark
+set t_Co=256 "use 256 colors
+
 command Light :set background=light
 command Dark :set background=dark
+
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
+" Omni completion
+set omnifunc=syntaxcomplete#Complete
+
+
+" awk.vim 
+" use ag if available
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif

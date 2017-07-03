@@ -34,7 +34,8 @@ bindsym $mod+i exec firefox
 #bindsym $mod+d exec --no-startup-id "albert toggle"
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+d exec --no-startup-id rofi -show run
-#bindsym $mod+Tab exec --no-startup-id rofi -show window 
+#bindsym $mod+d exec --no-startup-id "rofi -combi-modi window,drun -show combi -modi combi"
+bindsym $mod+Tab exec --no-startup-id rofi -show window --opacity "85" -bw 0 
 
 #Lock Screen (mod+shift+x)
 bindsym $mod+shift+x exec ~/.i3/lock.sh
@@ -180,7 +181,19 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status -c ~/dotfiles/i3/i3status.conf
+    tray_output primary
+    output HDMI1
+    status_command i3status -c ~/dotfiles/i3/i3status.conf
+    colors {
+    background #3c3b37 
+    focused_workspace #dcdccc #dcdccc #3c3b37 
+    inactive_workspace #3c3b37 #3c3b37 #dcdccc
+    }
+}
+bar {
+    tray_output primary
+    output eDP1
+    status_command i3status -c ~/dotfiles/i3/i3status-small.conf
     colors {
     background #3c3b37 
     focused_workspace #dcdccc #dcdccc #3c3b37 
@@ -188,12 +201,11 @@ bar {
     }
 }
 
-
 # Autostart
 exec --no-startup-id compton
 #exec_always --no-startup-id "albert"
 exec_always --no-startup-id xautolock -locker ~/dotfiles/i3/lock.sh
-exec_always feh --bg-scale /home/jared/Documents/backgrounds/galaxy.png 
+exec_always feh --bg-scale /home/jared/Pictures/backgrounds/4rules-for-life.png 
 exec redshift-gtk
 exec --no-startup-id xfsettingsd
 exec --no-startup-id xbindkeys_autostart
@@ -202,6 +214,10 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id galliumos-update-notifier
 #exec_always feh --bg-scale /home/jared/Documents/backgrounds/vim.png 
 #exec_always feh --bg-scale /home/jared/Andromeda.jpe 
+
+exec --no-startup-id nm-applet
+exec --no-startup-id "dropbox start -i"
+
 
 # Audio
 exec --no-startup-id "pulseaudio --start"
@@ -219,6 +235,7 @@ client.urgent #dca3a3 #dca3a3 #dcdccc #3c3b37
 
 for_window [class="Gnome-terminal"] border pixel 3
 for_window [class="Firefox"] border pixel 3
+for_window [class="st-256color"] border pixel 3
 for_window [class="Steam"] floating enable
 
 #gaps inner 15
