@@ -16,16 +16,26 @@ esac
 #shopt -s histappend
 #
 ## for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-#HISTSIZE=1000
-#HISTFILESIZE=2000
+HISTSIZE=10000000
+HISTFILESIZE=10000000
 
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
-shopt -s checkwinsize
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend	# append history not overwrite it
+shopt -s checkwinsize	# check window on resize; for word wrapping
+shopt -s autocd		# instead of 'cd Pictures', just run Pictures
+shopt -s cdspell	# auto correct cd; cd /sur/src/linus' >> 'cd /usr/src/linux'
+shopt -s cmdhist	# If set, Bash attempts to save all lines of a multiple-line command in the same history entry. This allows easy re-editing of multi-line commands.
+# After each command, append to the history file and reread it
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
-# If set, the pattern "**" used in a pathname expansion context will
-# match all files and zero or more directories and subdirectories.
-#shopt -s globstar
+## AutoCompletion
+bind '"\e[Z":menu-complete-backward'	# Shift+Tab: Cycle backwards
+bind '"\t":menu-complete' 		# Tab: Cycle thru completion
+bind 'set completion-ignore-case on'    # case insensitive on tab completion
+bind 'set show-all-if-ambiguous on'
+bind 'TAB:menu-complete'
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
@@ -117,17 +127,7 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=/home/jared/.local/bin:$PATH
-bind 'set completion-ignore-case on'
 eval "$(thefuck --alias)"
-
-
-# Avoid duplicates
-HISTCONTROL=ignoredups:erasedups
-# When the shell exits, append to the history file instead of overwriting it
-shopt -s histappend
-
-# After each command, append to the history file and reread it
-PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # fzf keybindings
 source /usr/share/doc/fzf/examples/key-bindings.bash
@@ -143,3 +143,10 @@ eval "$(register-python-argcomplete pipx)"
 
 
 BROWSER=firefox
+
+
+## FUNCTIONS
+
+ramen() { 
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ] && [ ${UID} != 0 ]; then tmux new-session -A -s ramen; else tmux attach ; fi &> /dev/null
+}
