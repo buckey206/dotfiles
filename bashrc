@@ -31,11 +31,11 @@ shopt -s cmdhist	# If set, Bash attempts to save all lines of a multiple-line co
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 ## AutoCompletion
-bind '"\e[Z":menu-complete-backward'	# Shift+Tab: Cycle backwards
-bind '"\t":menu-complete' 		# Tab: Cycle thru completion
+#bind '"\e[Z":menu-complete-backward'	# Shift+Tab: Cycle backwards
+#bind '"\t":menu-complete' 		# Tab: Cycle thru completion
 bind 'set completion-ignore-case on'    # case insensitive on tab completion
 bind 'set show-all-if-ambiguous on'
-bind 'TAB:menu-complete'
+#bind 'TAB:menu-complete'
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
@@ -100,7 +100,6 @@ fi
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -150,3 +149,39 @@ BROWSER=firefox
 ramen() { 
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ] && [ ${UID} != 0 ]; then tmux new-session -A -s ramen; else tmux attach ; fi &> /dev/null
 }
+
+## NFTY shell integration https://github.com/dschep/ntfy
+eval export AUTO_NTFY_DONE_LONGER_THAN=-L60
+export AUTO_NTFY_DONE_UNFOCUSED_ONLY=-b
+source /home/jared/.local/share/ntfy/bash-preexec.sh
+source /home/jared/.local/share/ntfy/auto-ntfy-done.sh
+# To use ntfy's shell integration, run this and add it to your shell's rc file:
+# eval "$(ntfy shell-integration)"
+export AUTO_NTFY_DONE_IGNORE="ramen mpv vim man screen meld nvim tmux cheat"
+
+## Cheat fzf integration
+export CHEAT_USE_FZF=true
+
+## Bashmarks https://github.com/huyng/bashmarks
+source ~/.local/bin/bashmarks.sh
+
+
+export EDITOR=nvim
+
+# fnm
+export PATH=/home/jared/.fnm:$PATH
+eval "`fnm env`"
+
+
+sf() {
+  if [ "$#" -lt 1 ]; then echo "Supply string to search for!"; return 1; fi
+  printf -v search "%q" "$*"
+  include="yml,js,json,php,md,styl,pug,jade,html,config,py,cpp,c,go,hs,rb,conf,fa,lst"
+  exclude=".config,.git,node_modules,vendor,build,yarn.lock,*.sty,*.bst,*.coffee,dist"
+  rg_command='rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --color "always" -g "*.{'$include'}" -g "!{'$exclude'}/*"'
+  files=`eval $rg_command $search | fzf --ansi --multi --reverse | awk -F ':' '{print $1":"$2":"$3}'`
+  [[ -n "$files" ]] && ${EDITOR:-vim} $files
+}
+
+alias ls='lsd'
+alias tsp-youtube='TS_SOCKET=/tmp/tsp-youtube tsp'

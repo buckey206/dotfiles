@@ -40,14 +40,14 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 call plug#begin('~/.vim/plugged')
-"Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-sensible'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 
 "Plug 'bling/vim-bufferline'
-Plug 'freitass/todo.txt-vim'
+"Plug 'freitass/todo.txt-vim'
 
-Plug 'scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
 
 "Plug 'mhinz/vim-startify'
 "Plug 'rafi/vim-tinyline'
@@ -55,14 +55,14 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'bling/vim-airline'
 
-Plug 'mileszs/ack.vim'
+"Plug 'mileszs/ack.vim'
 
 
-Plug 'christoomey/vim-tmux-navigator'
+"Plug 'christoomey/vim-tmux-navigator'
 
-Plug 'vimwiki/vimwiki'
+"Plug 'vimwiki/vimwiki'
 
-Plug 'majutsushi/tagbar'
+"Plug 'majutsushi/tagbar'
 
 " Markdown Plugins
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
