@@ -185,3 +185,10 @@ sf() {
 
 alias ls='lsd'
 alias tsp-youtube='TS_SOCKET=/tmp/tsp-youtube tsp'
+
+bookmarksurf() {
+    surfraw -browser="surf -m" "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)"
+}
+bookmarks() {
+    cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf | awk 'BEGIN {OFS=" "}; {print $2}'
+}
