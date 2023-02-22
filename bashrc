@@ -129,10 +129,11 @@ export PATH=/home/jared/.local/bin:$PATH
 eval "$(thefuck --alias)"
 
 # fzf keybindings
-source /usr/share/doc/fzf/examples/key-bindings.bash
+#source /usr/share/doc/fzf/examples/key-bindings.bash
 
 # fzf fuzzy autocomplete
-source /usr/share/doc/fzf/examples/completion.bash
+#source /usr/share/doc/fzf/examples/completion.bash
+## # apparently you no longer need to source this
 
 # fzf find files and open them with preffered application
 fzf-locate() { xdg-open "$(locate "*" | fzf -e)" ;}
@@ -151,13 +152,14 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
 }
 
 ## NFTY shell integration https://github.com/dschep/ntfy
-eval export AUTO_NTFY_DONE_LONGER_THAN=-L60
-export AUTO_NTFY_DONE_UNFOCUSED_ONLY=-b
-source /home/jared/.local/share/ntfy/bash-preexec.sh
-source /home/jared/.local/share/ntfy/auto-ntfy-done.sh
-# To use ntfy's shell integration, run this and add it to your shell's rc file:
-# eval "$(ntfy shell-integration)"
-export AUTO_NTFY_DONE_IGNORE="ramen mpv vim man screen meld nvim tmux cheat"
+#### NOT WORKING CURRENTLY SO COMMENTED OUT
+#eval export AUTO_NTFY_DONE_LONGER_THAN=-L120
+#export AUTO_NTFY_DONE_UNFOCUSED_ONLY=-b
+#source /home/jared/.local/share/ntfy/bash-preexec.sh
+#source /home/jared/.local/share/ntfy/auto-ntfy-done.sh
+## To use ntfy's shell integration, run this and add it to your shell's rc file:
+## eval "$(ntfy shell-integration)"
+#export AUTO_NTFY_DONE_IGNORE="ramen mpv vim man screen meld nvim tmux cheat"
 
 ## Cheat fzf integration
 export CHEAT_USE_FZF=true
@@ -187,8 +189,9 @@ alias ls='lsd'
 alias tsp-youtube='TS_SOCKET=/tmp/tsp-youtube tsp'
 
 bookmarksurf() {
-    surfraw -browser="surf -m" "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)"
+    surfraw -browser="surf" "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)"
 }
 bookmarks() {
     cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf | awk 'BEGIN {OFS=" "}; {print $2}'
 }
+. "$HOME/.cargo/env"
