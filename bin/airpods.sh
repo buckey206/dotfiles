@@ -13,12 +13,3 @@ else
     bluetoothctl connect "$MAC_ADDRESS"
     echo "$connected"
 fi
-
-
-#if [["$connected" == "Connected: no"]]; then
-#    bluetoothctl connect 40:DA:5C:8D:6A:02
-#fi
-#if [["$connected" == "Connected: yes"]]; then
-#    bluetoothctl disconnect 40:DA:5C:8D:6A:02
-#fi
-
