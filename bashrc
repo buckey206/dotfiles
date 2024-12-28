@@ -8,14 +8,14 @@ case $- in
       *) return;;
 esac
 
-## don't put duplicate lines or lines starting with space in the history.
-## See bash(1) for more options
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
 #HISTCONTROL=ignoreboth
 #
-## append to the history file, don't overwrite it
+# append to the history file, don't overwrite it
 #shopt -s histappend
 #
-## for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000000
 HISTFILESIZE=10000000
 
@@ -100,6 +100,7 @@ fi
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
+alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -125,31 +126,26 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=/home/jared/.local/bin:$PATH
-eval "$(thefuck --alias)"
-
-# fzf keybindings
-#source /usr/share/doc/fzf/examples/key-bindings.bash
-
-# fzf fuzzy autocomplete
-#source /usr/share/doc/fzf/examples/completion.bash
-## # apparently you no longer need to source this
-
-# fzf find files and open them with preffered application
-fzf-locate() { xdg-open "$(locate "*" | fzf -e)" ;}
-
-# pipx completion`
-eval "$(register-python-argcomplete pipx)"
-
 
 BROWSER=firefox
 
 
-## FUNCTIONS
+#### FUNCTIONS
 
 ramen() { 
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ] && [ ${UID} != 0 ]; then tmux new-session -A -s ramen; else tmux attach ; fi &> /dev/null
 }
+
+#### ALIASES 
+
+alias pbcopy='xsel --input --clipboard'
+alias pbpaste='xsel --output --clipboard'
+#alias ls='lsd'
+alias tsp-youtube='TS_SOCKET=/tmp/tsp-youtube tsp'
+
+
+#### VARIOUS ADDITIONAL COMMANDS AND THEIR CONFIGURATION
+
 
 ## NFTY shell integration https://github.com/dschep/ntfy
 #### NOT WORKING CURRENTLY SO COMMENTED OUT
@@ -161,14 +157,56 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
 ## eval "$(ntfy shell-integration)"
 #export AUTO_NTFY_DONE_IGNORE="ramen mpv vim man screen meld nvim tmux cheat"
 
+#eval "$(thefuck --alias)"
+
+# fzf keybindings
+#source /usr/share/doc/fzf/examples/key-bindings.bash
+
+# fzf fuzzy autocomplete
+#source /usr/share/doc/fzf/examples/completion.bash
+## # apparently you no longer need to source this
+
+# fzf find files and open them with preffered application
+fzf-locate() { xdg-open "$(locate "*" | fzf -e)" ;}
+
+
 ## Cheat fzf integration
 export CHEAT_USE_FZF=true
 
 ## Bashmarks https://github.com/huyng/bashmarks
 source ~/.local/bin/bashmarks.sh
 
+# pipx completion`
+export PATH="$PATH:/home/jared/.local/bin"
+eval "$(register-python-argcomplete pipx)"
 
-export EDITOR=nvim
+
+# For Fabric 
+# Golang environment variables
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+
+# Update PATH to include GOPATH and GOROOT binaries
+export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH
+# Loop through all files in the ~/.config/fabric/patterns directory
+for pattern_file in $HOME/.config/fabric/patterns/*; do
+    # Get the base name of the file (i.e., remove the directory path)
+    pattern_name=$(basename "$pattern_file")
+
+    # Create an alias in the form: alias pattern_name="fabric --pattern pattern_name"
+    alias_command="alias $pattern_name='fabric --pattern $pattern_name'"
+
+    # Evaluate the alias command to add it to the current shell
+    eval "$alias_command"
+done
+
+yt() {
+    local video_link="$1"
+    fabric -y "$video_link" --transcript
+}
+
+#export EDITOR=nvim
+export EDITOR=vim
 
 # fnm
 export PATH=/home/jared/.fnm:$PATH
@@ -185,8 +223,6 @@ sf() {
   [[ -n "$files" ]] && ${EDITOR:-vim} $files
 }
 
-alias ls='lsd'
-alias tsp-youtube='TS_SOCKET=/tmp/tsp-youtube tsp'
 
 bookmarksurf() {
     surfraw -browser="surf" "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)"

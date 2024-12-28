@@ -115,8 +115,8 @@ let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki',
 map <leader>t :TagbarToggle<CR>
 
 "Color Config
-set background=light
-"set background=dark
+"set background=light
+set background=dark
 set t_Co=256 "use 256 colors
 
 command Light :set background=light
