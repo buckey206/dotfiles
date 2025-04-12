@@ -16,11 +16,11 @@ esac
 #shopt -s histappend
 #
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000000
-HISTFILESIZE=10000000
+HISTSIZE='INFINITY'
+HISTFILESIZE='ANDBEYOND'
 
 # Avoid duplicates
-HISTCONTROL=ignoredups:erasedups
+HISTCONTROL=ignoredups:erasedups:ignorespace
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend	# append history not overwrite it
 shopt -s checkwinsize	# check window on resize; for word wrapping
@@ -142,7 +142,7 @@ alias pbcopy='xsel --input --clipboard'
 alias pbpaste='xsel --output --clipboard'
 #alias ls='lsd'
 alias tsp-youtube='TS_SOCKET=/tmp/tsp-youtube tsp'
-
+alias vim='nvim'
 
 #### VARIOUS ADDITIONAL COMMANDS AND THEIR CONFIGURATION
 
@@ -174,13 +174,13 @@ fzf-locate() { xdg-open "$(locate "*" | fzf -e)" ;}
 export CHEAT_USE_FZF=true
 
 ## Bashmarks https://github.com/huyng/bashmarks
-source ~/.local/bin/bashmarks.sh
+#source ~/.local/bin/bashmarks.sh
 
 # pipx completion`
 export PATH="$PATH:/home/jared/.local/bin"
 eval "$(register-python-argcomplete pipx)"
 
-
+### START FABRIC
 # For Fabric 
 # Golang environment variables
 export GOROOT=/usr/local/go
@@ -194,7 +194,8 @@ for pattern_file in $HOME/.config/fabric/patterns/*; do
     pattern_name=$(basename "$pattern_file")
 
     # Create an alias in the form: alias pattern_name="fabric --pattern pattern_name"
-    alias_command="alias $pattern_name='fabric --pattern $pattern_name'"
+#    alias_command="alias $pattern_name='fabric --pattern $pattern_name'"
+    alias_command="alias $pattern_name='fabric --pattern=$pattern_name'"
 
     # Evaluate the alias command to add it to the current shell
     eval "$alias_command"
@@ -205,12 +206,24 @@ yt() {
     fabric -y "$video_link" --transcript
 }
 
-#export EDITOR=nvim
-export EDITOR=vim
+
+# Custom completion function for fabric --pattern=
+_fabric_pattern_complete() {
+    local cur="${COMP_WORDS[COMP_CWORD]}"
+    COMPREPLY=($(compgen -W "$(ls ~/.config/fabric/patterns/)" -- $cur))
+}
+
+# Register the completion function for the fabric command
+complete -F _fabric_pattern_complete fabric
+
+### END FABRIC
+export EDITOR=nvim
+
+#export EDITOR=vim
 
 # fnm
-export PATH=/home/jared/.fnm:$PATH
-eval "`fnm env`"
+#export PATH=/home/jared/.fnm:$PATH
+#eval "`fnm env`"
 
 
 sf() {
@@ -230,4 +243,20 @@ bookmarksurf() {
 bookmarks() {
     cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf | awk 'BEGIN {OFS=" "}; {print $2}'
 }
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/jared/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/jared/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/jared/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/jared/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
