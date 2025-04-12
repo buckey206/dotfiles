@@ -6,7 +6,8 @@
 
 
 # Neovim Configuration
-## use .vimrc in neovim [Neovim docs - nvim-from-vim](https://neovim.io/doc/user/nvim.html#nvim-from-vim)
+## use .vimrc in neovim 
+[Neovim docs - nvim-from-vim](https://neovim.io/doc/user/nvim.html#nvim-from-vim)
 add the following to `~/.config/nvim/init.vim`
 ```
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
