@@ -170,6 +170,8 @@ alias vim='nvim'
 fzf-locate() { xdg-open "$(locate "*" | fzf -e)" ;}
 
 
+export PATH="$PATH:/home/jared/bin"
+
 ## Cheat fzf integration
 export CHEAT_USE_FZF=true
 
@@ -260,3 +262,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+set -o vi
